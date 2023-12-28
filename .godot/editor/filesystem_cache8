@@ -1,5 +1,6 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1703723022
+::res://::1703723101
+.gitignore.txt::TextFile::-1::1703723105::0::1::::<><>::
 icon.svg::CompressedTexture2D::8382407561772433284::1703715761::1703715768::1::::<><>::
 ::res://addons/::1703722272
 _64b54d49-4cf6-4b6f-b37c-bbf320c408ea.jpg::CompressedTexture2D::5088180645102827742::1703722271::1703722272::1::::<><>::
@@ -585,7 +586,9 @@ TimelineResourceLoader.gd::GDScript::-1::1703721639::0::1::::DialogicTimelineFor
 TimelineResourceSaver.gd::GDScript::-1::1703721639::0::1::::DialogicTimelineFormatSaver<>ResourceFormatSaver<>::
 ::res://character/::1703722314
 Demitrios.dch::Resource::-1::1703722314::0::1::::<><>::
-::res://character/image/::1703722301
+::res://character/image/::1703728639
+Demetrios2.png::CompressedTexture2D::1439084139387507022::1703728639::1703728639::1::::<><>::
+demitrios3.png::CompressedTexture2D::3358679768846198743::1703728639::1703728639::1::::<><>::
 demitrios.jpg::CompressedTexture2D::4393845532948985532::1703722300::1703722301::1::::<><>::
 ::res://scene/::1703717854
 ::res://scene/button/::1703722715

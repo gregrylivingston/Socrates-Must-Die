@@ -37,10 +37,16 @@ grow_vertical = 2
 newSceneName = "Piraeus Market West"
 
 [node name="ButtonOpenDialog" parent="." index="3" instance=ExtResource("4_vpr6i")]
-layout_mode = 0
-offset_left = 761.0
-offset_top = 301.0
-offset_right = 930.0
-offset_bottom = 378.0
-text = "D"
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 593.0
+offset_top = 321.0
+offset_right = -366.0
+offset_bottom = -74.0
+grow_horizontal = 2
+grow_vertical = 2
+ignore_texture_size = true
+stretch_mode = 5
 timelineName = "market_demetrios"
