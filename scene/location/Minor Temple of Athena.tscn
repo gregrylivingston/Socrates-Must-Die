@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://ciib42vipdxj0"]
+
+[ext_resource type="PackedScene" uid="uid://qvj4ev6spgxd" path="res://scene/location/place.tscn" id="1_pw1vm"]
+[ext_resource type="Texture2D" uid="uid://jeq30inbd88m" path="res://texture/background/Temple1.png" id="2_1w3ij"]
+[ext_resource type="PackedScene" uid="uid://drqq8hgfonhms" path="res://scene/button/button_go_to_location.tscn" id="3_vo0bi"]
+
+[node name="Place" instance=ExtResource("1_pw1vm")]
+texture = ExtResource("2_1w3ij")
+placeName = "Piraeus Market East"
+
+[node name="Button_GoToLocation" parent="." index="1" instance=ExtResource("3_vo0bi")]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -264.0
+offset_top = -161.0
+offset_right = 264.0
+offset_bottom = 0.0
+grow_horizontal = 2
+grow_vertical = 0
+newSceneName = "Piraeus Market West"

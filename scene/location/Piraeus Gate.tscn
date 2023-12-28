@@ -1,0 +1,39 @@
+[gd_scene load_steps=4 format=3 uid="uid://8mdhwbk75vss"]
+
+[ext_resource type="PackedScene" uid="uid://qvj4ev6spgxd" path="res://scene/location/place.tscn" id="1_wbhc6"]
+[ext_resource type="Texture2D" uid="uid://crn0gdkftgdkr" path="res://texture/background/Gate1.png" id="2_nqxk4"]
+[ext_resource type="PackedScene" uid="uid://drqq8hgfonhms" path="res://scene/button/button_go_to_location.tscn" id="3_823qt"]
+
+[node name="Place" instance=ExtResource("1_wbhc6")]
+texture = ExtResource("2_nqxk4")
+placeName = "Piraeus Gate"
+
+[node name="Button_GoToLocation" parent="." index="1" instance=ExtResource("3_823qt")]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -72.0
+offset_top = -32.0
+offset_right = 49.0
+offset_bottom = 144.0
+grow_horizontal = 2
+grow_vertical = 2
+newSceneName = "Piraeus Port"
+
+[node name="Button_GoToLocation2" parent="." index="2" instance=ExtResource("3_823qt")]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -236.0
+offset_top = -106.0
+offset_right = 169.0
+offset_bottom = 0.0
+grow_horizontal = 2
+grow_vertical = 0
+newSceneName = "Piraeus Market East"

@@ -1,0 +1,10 @@
+res://scene/location/Piraeus Port.tscn
+res://scene/button/button_go_to_location.tscn
+res://scene/location/place.tscn
+res://scene/location/Piraeus Market West.tscn
+res://scene/location/Minor Temple of Athena.tscn
+res://character/Demitrios.dch
+res://timeline/market_demetrios.dtl
+res://scene/button/button_open_dialog.tscn
+res://scene/button/button_open_dialog.gd
+res://scene/location/Piraeus Market East.tscn

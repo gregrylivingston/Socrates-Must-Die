@@ -1,0 +1,40 @@
+[gd_scene load_steps=3 format=3 uid="uid://qvj4ev6spgxd"]
+
+[ext_resource type="Texture2D" uid="uid://wq52x8qqe0rt" path="res://texture/background/Streets4.png" id="1_ilyid"]
+[ext_resource type="Script" path="res://scene/location/place.gd" id="1_xrocx"]
+
+[node name="Place" type="TextureRect"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ilyid")
+expand_mode = 1
+script = ExtResource("1_xrocx")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Panel" type="Panel" parent="CanvasLayer"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -199.0
+offset_right = 199.0
+offset_bottom = 58.0
+grow_horizontal = 2
+
+[node name="Label" type="Label" parent="CanvasLayer/Panel"]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 5.0
+offset_right = 371.0
+offset_bottom = 48.0
+theme_override_constants/shadow_offset_x = 0
+theme_override_constants/shadow_offset_y = 0
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 24
+text = "
+"
+horizontal_alignment = 1
+vertical_alignment = 1
