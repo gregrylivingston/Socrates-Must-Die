@@ -28,6 +28,10 @@ directories/dtl_directory={
 "market_demetrios": "res://timeline/market_demetrios.dtl"
 }
 
+[display]
+
+window/stretch/mode="canvas_items"
+
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/dialogic/plugin.cfg")
