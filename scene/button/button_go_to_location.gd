@@ -12,7 +12,7 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	if focused && radialProgressBar.progress < 30 : 
-		radialProgressBar.progress += 2
+		radialProgressBar.progress += 5
 
 
 func _on_pressed():

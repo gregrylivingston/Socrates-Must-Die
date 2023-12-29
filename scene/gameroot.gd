@@ -19,3 +19,9 @@ func goToPlace(placeName: String):
 	$PlaceParent.add_child(newScene)
 	currentPlace = newScene
 	$Panel/currentPlace.text = currentPlace.placeName
+
+
+func _on_texture_button_pressed():
+	var newScene = load("res://scene/ui/menu_options.tscn").instantiate()
+	newScene.ingameSetup()
+	add_child(newScene)

@@ -1,0 +1,61 @@
+[gd_scene load_steps=4 format=3 uid="uid://bo8hobspu7qdf"]
+
+[ext_resource type="StyleBox" uid="uid://bu0tuspnh8bs" path="res://scene/ui/buttonStyle_Normal.tres" id="1_fr4sg"]
+[ext_resource type="Script" path="res://scene/ui/menu_options.gd" id="2_6kb6g"]
+[ext_resource type="PackedScene" uid="uid://cthrgqgx8vu0m" path="res://scene/ui/uiButton.tscn" id="2_h8tj3"]
+
+[node name="menuOptions" type="Panel"]
+offset_left = 47.0
+offset_top = 24.0
+offset_right = 265.0
+offset_bottom = 272.0
+theme_override_styles/panel = ExtResource("1_fr4sg")
+script = ExtResource("2_6kb6g")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 4.0
+offset_top = 4.0
+offset_right = -5.0
+offset_bottom = -4.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="begin_button" parent="VBoxContainer" instance=ExtResource("2_h8tj3")]
+layout_mode = 2
+size_flags_vertical = 3
+text = "  Begin"
+alignment = 0
+
+[node name="continue" parent="VBoxContainer" instance=ExtResource("2_h8tj3")]
+layout_mode = 2
+size_flags_vertical = 3
+disabled = true
+text = "  Continue"
+alignment = 0
+
+[node name="settings_button" parent="VBoxContainer" instance=ExtResource("2_h8tj3")]
+layout_mode = 2
+size_flags_vertical = 3
+text = "  Settings"
+alignment = 0
+
+[node name="UiButton5" parent="VBoxContainer" instance=ExtResource("2_h8tj3")]
+layout_mode = 2
+size_flags_vertical = 3
+text = "  Achievements"
+alignment = 0
+
+[node name="UiButton4" parent="VBoxContainer" instance=ExtResource("2_h8tj3")]
+layout_mode = 2
+size_flags_vertical = 3
+text = "  Quit"
+alignment = 0
+
+[connection signal="pressed" from="VBoxContainer/begin_button" to="." method="_on_begin_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/continue" to="." method="_on_continue_pressed"]
+[connection signal="pressed" from="VBoxContainer/settings_button" to="." method="_on_settings_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/UiButton4" to="." method="_on_ui_button_4_pressed"]

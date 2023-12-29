@@ -1,8 +1,11 @@
-[gd_scene load_steps=4 format=3 uid="uid://c2cteofjjb626"]
+[gd_scene load_steps=7 format=3 uid="uid://c2cteofjjb626"]
 
 [ext_resource type="Script" path="res://scene/gameroot.gd" id="1_7bqov"]
 [ext_resource type="PackedScene" uid="uid://8mdhwbk75vss" path="res://scene/location/Piraeus Gate.tscn" id="2_ye7sw"]
 [ext_resource type="StyleBox" uid="uid://bu0tuspnh8bs" path="res://scene/ui/buttonStyle_Normal.tres" id="3_pgch0"]
+[ext_resource type="AudioStream" uid="uid://c2cw603mpfcnt" path="res://sound/music/foreboding_theme.wav" id="4_4e16a"]
+[ext_resource type="Texture2D" uid="uid://f7asab816uv3" path="res://texture/icon/icons8-window-settings-100.png" id="4_6esjb"]
+[ext_resource type="Texture2D" uid="uid://k8d4xwqenx8u" path="res://texture/icon/icons8-map-100.png" id="4_rfqnp"]
 
 [node name="Gameroot" type="CanvasLayer"]
 script = ExtResource("1_7bqov")
@@ -12,8 +15,13 @@ script = ExtResource("1_7bqov")
 [node name="Place" parent="PlaceParent" instance=ExtResource("2_ye7sw")]
 
 [node name="Panel" type="Panel" parent="."]
-offset_right = 346.0
-offset_bottom = 40.0
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -173.0
+offset_right = 173.0
+offset_bottom = 30.0
+grow_horizontal = 2
 theme_override_styles/panel = ExtResource("3_pgch0")
 
 [node name="currentPlace" type="Label" parent="Panel"]
@@ -29,3 +37,25 @@ offset_right = 71.0
 offset_bottom = 11.5
 grow_horizontal = 2
 grow_vertical = 2
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_4e16a")
+volume_db = -3.0
+autoplay = true
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+offset_right = 204.0
+offset_bottom = 100.0
+scale = Vector2(0.5, 0.5)
+
+[node name="optionMenuButton" type="TextureButton" parent="HBoxContainer"]
+layout_mode = 2
+texture_normal = ExtResource("4_6esjb")
+stretch_mode = 3
+
+[node name="mapButton" type="TextureButton" parent="HBoxContainer"]
+layout_mode = 2
+texture_normal = ExtResource("4_rfqnp")
+stretch_mode = 3
+
+[connection signal="pressed" from="HBoxContainer/optionMenuButton" to="." method="_on_texture_button_pressed"]

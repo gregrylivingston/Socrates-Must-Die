@@ -17,3 +17,7 @@ res://scene/gameroot.tscn
 res://scene/gameroot.gd
 res://scene/location/place.gd
 res://script/global/Game.gd
+res://scene/ui/Settings.tscn
+res://scene/ui/Settings.gd
+res://scene/ui/menu_options.tscn
+res://scene/ui/menu_options.gd
