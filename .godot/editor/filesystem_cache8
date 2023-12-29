@@ -1,9 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1703723101
+::res://::1703868676
 .gitignore.txt::TextFile::-1::1703723105::0::1::::<><>::
 icon.svg::CompressedTexture2D::8382407561772433284::1703715761::1703715768::1::::<><>::
-::res://addons/::1703722272
-_64b54d49-4cf6-4b6f-b37c-bbf320c408ea.jpg::CompressedTexture2D::5088180645102827742::1703722271::1703722272::1::::<><>::
+::res://addons/::1703868642
+_64b54d49-4cf6-4b6f-b37c-bbf320c408ea.jpg::CompressedTexture2D::5088180645102827742::1703811990::1703811990::1::::<><>::
 ::res://addons/dialogic/::1703721639
 plugin.cfg::TextFile::-1::1703721639::0::1::::<><>::
 plugin.gd::GDScript::-1::1703721639::0::1::::<>EditorPlugin<>::
@@ -584,27 +584,73 @@ event.gd::GDScript::-1::1703721639::0::1::::DialogicEvent<>Resource<>::
 timeline.gd::GDScript::-1::1703721639::0::1::::DialogicTimeline<>Resource<>::
 TimelineResourceLoader.gd::GDScript::-1::1703721639::0::1::::DialogicTimelineFormatLoader<>ResourceFormatLoader<>::
 TimelineResourceSaver.gd::GDScript::-1::1703721639::0::1::::DialogicTimelineFormatSaver<>ResourceFormatSaver<>::
-::res://character/::1703722314
-Demitrios.dch::Resource::-1::1703722314::0::1::::<><>::
+::res://addons/emojis-for-godot/::1703812066
+::res://addons/emojis-for-godot/EmojiPanel/::1703811313
+::res://addons/emojis-for-godot/emojis/::1703811983
+::res://addons/emojis-for-godot/emojis/16x16/::1703811343
+::res://addons/emojis-for-godot/emojis/36x36/::1703811694
+::res://addons/emojis-for-godot/emojis/72x72/::1703811982
+::res://addons/emojis-for-godot/emojis/atlas/::1703812066
+::res://addons/emojis-for-godot/examples/::1703811983
+::res://addons/emojis-for-godot/icons/::1703812066
+::res://addons/emojis-for-godot/nodes/::1703811983
+::res://addons/inventory-system/::1703811987
+::res://addons/inventory-system/core/::1703811984
+::res://addons/inventory-system/craft/::1703811984
+::res://addons/inventory-system/editor/::1703811985
+::res://addons/inventory-system/editor/base/::1703811984
+::res://addons/inventory-system/editor/categories/::1703811984
+::res://addons/inventory-system/editor/craft_stations/::1703811984
+::res://addons/inventory-system/editor/items/::1703811985
+::res://addons/inventory-system/editor/recipes/::1703811985
+::res://addons/inventory-system/extras/::1703811986
+::res://addons/inventory-system/icons/::1703812066
+::res://addons/inventory-system/interact/::1703811986
+::res://addons/inventory-system/multiplayer/::1703811987
+::res://addons/inventory-system/multiplayer/craft/::1703811987
+::res://addons/inventory-system/ui/::1703811988
+::res://addons/inventory-system/ui/craft/::1703811987
+::res://addons/inventory-system/ui/interactor/::1703811987
+::res://addons/material-design-icons/::1703811988
+::res://addons/material-design-icons/examples/::1703811988
+::res://addons/material-design-icons/fonts/::1703812066
+::res://addons/material-design-icons/icons/::1703811988
+::res://addons/material-design-icons/icon_finder/::1703811988
+::res://addons/material-design-icons/nodes/::1703812065
+::res://addons/radial_progress/::1703868643
+icon.png::CompressedTexture2D::5774801608463766661::1703868643::1703868643::1::::<><>::
+plugin.cfg::TextFile::-1::1703868643::0::1::::<><>::
+RadialProgress.gd::GDScript::-1::1703868643::0::1::::RadialProgress<>Control<>::
+radial_progress.gd::GDScript::-1::1703868643::0::1::::<>EditorPlugin<>::
+::res://addons/transitions/::1703811989
+::res://addons/transitions/images/::1703812065
+::res://character/::1703728698
+Demitrios.dch::Resource::-1::1703728698::0::1::::<><>::
 ::res://character/image/::1703728639
 Demetrios2.png::CompressedTexture2D::1439084139387507022::1703728639::1703728639::1::::<><>::
 demitrios3.png::CompressedTexture2D::3358679768846198743::1703728639::1703728639::1::::<><>::
 demitrios.jpg::CompressedTexture2D::4393845532948985532::1703722300::1703722301::1::::<><>::
-::res://scene/::1703717854
-::res://scene/button/::1703722715
+::res://previews/::1703811989
+::res://resource/::1703809931
+::res://resource/item/::1703811989
+::res://scene/::1703810796
+::res://scene/button/::1703868563
 button_go_to_location.gd::GDScript::-1::1703719751::0::1::::<>Button<>::
-button_go_to_location.tscn::PackedScene::8386533217252617902::1703722715::0::1::::<><>::res://scene/button/button_go_to_location.gd
-button_open_dialog.gd::GDScript::-1::1703722604::0::1::::<>Button<>::
-button_open_dialog.tscn::PackedScene::4518500672304604523::1703722715::0::1::::<><>::res://scene/button/button_open_dialog.gd
-::res://scene/location/::1703722716
-Minor Temple of Athena.tscn::PackedScene::5350981094493967727::1703722715::0::1::::<><>::uid://qvj4ev6spgxd::::res://scene/location/place.tscn<>uid://jeq30inbd88m::::res://texture/background/Temple1.png<>uid://drqq8hgfonhms::::res://scene/button/button_go_to_location.tscn
+button_go_to_location.tscn::PackedScene::8386533217252617902::1703868563::0::1::::<><>::res://scene/button/button_go_to_location.gd
+button_open_dialog.gd::GDScript::-1::1703728793::0::1::::<>TextureButton<>::
+button_open_dialog.tscn::PackedScene::4518500672304604523::1703868563::0::1::::<><>::uid://bn3772vwapdn0::::res://character/image/demitrios3.png<>res://scene/button/button_open_dialog.gd
+::res://scene/location/::1703868563
+Minor Temple of Athena.tscn::PackedScene::5350981094493967727::1703868563::0::1::::<><>::uid://qvj4ev6spgxd::::res://scene/location/place.tscn<>uid://jeq30inbd88m::::res://texture/background/Temple1.png<>uid://drqq8hgfonhms::::res://scene/button/button_go_to_location.tscn
 Piraeus Gate.tscn::PackedScene::2341200182196248250::1703721486::0::1::::<><>::uid://qvj4ev6spgxd::::res://scene/location/place.tscn<>uid://crn0gdkftgdkr::::res://texture/background/Gate1.png<>uid://drqq8hgfonhms::::res://scene/button/button_go_to_location.tscn
-Piraeus Market East.tscn::PackedScene::7479294657633263699::1703722716::0::1::::<><>::uid://qvj4ev6spgxd::::res://scene/location/place.tscn<>uid://b566sccbsssy::::res://texture/background/Market2.png<>uid://drqq8hgfonhms::::res://scene/button/button_go_to_location.tscn<>uid://b5m2btcrnes5x::::res://scene/button/button_open_dialog.tscn
-Piraeus Market West.tscn::PackedScene::7416631096560227580::1703722715::0::1::::<><>::uid://qvj4ev6spgxd::::res://scene/location/place.tscn<>uid://b2ojh2sgiyn5y::::res://texture/background/Market1.png<>uid://drqq8hgfonhms::::res://scene/button/button_go_to_location.tscn
-Piraeus Port.tscn::PackedScene::1483924885272506857::1703722715::0::1::::<><>::uid://qvj4ev6spgxd::::res://scene/location/place.tscn<>uid://4tbrs1kekl4b::::res://texture/background/Port1.png<>uid://drqq8hgfonhms::::res://scene/button/button_go_to_location.tscn
+Piraeus Market East.tscn::PackedScene::7479294657633263699::1703868563::0::1::::<><>::uid://qvj4ev6spgxd::::res://scene/location/place.tscn<>uid://b566sccbsssy::::res://texture/background/Market2.png<>uid://drqq8hgfonhms::::res://scene/button/button_go_to_location.tscn<>uid://b5m2btcrnes5x::::res://scene/button/button_open_dialog.tscn
+Piraeus Market West.tscn::PackedScene::7416631096560227580::1703868563::0::1::::<><>::uid://qvj4ev6spgxd::::res://scene/location/place.tscn<>uid://b2ojh2sgiyn5y::::res://texture/background/Market1.png<>uid://drqq8hgfonhms::::res://scene/button/button_go_to_location.tscn
+Piraeus Port.tscn::PackedScene::1483924885272506857::1703868563::0::1::::<><>::uid://qvj4ev6spgxd::::res://scene/location/place.tscn<>uid://4tbrs1kekl4b::::res://texture/background/Port1.png<>uid://drqq8hgfonhms::::res://scene/button/button_go_to_location.tscn
 place.gd::GDScript::-1::1703721306::0::1::::<>TextureRect<>::
-place.tscn::PackedScene::1166971915969356385::1703722715::0::1::::<><>::uid://wq52x8qqe0rt::::res://texture/background/Streets4.png<>res://scene/location/place.gd
-::res://texture/::1703716182
+place.tscn::PackedScene::1166971915969356385::1703868563::0::1::::<><>::uid://wq52x8qqe0rt::::res://texture/background/Streets4.png<>res://scene/location/place.gd
+::res://scene/ui/::1703811990
+::res://script/::1703811990
+::res://script/inventory/::1703811990
+::res://texture/::1703810652
 ::res://texture/background/::1703717604
 Gate1.png::CompressedTexture2D::5994417432889022449::1703717535::1703717574::1::::<><>::
 Market1.png::CompressedTexture2D::4310981150190240712::1703717535::1703717580::1::::<><>::
@@ -616,5 +662,6 @@ Streets4.png::CompressedTexture2D::1579055590084228889::1703717535::1703717604::
 Streets.png::CompressedTexture2D::7205316139670305975::1703717535::1703717588::1::::<><>::
 Temple1.png::CompressedTexture2D::640979903906474042::1703716178::1703716220::1::::<><>::
 Temple2.png::CompressedTexture2D::542494438216193020::1703716178::1703716203::1::::<><>::
-::res://timeline/::1703722396
-market_demetrios.dtl::Resource::-1::1703722396::0::1::::<><>::
+::res://texture/icon/::1703812065
+::res://timeline/::1703728727
+market_demetrios.dtl::Resource::-1::1703728727::0::1::::<><>::
