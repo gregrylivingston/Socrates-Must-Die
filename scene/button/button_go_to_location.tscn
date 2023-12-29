@@ -1,8 +1,9 @@
-[gd_scene load_steps=6 format=3 uid="uid://drqq8hgfonhms"]
+[gd_scene load_steps=7 format=3 uid="uid://drqq8hgfonhms"]
 
 [ext_resource type="Script" path="res://scene/button/button_go_to_location.gd" id="1_02crr"]
 [ext_resource type="StyleBox" uid="uid://b8pots4mtdr4l" path="res://scene/location/locationButtonStyleBox.tres" id="1_wjhwk"]
 [ext_resource type="Script" path="res://addons/radial_progress/RadialProgress.gd" id="2_ds2i0"]
+[ext_resource type="AudioStream" uid="uid://lvv0vefp3hsd" path="res://sound/ui/misc_menu_4.wav" id="4_hvki2"]
 
 [sub_resource type="Animation" id="Animation_tvyem"]
 resource_name = "mouseOver"
@@ -81,6 +82,10 @@ nb_points = 30
 libraries = {
 "": SubResource("AnimationLibrary_3k1kg")
 }
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_hvki2")
+volume_db = -10.0
 
 [connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="." to="." method="_on_mouse_exited"]

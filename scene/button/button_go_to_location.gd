@@ -16,13 +16,16 @@ func _process(delta):
 
 
 func _on_pressed():
-	get_tree().change_scene_to_file("res://scene/location/" + newSceneName + ".tscn")
+	Game.gameroot.goToPlace(newSceneName)
+	
 
 
 func _on_mouse_entered():
 	focused = true
 	$AnimationPlayer.play("mouseOver")
+	$AudioStreamPlayer.play()
 
 func _on_mouse_exited():
 	focused = false
 	radialProgressBar.progress = 0
+	$AudioStreamPlayer.stop()

@@ -1,5 +1,6 @@
-extends Control
+extends Node
 
+var gameroot
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -9,11 +10,3 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	pass
-
-
-func _on_ui_button_4_pressed():
-	get_tree().quit()
-
-
-func _on_begin_button_pressed():
-	get_tree().change_scene_to_file("res://scene/gameroot.tscn")

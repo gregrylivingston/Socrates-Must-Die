@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="PointAndClickClassicalGreece"
-run/main_scene="res://scene/location/Piraeus Port.tscn"
+run/main_scene="res://scene/ui/mainMenu.tscn"
 config/features=PackedStringArray("4.2", "Mobile")
 config/icon="res://icon.svg"
 
@@ -19,6 +19,7 @@ config/icon="res://icon.svg"
 
 Dialogic="*res://addons/dialogic/Other/DialogicGameHandler.gd"
 Colors="*res://script/global/Colors.gd"
+Game="*res://script/global/Game.gd"
 
 [dialogic]
 

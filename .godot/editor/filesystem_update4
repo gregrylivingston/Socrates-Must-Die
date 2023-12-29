@@ -13,3 +13,7 @@ res://scene/ui/uiButton.tscn
 res://sources.txt
 res://scene/ui/uiButton.gd
 res://scene/ui/mainMenu.gd
+res://scene/gameroot.tscn
+res://scene/gameroot.gd
+res://scene/location/place.gd
+res://script/global/Game.gd

@@ -1,0 +1,31 @@
+[gd_scene load_steps=4 format=3 uid="uid://c2cteofjjb626"]
+
+[ext_resource type="Script" path="res://scene/gameroot.gd" id="1_7bqov"]
+[ext_resource type="PackedScene" uid="uid://8mdhwbk75vss" path="res://scene/location/Piraeus Gate.tscn" id="2_ye7sw"]
+[ext_resource type="StyleBox" uid="uid://bu0tuspnh8bs" path="res://scene/ui/buttonStyle_Normal.tres" id="3_pgch0"]
+
+[node name="Gameroot" type="CanvasLayer"]
+script = ExtResource("1_7bqov")
+
+[node name="PlaceParent" type="CanvasLayer" parent="."]
+
+[node name="Place" parent="PlaceParent" instance=ExtResource("2_ye7sw")]
+
+[node name="Panel" type="Panel" parent="."]
+offset_right = 346.0
+offset_bottom = 40.0
+theme_override_styles/panel = ExtResource("3_pgch0")
+
+[node name="currentPlace" type="Label" parent="Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -71.0
+offset_top = -11.5
+offset_right = 71.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
