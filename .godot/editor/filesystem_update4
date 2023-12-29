@@ -8,3 +8,8 @@ res://scene/location/Piraeus Market East.tscn
 res://script/global/Colors.gd
 res://scene/button/button_go_to_location.gd
 res://scene/location/Piraeus Gate.tscn
+res://scene/ui/mainMenu.tscn
+res://scene/ui/uiButton.tscn
+res://sources.txt
+res://scene/ui/uiButton.gd
+res://scene/ui/mainMenu.gd

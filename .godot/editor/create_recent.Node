@@ -1,8 +1,12 @@
+AudioStreamPlayer
+AudioStreamPlayer2D
+Button
+Panel
+VBoxContainer
+Label
+TextureRect
+AnimationPlayer
 RadialProgress
 ProgressBar
 TextureButton
-Button
-Label
-Panel
 CanvasLayer
-TextureRect

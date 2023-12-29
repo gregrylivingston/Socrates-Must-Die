@@ -1,7 +1,8 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1703868676
+::res://::1703889302
 .gitignore.txt::TextFile::-1::1703723105::0::1::::<><>::
 icon.svg::CompressedTexture2D::8382407561772433284::1703715761::1703715768::1::::<><>::
+sources.txt::TextFile::-1::1703889302::0::1::::<><>::
 ::res://addons/::1703868642
 _64b54d49-4cf6-4b6f-b37c-bbf320c408ea.jpg::CompressedTexture2D::5088180645102827742::1703811990::1703811990::1::::<><>::
 ::res://addons/dialogic/::1703721639
@@ -634,24 +635,47 @@ demitrios.jpg::CompressedTexture2D::4393845532948985532::1703722300::1703722301:
 ::res://resource/::1703809931
 ::res://resource/item/::1703811989
 ::res://scene/::1703810796
-::res://scene/button/::1703868563
-button_go_to_location.gd::GDScript::-1::1703719751::0::1::::<>Button<>::
-button_go_to_location.tscn::PackedScene::8386533217252617902::1703868563::0::1::::<><>::res://scene/button/button_go_to_location.gd
+::res://scene/button/::1703889232
+button_go_to_location.gd::GDScript::-1::1703870560::0::1::::<>Button<>::
+button_go_to_location.tscn::PackedScene::8386533217252617902::1703889232::0::1::::<><>::res://scene/button/button_go_to_location.gd<>uid://b8pots4mtdr4l::::res://scene/location/locationButtonStyleBox.tres<>res://addons/radial_progress/RadialProgress.gd
 button_open_dialog.gd::GDScript::-1::1703728793::0::1::::<>TextureButton<>::
-button_open_dialog.tscn::PackedScene::4518500672304604523::1703868563::0::1::::<><>::uid://bn3772vwapdn0::::res://character/image/demitrios3.png<>res://scene/button/button_open_dialog.gd
-::res://scene/location/::1703868563
-Minor Temple of Athena.tscn::PackedScene::5350981094493967727::1703868563::0::1::::<><>::uid://qvj4ev6spgxd::::res://scene/location/place.tscn<>uid://jeq30inbd88m::::res://texture/background/Temple1.png<>uid://drqq8hgfonhms::::res://scene/button/button_go_to_location.tscn
-Piraeus Gate.tscn::PackedScene::2341200182196248250::1703721486::0::1::::<><>::uid://qvj4ev6spgxd::::res://scene/location/place.tscn<>uid://crn0gdkftgdkr::::res://texture/background/Gate1.png<>uid://drqq8hgfonhms::::res://scene/button/button_go_to_location.tscn
-Piraeus Market East.tscn::PackedScene::7479294657633263699::1703868563::0::1::::<><>::uid://qvj4ev6spgxd::::res://scene/location/place.tscn<>uid://b566sccbsssy::::res://texture/background/Market2.png<>uid://drqq8hgfonhms::::res://scene/button/button_go_to_location.tscn<>uid://b5m2btcrnes5x::::res://scene/button/button_open_dialog.tscn
-Piraeus Market West.tscn::PackedScene::7416631096560227580::1703868563::0::1::::<><>::uid://qvj4ev6spgxd::::res://scene/location/place.tscn<>uid://b2ojh2sgiyn5y::::res://texture/background/Market1.png<>uid://drqq8hgfonhms::::res://scene/button/button_go_to_location.tscn
-Piraeus Port.tscn::PackedScene::1483924885272506857::1703868563::0::1::::<><>::uid://qvj4ev6spgxd::::res://scene/location/place.tscn<>uid://4tbrs1kekl4b::::res://texture/background/Port1.png<>uid://drqq8hgfonhms::::res://scene/button/button_go_to_location.tscn
+button_open_dialog.tscn::PackedScene::4518500672304604523::1703889232::0::1::::<><>::uid://bn3772vwapdn0::::res://character/image/demitrios3.png<>res://scene/button/button_open_dialog.gd
+::res://scene/location/::1703889232
+locationButtonStyleBox.tres::StyleBoxFlat::4734503148832374577::1703869429::0::1::::<><>::
+Minor Temple of Athena.tscn::PackedScene::5350981094493967727::1703886863::0::1::::<><>::uid://qvj4ev6spgxd::::res://scene/location/place.tscn<>uid://jeq30inbd88m::::res://texture/background/Temple1.png<>uid://drqq8hgfonhms::::res://scene/button/button_go_to_location.tscn
+Piraeus Gate.tscn::PackedScene::2341200182196248250::1703889232::0::1::::<><>::uid://qvj4ev6spgxd::::res://scene/location/place.tscn<>uid://crn0gdkftgdkr::::res://texture/background/Gate1.png<>uid://drqq8hgfonhms::::res://scene/button/button_go_to_location.tscn
+Piraeus Market East.tscn::PackedScene::7479294657633263699::1703886863::0::1::::<><>::uid://qvj4ev6spgxd::::res://scene/location/place.tscn<>uid://b566sccbsssy::::res://texture/background/Market2.png<>uid://drqq8hgfonhms::::res://scene/button/button_go_to_location.tscn<>uid://b5m2btcrnes5x::::res://scene/button/button_open_dialog.tscn
+Piraeus Market West.tscn::PackedScene::7416631096560227580::1703886863::0::1::::<><>::uid://qvj4ev6spgxd::::res://scene/location/place.tscn<>uid://b2ojh2sgiyn5y::::res://texture/background/Market1.png<>uid://drqq8hgfonhms::::res://scene/button/button_go_to_location.tscn
+Piraeus Port.tscn::PackedScene::1483924885272506857::1703889232::0::1::::<><>::uid://qvj4ev6spgxd::::res://scene/location/place.tscn<>uid://4tbrs1kekl4b::::res://texture/background/Port1.png<>uid://drqq8hgfonhms::::res://scene/button/button_go_to_location.tscn
 place.gd::GDScript::-1::1703721306::0::1::::<>TextureRect<>::
-place.tscn::PackedScene::1166971915969356385::1703868563::0::1::::<><>::uid://wq52x8qqe0rt::::res://texture/background/Streets4.png<>res://scene/location/place.gd
-::res://scene/ui/::1703811990
-::res://script/::1703811990
+place.tscn::PackedScene::1166971915969356385::1703889232::0::1::::<><>::uid://wq52x8qqe0rt::::res://texture/background/Streets4.png<>res://scene/location/place.gd
+::res://scene/ui/::1703889302
+buttonStyle_Normal.tres::StyleBoxFlat::113029332595281952::1703886987::0::1::::<><>::
+mainMenu.tscn::PackedScene::3957264310306346743::1703889302::0::1::::<><>::uid://tx0jlqa7jg4c::::res://texture/background/trial_image.png<>uid://cthrgqgx8vu0m::::res://scene/ui/uiButton.tscn<>uid://bu0tuspnh8bs::::res://scene/ui/buttonStyle_Normal.tres<>uid://b07bqrwhm44lf::::res://sound/music/Harp.mp3
+uiButton.tscn::PackedScene::6121923795160087110::1703889232::0::1::::<><>::uid://bu0tuspnh8bs::::res://scene/ui/buttonStyle_Normal.tres
+::res://script/::1703868953
+::res://script/global/::1703869031
+Colors.gd::GDScript::-1::1703869031::0::1::::<>Node<>::
 ::res://script/inventory/::1703811990
+::res://sound/::1703889246
+::res://sound/music/::1703889123
+Harp.mp3::AudioStreamMP3::4207292079686975607::1703889123::1703889123::1::::<><>::
+::res://sound/ui/::1703889375
+click.wav::AudioStreamWAV::6629669257083440979::1703889375::1703889376::1::::<><>::
+click_2.wav::AudioStreamWAV::2179412355578848923::1703889375::1703889376::1::::<><>::
+load.wav::AudioStreamWAV::2290897225676673031::1703889375::1703889376::1::::<><>::
+misc_menu.wav::AudioStreamWAV::3300764264832332800::1703889375::1703889376::1::::<><>::
+misc_menu_2.wav::AudioStreamWAV::9138828528698881067::1703889375::1703889376::1::::<><>::
+misc_menu_3.wav::AudioStreamWAV::2798733548773883761::1703889375::1703889376::1::::<><>::
+misc_menu_4.wav::AudioStreamWAV::816750023967231731::1703889375::1703889376::1::::<><>::
+misc_sound.wav::AudioStreamWAV::4363703730883244715::1703889375::1703889376::1::::<><>::
+negative.wav::AudioStreamWAV::1122054660923967499::1703889375::1703889376::1::::<><>::
+negative_2.wav::AudioStreamWAV::1549931101832062534::1703889375::1703889376::1::::<><>::
+positive.wav::AudioStreamWAV::2594950281926050309::1703889375::1703889376::1::::<><>::
+save.wav::AudioStreamWAV::8750043629493770581::1703889375::1703889376::1::::<><>::
+sharp_echo.wav::AudioStreamWAV::1468066595697581509::1703889375::1703889376::1::::<><>::
 ::res://texture/::1703810652
-::res://texture/background/::1703717604
+::res://texture/background/::1703886358
 Gate1.png::CompressedTexture2D::5994417432889022449::1703717535::1703717574::1::::<><>::
 Market1.png::CompressedTexture2D::4310981150190240712::1703717535::1703717580::1::::<><>::
 Market2.png::CompressedTexture2D::134058711249485348::1703717535::1703717584::1::::<><>::
@@ -662,6 +686,7 @@ Streets4.png::CompressedTexture2D::1579055590084228889::1703717535::1703717604::
 Streets.png::CompressedTexture2D::7205316139670305975::1703717535::1703717588::1::::<><>::
 Temple1.png::CompressedTexture2D::640979903906474042::1703716178::1703716220::1::::<><>::
 Temple2.png::CompressedTexture2D::542494438216193020::1703716178::1703716203::1::::<><>::
+trial_image.png::CompressedTexture2D::1382603316947142460::1703886357::1703886358::1::::<><>::
 ::res://texture/icon/::1703812065
 ::res://timeline/::1703728727
 market_demetrios.dtl::Resource::-1::1703728727::0::1::::<><>::

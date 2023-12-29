@@ -1,0 +1,33 @@
+[gd_scene load_steps=6 format=3 uid="uid://cthrgqgx8vu0m"]
+
+[ext_resource type="StyleBox" uid="uid://bu0tuspnh8bs" path="res://scene/ui/buttonStyle_Normal.tres" id="1_i1cge"]
+[ext_resource type="Script" path="res://scene/ui/uiButton.gd" id="2_n1lm8"]
+[ext_resource type="AudioStream" uid="uid://6byurfp4a3fr" path="res://sound/ui/click_2.wav" id="3_jljlm"]
+[ext_resource type="AudioStream" uid="uid://c1ppxi1gqmh52" path="res://sound/ui/click.wav" id="4_0qj75"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mjutw"]
+bg_color = Color(0.12549, 0.117647, 0.313726, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[node name="UiButton" type="Button"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 24
+theme_override_styles/normal = ExtResource("1_i1cge")
+theme_override_styles/hover = SubResource("StyleBoxFlat_mjutw")
+script = ExtResource("2_n1lm8")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_jljlm")
+
+[node name="AudioStreamPlayer2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_0qj75")
+
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="pressed" from="." to="." method="_on_pressed"]

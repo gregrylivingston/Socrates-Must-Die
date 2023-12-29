@@ -21,6 +21,7 @@ func _on_pressed():
 
 func _on_mouse_entered():
 	focused = true
+	$AnimationPlayer.play("mouseOver")
 
 func _on_mouse_exited():
 	focused = false

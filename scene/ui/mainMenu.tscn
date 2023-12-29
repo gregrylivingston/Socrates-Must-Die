@@ -1,0 +1,94 @@
+[gd_scene load_steps=6 format=3 uid="uid://bwm6thf3getkx"]
+
+[ext_resource type="Texture2D" uid="uid://tx0jlqa7jg4c" path="res://texture/background/trial_image.png" id="1_7she3"]
+[ext_resource type="Script" path="res://scene/ui/mainMenu.gd" id="1_u730o"]
+[ext_resource type="PackedScene" uid="uid://cthrgqgx8vu0m" path="res://scene/ui/uiButton.tscn" id="2_djvaj"]
+[ext_resource type="StyleBox" uid="uid://bu0tuspnh8bs" path="res://scene/ui/buttonStyle_Normal.tres" id="2_q365m"]
+[ext_resource type="AudioStream" uid="uid://b07bqrwhm44lf" path="res://sound/music/Harp.mp3" id="4_r6i7y"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_u730o")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_7she3")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 498.0
+offset_right = 1132.0
+offset_bottom = 673.0
+theme_override_constants/outline_size = 10
+theme_override_font_sizes/font_size = 128
+text = "Socrates Must Die"
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 0
+offset_left = 47.0
+offset_top = 24.0
+offset_right = 265.0
+offset_bottom = 272.0
+theme_override_styles/panel = ExtResource("2_q365m")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 4.0
+offset_top = 4.0
+offset_right = -5.0
+offset_bottom = -4.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="begin_button" parent="Panel/VBoxContainer" instance=ExtResource("2_djvaj")]
+layout_mode = 2
+size_flags_vertical = 3
+text = "  Begin"
+alignment = 0
+
+[node name="UiButton2" parent="Panel/VBoxContainer" instance=ExtResource("2_djvaj")]
+layout_mode = 2
+size_flags_vertical = 3
+disabled = true
+text = "  Continue"
+alignment = 0
+
+[node name="UiButton3" parent="Panel/VBoxContainer" instance=ExtResource("2_djvaj")]
+layout_mode = 2
+size_flags_vertical = 3
+text = "  Settings"
+alignment = 0
+
+[node name="UiButton5" parent="Panel/VBoxContainer" instance=ExtResource("2_djvaj")]
+layout_mode = 2
+size_flags_vertical = 3
+text = "  Achievements"
+alignment = 0
+
+[node name="UiButton4" parent="Panel/VBoxContainer" instance=ExtResource("2_djvaj")]
+layout_mode = 2
+size_flags_vertical = 3
+text = "  Quit"
+alignment = 0
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_r6i7y")
+autoplay = true
+
+[connection signal="pressed" from="Panel/VBoxContainer/begin_button" to="." method="_on_begin_button_pressed"]
+[connection signal="pressed" from="Panel/VBoxContainer/UiButton4" to="." method="_on_ui_button_4_pressed"]
