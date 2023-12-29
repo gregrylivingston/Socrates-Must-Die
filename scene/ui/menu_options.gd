@@ -23,3 +23,7 @@ func _on_settings_button_pressed():
 
 func _on_continue_pressed():
 	queue_free()
+
+
+func _on_achievements_button_pressed():
+	get_parent().add_child( load("res://scene/ui/Achievements.tscn").instantiate())

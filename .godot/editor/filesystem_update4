@@ -21,3 +21,5 @@ res://scene/ui/Settings.tscn
 res://scene/ui/Settings.gd
 res://scene/ui/menu_options.tscn
 res://scene/ui/menu_options.gd
+res://scene/ui/Achievements.tscn
+res://scene/ui/Achievements.gd

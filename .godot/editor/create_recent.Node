@@ -1,7 +1,8 @@
+Label
+ScrollContainer
 HBoxContainer
 TextureButton
 Panel
-Label
 Button
 VBoxContainer
 AudioStreamPlayer
@@ -11,4 +12,3 @@ AudioStreamPlayer2D
 TextureRect
 AnimationPlayer
 RadialProgress
-ProgressBar
