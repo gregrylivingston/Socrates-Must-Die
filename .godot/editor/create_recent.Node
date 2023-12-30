@@ -1,3 +1,8 @@
+Node2D
+Container
+ColorRect
+TextureRect
+CanvasLayer
 AudioStreamPlayer
 TextureButton
 Label
@@ -6,9 +11,5 @@ HBoxContainer
 Panel
 Button
 VBoxContainer
-CanvasLayer
 Node
 AudioStreamPlayer2D
-TextureRect
-AnimationPlayer
-RadialProgress

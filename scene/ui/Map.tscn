@@ -1,16 +1,28 @@
-[gd_scene load_steps=3 format=3 uid="uid://btoc5c8svb1f"]
+[gd_scene load_steps=4 format=3 uid="uid://cimyam7t74b58"]
 
-[ext_resource type="Script" path="res://scene/ui/Settings.gd" id="1_4wklq"]
-[ext_resource type="StyleBox" uid="uid://bu0tuspnh8bs" path="res://scene/ui/buttonStyle_Normal.tres" id="1_povor"]
+[ext_resource type="Script" path="res://scene/ui/Map.gd" id="1_re2aj"]
+[ext_resource type="PackedScene" uid="uid://b4kgf7eucs365" path="res://scene/ui/innerMap.tscn" id="3_4gu6p"]
 
-[node name="Settings" type="Control"]
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ywap5"]
+bg_color = Color(0.690196, 0.690196, 0.623529, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.12549, 0.117647, 0.313726, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[node name="Map" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_4wklq")
+script = ExtResource("1_re2aj")
 
 [node name="Panel2" type="Panel" parent="."]
 layout_mode = 1
@@ -31,7 +43,7 @@ offset_right = -25.0
 offset_bottom = -25.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_styles/panel = ExtResource("1_povor")
+theme_override_styles/panel = SubResource("StyleBoxFlat_ywap5")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="Panel"]
 layout_mode = 1
@@ -54,6 +66,9 @@ text = "X"
 
 [node name="Label" type="Label" parent="Panel/VBoxContainer/HBoxContainer"]
 layout_mode = 2
-text = "  SETTINGS"
+text = "  Map
+"
+
+[node name="Node2D" parent="Panel/VBoxContainer" instance=ExtResource("3_4gu6p")]
 
 [connection signal="pressed" from="Panel/VBoxContainer/HBoxContainer/Button" to="." method="_on_button_pressed"]

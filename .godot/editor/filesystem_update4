@@ -26,3 +26,8 @@ res://scene/ui/Achievements.gd
 res://scene/ui/textureButton.tscn
 res://scene/ui/textureButton.gd
 res://scene/location/locationButtonStyleBox.tres
+res://scene/ui/Map.tscn
+res://scene/ui/buttonStyle_Normal.tres
+res://scene/ui/innerMap.tscn
+res://scene/ui/Map.gd
+res://scene/location/locationButtonStyleBoxTiny.tres

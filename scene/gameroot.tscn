@@ -19,33 +19,32 @@ layer = 0
 z_index = -1
 
 [node name="Panel" type="Panel" parent="."]
-anchors_preset = 5
-anchor_left = 0.5
-anchor_right = 0.5
-offset_left = -581.0
-offset_top = 502.0
-offset_right = -324.0
-offset_bottom = 646.0
-grow_horizontal = 2
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = -6.0
+offset_top = -207.0
+offset_right = 238.0
+grow_vertical = 0
 theme_override_styles/panel = ExtResource("3_pgch0")
 
 [node name="currentPlace" type="Label" parent="Panel"]
 layout_mode = 1
-offset_left = 16.0
-offset_top = 5.0
-offset_right = 205.0
-offset_bottom = 39.0
-theme_override_font_sizes/font_size = 24
+offset_left = 19.0
+offset_top = 4.0
+offset_right = 239.0
+offset_bottom = 27.0
+theme_override_font_sizes/font_size = 16
 
-[node name="Panel2" type="Panel" parent="."]
-anchors_preset = 5
-anchor_left = 0.5
-anchor_right = 0.5
-offset_left = -581.0
-offset_top = 545.0
-offset_right = -268.0
-offset_bottom = 689.0
-grow_horizontal = 2
+[node name="Panel2" type="Panel" parent="Panel"]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = -13.0
+offset_top = -179.0
+offset_right = 313.0
+grow_vertical = 0
 theme_override_styles/panel = ExtResource("3_pgch0")
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
@@ -73,3 +72,4 @@ layout_mode = 2
 texture_normal = ExtResource("8_f4gne")
 
 [connection signal="pressed" from="HBoxContainer/optionMenuB" to="." method="_on_option_menu_b_pressed"]
+[connection signal="pressed" from="HBoxContainer/mapButton2" to="." method="_on_map_button_2_pressed"]
