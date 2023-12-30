@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://bn3772vwapdn0" path="res://character/image/demitrios3.png" id="1_1q5mw"]
 [ext_resource type="Script" path="res://scene/button/button_open_dialog.gd" id="1_dxy0l"]
 [ext_resource type="Shader" path="res://scene/button/button_open_dialog.gdshader" id="1_g81ph"]
-[ext_resource type="AudioStream" uid="uid://lvv0vefp3hsd" path="res://sound/ui/misc_menu_4.wav" id="4_68vw5"]
+[ext_resource type="AudioStream" uid="uid://dicfyu6na0s8c" path="res://sound/ui/Menu Selection Click.wav" id="4_jn6iv"]
 [ext_resource type="AudioStream" uid="uid://c1ppxi1gqmh52" path="res://sound/ui/click.wav" id="5_cn8ih"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_qhqbw"]
@@ -22,7 +22,7 @@ texture_normal = ExtResource("1_1q5mw")
 script = ExtResource("1_dxy0l")
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("4_68vw5")
+stream = ExtResource("4_jn6iv")
 
 [node name="AudioStreamPlayer2" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("5_cn8ih")

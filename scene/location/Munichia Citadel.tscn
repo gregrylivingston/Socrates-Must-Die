@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://clyomilnp5hb"]
+
+[ext_resource type="PackedScene" uid="uid://qvj4ev6spgxd" path="res://scene/location/place.tscn" id="1_cu6pm"]
+[ext_resource type="Texture2D" uid="uid://bkrc1ypvek5wa" path="res://texture/background/Minichia Citadel.png" id="2_mvv2l"]
+[ext_resource type="PackedScene" uid="uid://drqq8hgfonhms" path="res://scene/button/button_go_to_location.tscn" id="3_xjaih"]
+
+[node name="Place" instance=ExtResource("1_cu6pm")]
+texture = ExtResource("2_mvv2l")
+placeName = "Munichia Citadel"
+
+[node name="Button_GoToLocation" parent="." index="1" instance=ExtResource("3_xjaih")]
+layout_mode = 1
+anchors_preset = 7
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 402.0
+offset_top = -281.0
+offset_right = 442.0
+offset_bottom = -241.0
+grow_vertical = 0
+tooltip_text = "Munichia Suburb"
+newSceneName = "Munichia Market"

@@ -19,10 +19,23 @@ offset_top = -79.0
 offset_right = 19.0
 offset_bottom = -39.0
 grow_vertical = 0
-tooltip_text = "Piraeus Gate"
+tooltip_text = "Munichia Suburb"
 newSceneName = "Munichia Suburb"
 
-[node name="Button_GoToLocation2" parent="." index="2" instance=ExtResource("3_kgye4")]
+[node name="Button_GoToLocation3" parent="." index="2" instance=ExtResource("3_kgye4")]
+layout_mode = 1
+anchors_preset = 7
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = -107.0
+offset_top = -436.0
+offset_right = -67.0
+offset_bottom = -396.0
+grow_vertical = 0
+tooltip_text = "Munichia Suburb"
+newSceneName = "Munichia Citadel"
+
+[node name="Button_GoToLocation2" parent="." index="3" instance=ExtResource("3_kgye4")]
 layout_mode = 1
 anchors_preset = 4
 anchor_left = 0.0
@@ -32,10 +45,10 @@ offset_top = -16.0
 offset_right = 248.0
 offset_bottom = 24.0
 grow_horizontal = 1
-tooltip_text = "Piraeus Market West"
+tooltip_text = "Port Of Munichia"
 newSceneName = "Port Of Munichia"
 
-[node name="ButtonOpenDialog" parent="." index="3" instance=ExtResource("4_bftg4")]
+[node name="ButtonOpenDialog" parent="." index="4" instance=ExtResource("4_bftg4")]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0

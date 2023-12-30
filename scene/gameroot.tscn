@@ -1,8 +1,7 @@
-[gd_scene load_steps=9 format=3 uid="uid://c2cteofjjb626"]
+[gd_scene load_steps=8 format=3 uid="uid://c2cteofjjb626"]
 
 [ext_resource type="Script" path="res://scene/gameroot.gd" id="1_7bqov"]
 [ext_resource type="PackedScene" uid="uid://8mdhwbk75vss" path="res://scene/location/Gate Of Piraeus.tscn" id="2_ye7sw"]
-[ext_resource type="StyleBox" uid="uid://bu0tuspnh8bs" path="res://scene/ui/buttonStyle_Normal.tres" id="3_pgch0"]
 [ext_resource type="AudioStream" uid="uid://c2cw603mpfcnt" path="res://sound/music/foreboding_theme.wav" id="4_4e16a"]
 [ext_resource type="Texture2D" uid="uid://f7asab816uv3" path="res://texture/icon/icons8-window-settings-100.png" id="4_6esjb"]
 [ext_resource type="Texture2D" uid="uid://cqxqyiblhhdhv" path="res://texture/icon/icons8-scales-100.png" id="7_6i462"]
@@ -18,34 +17,16 @@ layer = 0
 [node name="Place" parent="PlaceParent" instance=ExtResource("2_ye7sw")]
 z_index = -1
 
-[node name="Panel" type="Panel" parent="."]
+[node name="currentPlace" type="Label" parent="."]
 anchors_preset = 2
 anchor_top = 1.0
 anchor_bottom = 1.0
-offset_left = -6.0
-offset_top = -207.0
-offset_right = 238.0
+offset_left = 8.0
+offset_top = -50.0
+offset_right = 404.0
+offset_bottom = -8.0
 grow_vertical = 0
-theme_override_styles/panel = ExtResource("3_pgch0")
-
-[node name="currentPlace" type="Label" parent="Panel"]
-layout_mode = 1
-offset_left = 19.0
-offset_top = 4.0
-offset_right = 239.0
-offset_bottom = 27.0
-theme_override_font_sizes/font_size = 16
-
-[node name="Panel2" type="Panel" parent="Panel"]
-layout_mode = 1
-anchors_preset = 2
-anchor_top = 1.0
-anchor_bottom = 1.0
-offset_left = -13.0
-offset_top = -179.0
-offset_right = 313.0
-grow_vertical = 0
-theme_override_styles/panel = ExtResource("3_pgch0")
+theme_override_font_sizes/font_size = 36
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("4_4e16a")

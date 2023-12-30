@@ -18,8 +18,8 @@ offset_top = -91.0
 offset_right = 123.0
 offset_bottom = -51.0
 grow_vertical = 0
-tooltip_text = "Piraeus Market East"
-newSceneName = "Cantharus Habor"
+tooltip_text = "Cantharus Habor"
+newSceneName = "Cantharus Harbor"
 
 [node name="Button_GoToLocation2" parent="." index="2" instance=ExtResource("3_oaca2")]
 layout_mode = 1

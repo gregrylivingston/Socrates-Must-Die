@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://scene/button/button_go_to_location.gd" id="1_02crr"]
 [ext_resource type="Script" path="res://addons/radial_progress/RadialProgress.gd" id="2_ds2i0"]
-[ext_resource type="AudioStream" uid="uid://lvv0vefp3hsd" path="res://sound/ui/misc_menu_4.wav" id="4_hvki2"]
+[ext_resource type="AudioStream" uid="uid://dicfyu6na0s8c" path="res://sound/ui/Menu Selection Click.wav" id="3_gtc6t"]
 [ext_resource type="AudioStream" uid="uid://c1ppxi1gqmh52" path="res://sound/ui/click.wav" id="5_3ioku"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1ft6y"]
@@ -95,7 +95,7 @@ bar_color = Color(0.321569, 0.356863, 0.462745, 1)
 nb_points = 30
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("4_hvki2")
+stream = ExtResource("3_gtc6t")
 
 [node name="AudioStreamPlayer2" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("5_3ioku")

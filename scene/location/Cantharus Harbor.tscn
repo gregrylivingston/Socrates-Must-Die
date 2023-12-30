@@ -22,7 +22,7 @@ offset_top = 449.0
 offset_right = 1116.0
 offset_bottom = -159.0
 grow_horizontal = 1
-tooltip_text = "Port Of Munichia"
+tooltip_text = "Piraeus Market"
 newSceneName = "Piraeus Market"
 
 [node name="Button_GoToLocation2" parent="CanvasLayer" index="1" instance=ExtResource("3_iokqq")]
@@ -36,5 +36,5 @@ offset_top = 339.0
 offset_right = 993.0
 offset_bottom = -269.0
 grow_horizontal = 1
-tooltip_text = "Piraeus Market"
+tooltip_text = "Piraeus Suburbs"
 newSceneName = "Piraeus Suburbs"

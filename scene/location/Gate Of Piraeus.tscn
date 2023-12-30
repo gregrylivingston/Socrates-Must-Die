@@ -6,7 +6,7 @@
 
 [node name="Place" instance=ExtResource("1_wbhc6")]
 texture = ExtResource("2_nqxk4")
-placeName = "Piraeus Gate"
+placeName = "Gate Of Piraeus"
 
 [node name="Button_GoToLocation" parent="." index="1" instance=ExtResource("3_823qt")]
 layout_mode = 1
@@ -27,5 +27,5 @@ offset_top = -82.0
 offset_right = -35.0
 offset_bottom = -42.0
 grow_vertical = 0
-tooltip_text = "Gate Of Piraeus"
+tooltip_text = "Well Of Peisistratos"
 newSceneName = "Well Of Peisistratos"
