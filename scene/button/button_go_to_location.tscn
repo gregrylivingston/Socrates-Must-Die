@@ -1,7 +1,6 @@
-[gd_scene load_steps=8 format=3 uid="uid://drqq8hgfonhms"]
+[gd_scene load_steps=9 format=3 uid="uid://drqq8hgfonhms"]
 
 [ext_resource type="Script" path="res://scene/button/button_go_to_location.gd" id="1_02crr"]
-[ext_resource type="StyleBox" uid="uid://dy4vjkxc4ggle" path="res://scene/location/locationButtonStyleBoxTiny.tres" id="1_ag47h"]
 [ext_resource type="Script" path="res://addons/radial_progress/RadialProgress.gd" id="2_ds2i0"]
 [ext_resource type="AudioStream" uid="uid://lvv0vefp3hsd" path="res://sound/ui/misc_menu_4.wav" id="4_hvki2"]
 [ext_resource type="AudioStream" uid="uid://c1ppxi1gqmh52" path="res://sound/ui/click.wav" id="5_3ioku"]
@@ -19,6 +18,30 @@ corner_radius_bottom_right = 18
 corner_radius_bottom_left = 18
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bcjni"]
+bg_color = Color(0.12549, 0.117647, 0.313726, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.321569, 0.356863, 0.462745, 1)
+corner_radius_top_left = 18
+corner_radius_top_right = 18
+corner_radius_bottom_right = 18
+corner_radius_bottom_left = 18
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_q4o6g"]
+bg_color = Color(0.12549, 0.117647, 0.313726, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.321569, 0.356863, 0.462745, 1)
+corner_radius_top_left = 18
+corner_radius_top_right = 18
+corner_radius_bottom_right = 18
+corner_radius_bottom_left = 18
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dm33e"]
 bg_color = Color(0.12549, 0.117647, 0.313726, 1)
 border_width_left = 2
 border_width_top = 2
@@ -48,8 +71,8 @@ grow_vertical = 2
 mouse_default_cursor_shape = 2
 theme_override_styles/normal = SubResource("StyleBoxFlat_1ft6y")
 theme_override_styles/hover = SubResource("StyleBoxFlat_bcjni")
-theme_override_styles/pressed = ExtResource("1_ag47h")
-theme_override_styles/focus = ExtResource("1_ag47h")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_q4o6g")
+theme_override_styles/focus = SubResource("StyleBoxFlat_dm33e")
 icon_alignment = 1
 script = ExtResource("1_02crr")
 
