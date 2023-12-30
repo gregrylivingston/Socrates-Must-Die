@@ -1,5 +1,7 @@
-res://sound/ui
 res://texture/background
+res://sound/voice
+res://timeline
+res://sound/ui
 res://character/image
 res://character
 res://scene/button
@@ -8,4 +10,3 @@ res://scene/ui
 res://texture/icon
 res://script/global
 D:/Godot/PointAndClickGreece
-res://timeline

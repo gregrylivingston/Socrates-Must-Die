@@ -19,7 +19,7 @@ offset_top = -61.0
 offset_right = 327.0
 offset_bottom = -21.0
 grow_vertical = 0
-tooltip_text = "The Acropolis"
+tooltip_text = "Well Of Peisistratos"
 newSceneName = "Well Of Peisistratos"
 
 [node name="Button_GoToLocation2" parent="." index="2" instance=ExtResource("3_whgkd")]

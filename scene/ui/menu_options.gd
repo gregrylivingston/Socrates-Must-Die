@@ -17,6 +17,7 @@ func _on_begin_button_pressed():
 	get_tree().change_scene_to_file("res://scene/gameroot.tscn")
 
 
+
 func _on_settings_button_pressed():
 	get_parent().add_child( load("res://scene/ui/Settings.tscn").instantiate())
 

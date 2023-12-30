@@ -7,6 +7,7 @@ var map = null
 func _ready():
 	Game.gameroot = self
 	$currentPlace.text = currentPlace.placeName
+	Dialogic.start("Intro")
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.

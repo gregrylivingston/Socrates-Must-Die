@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://c0jkif65ne7ws"]
+
+[ext_resource type="PackedScene" uid="uid://qvj4ev6spgxd" path="res://scene/location/place.tscn" id="1_w0mho"]
+[ext_resource type="Texture2D" uid="uid://ceb42nhaaokgq" path="res://texture/background/innercitadel.png" id="2_ioldo"]
+[ext_resource type="PackedScene" uid="uid://drqq8hgfonhms" path="res://scene/button/button_go_to_location.tscn" id="3_2of6w"]
+
+[node name="Place" instance=ExtResource("1_w0mho")]
+offset_top = -154.0
+offset_right = 274.0
+texture = ExtResource("2_ioldo")
+placeName = "Munichia Inner Citadel"
+
+[node name="Button_GoToLocation" parent="." index="1" instance=ExtResource("3_2of6w")]
+layout_mode = 1
+anchors_preset = 7
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = -22.0
+offset_top = -386.0
+offset_right = 18.0
+offset_bottom = -346.0
+grow_vertical = 0
+tooltip_text = "Munichia Market"
+newSceneName = "Munichia Outer Citadel"

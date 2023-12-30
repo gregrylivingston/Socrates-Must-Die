@@ -56,3 +56,11 @@ res://scene/location/The People's Court.tscn
 res://scene/location/Well Of Peisistratos.tscn
 res://scene/location/locationButtonStyleBoxTinyHover.tres
 res://scene/location/Munichia Citadel.tscn
+res://scene/location/Deme of Colonus.tscn
+res://scene/location/Deme Of Colonus.tscn
+res://scene/location/Deme Of Melite.tscn
+res://scene/location/The Academy Gardens.tscn
+res://scene/location/Munichia Inner Citadel.tscn
+res://scene/location/Munichia Outer Citadel.tscn
+res://timeline/Intro.dtl
+res://addons/dialogic/Editor/Events/styles/InputFieldsStyle.tres

@@ -168,6 +168,32 @@ theme_override_styles/focus = ExtResource("3_g7rww")
 newSceneName = "Well Of Peisistratos"
 isTiny = true
 
+[node name="Well Of Peisistratos2" parent="Node2D" instance=ExtResource("1_oxo0m")]
+custom_minimum_size = Vector2(20, 20)
+offset_left = 692.0
+offset_top = 161.0
+offset_right = 712.0
+offset_bottom = 181.0
+tooltip_text = "Deme Of Melite"
+theme_override_styles/normal = ExtResource("2_r4wl5")
+theme_override_styles/hover = ExtResource("3_g7rww")
+theme_override_styles/focus = ExtResource("3_g7rww")
+newSceneName = "Deme Of Melite"
+isTiny = true
+
+[node name="Well Of Peisistratos3" parent="Node2D" instance=ExtResource("1_oxo0m")]
+custom_minimum_size = Vector2(20, 20)
+offset_left = 708.0
+offset_top = 96.0
+offset_right = 728.0
+offset_bottom = 116.0
+tooltip_text = "Deme Of Colonus"
+theme_override_styles/normal = ExtResource("2_r4wl5")
+theme_override_styles/hover = ExtResource("3_g7rww")
+theme_override_styles/focus = ExtResource("3_g7rww")
+newSceneName = "Deme Of Colonus"
+isTiny = true
+
 [node name="The Academy" parent="Node2D" instance=ExtResource("1_oxo0m")]
 custom_minimum_size = Vector2(20, 20)
 offset_left = 575.0

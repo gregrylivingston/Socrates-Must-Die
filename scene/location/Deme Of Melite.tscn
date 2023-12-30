@@ -1,0 +1,40 @@
+[gd_scene load_steps=4 format=3 uid="uid://bigul0c3tjxed"]
+
+[ext_resource type="PackedScene" uid="uid://qvj4ev6spgxd" path="res://scene/location/place.tscn" id="1_of1re"]
+[ext_resource type="Texture2D" uid="uid://c37muw5egn6oa" path="res://texture/background/Deme of Melite.png" id="2_qohbm"]
+[ext_resource type="PackedScene" uid="uid://drqq8hgfonhms" path="res://scene/button/button_go_to_location.tscn" id="3_q5ct5"]
+
+[node name="Place" instance=ExtResource("1_of1re")]
+offset_left = -2.0
+offset_top = -1.0
+texture = ExtResource("2_qohbm")
+flip_h = true
+placeName = "Munichia Suburb"
+
+[node name="Button_GoToLocation" parent="CanvasLayer" index="0" instance=ExtResource("3_q5ct5")]
+anchors_preset = 9
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 1.0
+offset_left = 554.0
+offset_top = 588.0
+offset_right = 594.0
+offset_bottom = -20.0
+grow_horizontal = 1
+tooltip_text = "Walls Of Phalerum"
+newSceneName = "Well Of Peisistratos"
+
+[node name="Button_GoToLocation2" parent="CanvasLayer" index="1" instance=ExtResource("3_q5ct5")]
+anchors_preset = 9
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 1.0
+offset_left = 575.0
+offset_top = 380.0
+offset_right = 615.0
+offset_bottom = -228.0
+grow_horizontal = 1
+tooltip_text = "Piraeus Suburb"
+newSceneName = "Deme Of Colonus"

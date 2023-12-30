@@ -1,0 +1,6 @@
+[background arg="res://texture/background/trial_image.png" fade="0.0"]
+[voice path="res://sound/voice/Callum_Intro.mp3" volume="0.0"]
+Anytus, Meletus, and Lycon have accused Socrates of dishonoring the gods and corrupting the youth.
+The archon has decided there will be a trial.
+501 jurors will be selected by lot.  They, the People's Court, will decide the fate of Socrates.
+do Game.goToPlace("The Agora")

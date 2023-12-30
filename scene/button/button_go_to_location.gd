@@ -29,7 +29,7 @@ func _process(delta):
 
 func _on_pressed():
 	$AudioStreamPlayer2.play()
-	Game.gameroot.goToPlace(newSceneName)
+	Game.goToPlace(newSceneName)
 	
 	#close map if open
 	if Game.gameroot.map != null:

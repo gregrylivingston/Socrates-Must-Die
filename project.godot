@@ -28,6 +28,7 @@ directories/dch_directory={
 "Plato": "res://character/Plato.dch"
 }
 directories/dtl_directory={
+"Intro": "res://timeline/Intro.dtl",
 "market_demetrios": "res://timeline/market_demetrios.dtl"
 }
 glossary/default_case_sensitive=true

@@ -6,7 +6,7 @@
 
 [node name="Place" instance=ExtResource("1_cu6pm")]
 texture = ExtResource("2_mvv2l")
-placeName = "Munichia Citadel"
+placeName = "Munichia Outer Citadel"
 
 [node name="Button_GoToLocation" parent="." index="1" instance=ExtResource("3_xjaih")]
 layout_mode = 1
@@ -18,5 +18,18 @@ offset_top = -281.0
 offset_right = 442.0
 offset_bottom = -241.0
 grow_vertical = 0
-tooltip_text = "Munichia Suburb"
+tooltip_text = "Munichia Market"
 newSceneName = "Munichia Market"
+
+[node name="Button_GoToLocation2" parent="." index="2" instance=ExtResource("3_xjaih")]
+layout_mode = 1
+anchors_preset = 7
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 187.0
+offset_top = -269.0
+offset_right = 227.0
+offset_bottom = -229.0
+grow_vertical = 0
+tooltip_text = "Munichia Market"
+newSceneName = "Munichia Inner Citadel"
