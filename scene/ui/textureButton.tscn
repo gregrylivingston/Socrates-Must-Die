@@ -6,6 +6,7 @@
 [ext_resource type="AudioStream" uid="uid://c1ppxi1gqmh52" path="res://sound/ui/click.wav" id="4_25ab6"]
 
 [node name="TextureButton" type="TextureButton"]
+mouse_default_cursor_shape = 2
 texture_normal = ExtResource("1_hwjk2")
 script = ExtResource("2_gcjjv")
 

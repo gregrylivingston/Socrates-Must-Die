@@ -24,11 +24,16 @@ Game="*res://script/global/Game.gd"
 [dialogic]
 
 directories/dch_directory={
-"Demitrios": "res://character/Demitrios.dch"
+"Demitrios": "res://character/Demitrios.dch",
+"Plato": "res://character/Plato.dch"
 }
 directories/dtl_directory={
 "market_demetrios": "res://timeline/market_demetrios.dtl"
 }
+glossary/default_case_sensitive=true
+layout/style_list=[]
+layout/default_style="Default"
+variables={}
 
 [display]
 

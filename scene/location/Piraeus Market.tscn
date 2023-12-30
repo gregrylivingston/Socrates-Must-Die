@@ -1,0 +1,31 @@
+[gd_scene load_steps=4 format=3 uid="uid://ddww3ie86mxmy"]
+
+[ext_resource type="PackedScene" uid="uid://qvj4ev6spgxd" path="res://scene/location/place.tscn" id="1_j83b2"]
+[ext_resource type="Texture2D" uid="uid://b2ojh2sgiyn5y" path="res://texture/background/Market1.png" id="2_d7bhx"]
+[ext_resource type="PackedScene" uid="uid://drqq8hgfonhms" path="res://scene/button/button_go_to_location.tscn" id="3_oaca2"]
+
+[node name="Place" instance=ExtResource("1_j83b2")]
+texture = ExtResource("2_d7bhx")
+placeName = "Piraeus Market East"
+
+[node name="Button_GoToLocation" parent="." index="1" instance=ExtResource("3_oaca2")]
+layout_mode = 1
+anchors_preset = 7
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 83.0
+offset_top = -91.0
+offset_right = 123.0
+offset_bottom = -51.0
+grow_vertical = 0
+tooltip_text = "Piraeus Market East"
+newSceneName = "Cantharus Habor"
+
+[node name="Button_GoToLocation2" parent="." index="2" instance=ExtResource("3_oaca2")]
+layout_mode = 1
+offset_left = -47.0
+offset_top = -136.0
+offset_right = -7.0
+offset_bottom = -96.0
+tooltip_text = "Minor Temple of Athena"
+newSceneName = "Minor Temple of Athena"

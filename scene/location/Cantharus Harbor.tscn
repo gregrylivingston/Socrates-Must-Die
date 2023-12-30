@@ -1,0 +1,40 @@
+[gd_scene load_steps=4 format=3 uid="uid://btulbxtmmgsfj"]
+
+[ext_resource type="PackedScene" uid="uid://qvj4ev6spgxd" path="res://scene/location/place.tscn" id="1_0hymk"]
+[ext_resource type="Texture2D" uid="uid://cabqkk5w7cads" path="res://texture/background/port2.png" id="2_jcdls"]
+[ext_resource type="PackedScene" uid="uid://drqq8hgfonhms" path="res://scene/button/button_go_to_location.tscn" id="3_iokqq"]
+
+[node name="Place" instance=ExtResource("1_0hymk")]
+offset_left = 4.0
+offset_top = -2.0
+offset_right = 10.0
+texture = ExtResource("2_jcdls")
+placeName = "Cantharus Harbor"
+
+[node name="Button_GoToLocation" parent="CanvasLayer" index="0" instance=ExtResource("3_iokqq")]
+anchors_preset = 9
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 1.0
+offset_left = 1076.0
+offset_top = 449.0
+offset_right = 1116.0
+offset_bottom = -159.0
+grow_horizontal = 1
+tooltip_text = "Port Of Munichia"
+newSceneName = "Piraeus Market"
+
+[node name="Button_GoToLocation2" parent="CanvasLayer" index="1" instance=ExtResource("3_iokqq")]
+anchors_preset = 9
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 1.0
+offset_left = 953.0
+offset_top = 339.0
+offset_right = 993.0
+offset_bottom = -269.0
+grow_horizontal = 1
+tooltip_text = "Piraeus Market"
+newSceneName = "Piraeus Suburbs"

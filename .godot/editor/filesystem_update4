@@ -39,3 +39,17 @@ res://scene/location/The Agora.tscn
 res://scene/location/Southern Road To Piraeus.tscn
 res://scene/button/button_open_dialog.gdshader
 res://scene/button/button_open_dialog.gd
+res://script/global/Juror.gd
+res://character/Demitrios.dch
+res://character/Plato.dch
+res://timeline/market_demetrios.dtl
+res://scene/location/Port Of Munichia.tscn
+res://scene/location/Cantharus Harbor.tscn
+res://scene/location/Piraeus Market.tscn
+res://scene/location/Munichia Market.tscn
+res://scene/location/Piraeus Suburb.tscn
+res://scene/location/Munichia Suburb.tscn
+res://scene/location/Wall Of Phalerum.tscn
+res://scene/location/Gate Of Piraeus.tscn
+res://scene/location/Walls Of Phalerum.tscn
+res://scene/location/The People's Court.tscn

@@ -1,0 +1,51 @@
+[gd_scene load_steps=5 format=3 uid="uid://bp4jtb40dulmo"]
+
+[ext_resource type="PackedScene" uid="uid://qvj4ev6spgxd" path="res://scene/location/place.tscn" id="1_wdhws"]
+[ext_resource type="Texture2D" uid="uid://cpn8ktlkeiwuv" path="res://texture/background/WallofPhalerum.png" id="2_okd7q"]
+[ext_resource type="PackedScene" uid="uid://drqq8hgfonhms" path="res://scene/button/button_go_to_location.tscn" id="3_k1oiy"]
+[ext_resource type="PackedScene" uid="uid://b5m2btcrnes5x" path="res://scene/button/button_open_dialog.tscn" id="4_5tq12"]
+
+[node name="Place" instance=ExtResource("1_wdhws")]
+texture = ExtResource("2_okd7q")
+placeName = "Wall Of Phalerum"
+
+[node name="Button_GoToLocation" parent="." index="1" instance=ExtResource("3_k1oiy")]
+layout_mode = 1
+anchors_preset = 7
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 384.0
+offset_top = -111.0
+offset_right = 424.0
+offset_bottom = -71.0
+grow_vertical = 0
+tooltip_text = "Minichia Suburb"
+newSceneName = "Munichia Suburb"
+
+[node name="Button_GoToLocation2" parent="." index="2" instance=ExtResource("3_k1oiy")]
+layout_mode = 1
+anchors_preset = 4
+anchor_left = 0.0
+anchor_right = 0.0
+offset_left = 221.0
+offset_top = -22.0
+offset_right = 261.0
+offset_bottom = 18.0
+grow_horizontal = 1
+tooltip_text = "Gate Of Piraeus"
+newSceneName = "Gate Of Piraeus"
+
+[node name="ButtonOpenDialog" parent="." index="3" instance=ExtResource("4_5tq12")]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 795.0
+offset_top = 438.0
+offset_right = -264.0
+offset_bottom = -107.0
+grow_horizontal = 2
+grow_vertical = 2
+ignore_texture_size = true
+stretch_mode = 5
+timelineName = "market_demetrios"

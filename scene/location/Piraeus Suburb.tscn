@@ -1,0 +1,31 @@
+[gd_scene load_steps=4 format=3 uid="uid://1uby3mwkv6oj"]
+
+[ext_resource type="PackedScene" uid="uid://qvj4ev6spgxd" path="res://scene/location/place.tscn" id="1_nkkp6"]
+[ext_resource type="Texture2D" uid="uid://cbhfygkugsx4y" path="res://texture/background/Streets3.png" id="2_xp0ev"]
+[ext_resource type="PackedScene" uid="uid://drqq8hgfonhms" path="res://scene/button/button_go_to_location.tscn" id="3_yngk3"]
+
+[node name="Place" instance=ExtResource("1_nkkp6")]
+texture = ExtResource("2_xp0ev")
+placeName = "Piraeus Suburb"
+
+[node name="Button_GoToLocation" parent="." index="1" instance=ExtResource("3_yngk3")]
+layout_mode = 1
+anchors_preset = 7
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 30.0
+offset_top = -67.0
+offset_right = 70.0
+offset_bottom = -27.0
+grow_vertical = 0
+tooltip_text = "Piraeus Market East"
+newSceneName = "Munichia Suburb"
+
+[node name="Button_GoToLocation2" parent="." index="2" instance=ExtResource("3_yngk3")]
+layout_mode = 1
+offset_left = 22.0
+offset_top = 119.0
+offset_right = 62.0
+offset_bottom = 159.0
+tooltip_text = "Minor Temple of Athena"
+newSceneName = "Cantharus Harbor"
