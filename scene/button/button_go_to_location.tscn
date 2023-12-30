@@ -1,9 +1,10 @@
-[gd_scene load_steps=7 format=3 uid="uid://drqq8hgfonhms"]
+[gd_scene load_steps=8 format=3 uid="uid://drqq8hgfonhms"]
 
 [ext_resource type="Script" path="res://scene/button/button_go_to_location.gd" id="1_02crr"]
 [ext_resource type="StyleBox" uid="uid://b8pots4mtdr4l" path="res://scene/location/locationButtonStyleBox.tres" id="1_wjhwk"]
 [ext_resource type="Script" path="res://addons/radial_progress/RadialProgress.gd" id="2_ds2i0"]
 [ext_resource type="AudioStream" uid="uid://lvv0vefp3hsd" path="res://sound/ui/misc_menu_4.wav" id="4_hvki2"]
+[ext_resource type="AudioStream" uid="uid://c1ppxi1gqmh52" path="res://sound/ui/click.wav" id="5_3ioku"]
 
 [sub_resource type="Animation" id="Animation_tvyem"]
 resource_name = "mouseOver"
@@ -39,7 +40,7 @@ _data = {
 }
 
 [node name="Button_GoToLocation" type="Button"]
-self_modulate = Color(0.12549, 0.117647, 0.313726, 1)
+self_modulate = Color(1, 1, 1, 0.733333)
 z_index = 1
 custom_minimum_size = Vector2(40, 40)
 anchors_preset = 8
@@ -62,6 +63,7 @@ icon_alignment = 1
 script = ExtResource("1_02crr")
 
 [node name="RadialProgress" type="Control" parent="."]
+self_modulate = Color(1, 1, 1, 0.733333)
 z_index = -1
 layout_mode = 1
 anchors_preset = 0
@@ -85,6 +87,10 @@ libraries = {
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("4_hvki2")
+volume_db = -10.0
+
+[node name="AudioStreamPlayer2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_3ioku")
 volume_db = -10.0
 
 [connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]

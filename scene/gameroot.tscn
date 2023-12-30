@@ -1,61 +1,75 @@
-[gd_scene load_steps=7 format=3 uid="uid://c2cteofjjb626"]
+[gd_scene load_steps=9 format=3 uid="uid://c2cteofjjb626"]
 
 [ext_resource type="Script" path="res://scene/gameroot.gd" id="1_7bqov"]
 [ext_resource type="PackedScene" uid="uid://8mdhwbk75vss" path="res://scene/location/Piraeus Gate.tscn" id="2_ye7sw"]
 [ext_resource type="StyleBox" uid="uid://bu0tuspnh8bs" path="res://scene/ui/buttonStyle_Normal.tres" id="3_pgch0"]
 [ext_resource type="AudioStream" uid="uid://c2cw603mpfcnt" path="res://sound/music/foreboding_theme.wav" id="4_4e16a"]
 [ext_resource type="Texture2D" uid="uid://f7asab816uv3" path="res://texture/icon/icons8-window-settings-100.png" id="4_6esjb"]
-[ext_resource type="Texture2D" uid="uid://k8d4xwqenx8u" path="res://texture/icon/icons8-map-100.png" id="4_rfqnp"]
+[ext_resource type="Texture2D" uid="uid://cqxqyiblhhdhv" path="res://texture/icon/icons8-scales-100.png" id="7_6i462"]
+[ext_resource type="PackedScene" uid="uid://mgh7k4jtiall" path="res://scene/ui/textureButton.tscn" id="7_igm2i"]
+[ext_resource type="Texture2D" uid="uid://b4jh5gwq0bqub" path="res://texture/icon/icons8-grid-100.png" id="8_f4gne"]
 
 [node name="Gameroot" type="CanvasLayer"]
 script = ExtResource("1_7bqov")
 
 [node name="PlaceParent" type="CanvasLayer" parent="."]
+layer = 0
 
 [node name="Place" parent="PlaceParent" instance=ExtResource("2_ye7sw")]
+z_index = -1
 
 [node name="Panel" type="Panel" parent="."]
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
-offset_left = -173.0
-offset_right = 173.0
-offset_bottom = 30.0
+offset_left = -581.0
+offset_top = 502.0
+offset_right = -324.0
+offset_bottom = 646.0
 grow_horizontal = 2
 theme_override_styles/panel = ExtResource("3_pgch0")
 
 [node name="currentPlace" type="Label" parent="Panel"]
 layout_mode = 1
-anchors_preset = 8
+offset_left = 16.0
+offset_top = 5.0
+offset_right = 205.0
+offset_bottom = 39.0
+theme_override_font_sizes/font_size = 24
+
+[node name="Panel2" type="Panel" parent="."]
+anchors_preset = 5
 anchor_left = 0.5
-anchor_top = 0.5
 anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -71.0
-offset_top = -11.5
-offset_right = 71.0
-offset_bottom = 11.5
+offset_left = -581.0
+offset_top = 545.0
+offset_right = -268.0
+offset_bottom = 689.0
 grow_horizontal = 2
-grow_vertical = 2
+theme_override_styles/panel = ExtResource("3_pgch0")
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("4_4e16a")
-volume_db = -3.0
+volume_db = -10.0
 autoplay = true
 
 [node name="HBoxContainer" type="HBoxContainer" parent="."]
 offset_right = 204.0
 offset_bottom = 100.0
-scale = Vector2(0.5, 0.5)
 
-[node name="optionMenuButton" type="TextureButton" parent="HBoxContainer"]
+[node name="optionMenuB" parent="HBoxContainer" instance=ExtResource("7_igm2i")]
 layout_mode = 2
 texture_normal = ExtResource("4_6esjb")
-stretch_mode = 3
 
-[node name="mapButton" type="TextureButton" parent="HBoxContainer"]
+[node name="mapButton2" parent="HBoxContainer" instance=ExtResource("7_igm2i")]
 layout_mode = 2
-texture_normal = ExtResource("4_rfqnp")
-stretch_mode = 3
 
-[connection signal="pressed" from="HBoxContainer/optionMenuButton" to="." method="_on_texture_button_pressed"]
+[node name="justiceButton" parent="HBoxContainer" instance=ExtResource("7_igm2i")]
+layout_mode = 2
+texture_normal = ExtResource("7_6i462")
+
+[node name="itemsButton" parent="HBoxContainer" instance=ExtResource("7_igm2i")]
+layout_mode = 2
+texture_normal = ExtResource("8_f4gne")
+
+[connection signal="pressed" from="HBoxContainer/optionMenuB" to="." method="_on_option_menu_b_pressed"]

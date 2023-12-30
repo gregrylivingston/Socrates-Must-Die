@@ -1,0 +1,19 @@
+[gd_scene load_steps=5 format=3 uid="uid://mgh7k4jtiall"]
+
+[ext_resource type="Texture2D" uid="uid://k8d4xwqenx8u" path="res://texture/icon/icons8-map-100.png" id="1_hwjk2"]
+[ext_resource type="Script" path="res://scene/ui/textureButton.gd" id="2_gcjjv"]
+[ext_resource type="AudioStream" uid="uid://6byurfp4a3fr" path="res://sound/ui/click_2.wav" id="3_85i1o"]
+[ext_resource type="AudioStream" uid="uid://c1ppxi1gqmh52" path="res://sound/ui/click.wav" id="4_25ab6"]
+
+[node name="TextureButton" type="TextureButton"]
+texture_normal = ExtResource("1_hwjk2")
+script = ExtResource("2_gcjjv")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_85i1o")
+
+[node name="AudioStreamPlayer2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_25ab6")
+
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="pressed" from="." to="." method="_on_pressed"]

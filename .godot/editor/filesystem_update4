@@ -23,3 +23,6 @@ res://scene/ui/menu_options.tscn
 res://scene/ui/menu_options.gd
 res://scene/ui/Achievements.tscn
 res://scene/ui/Achievements.gd
+res://scene/ui/textureButton.tscn
+res://scene/ui/textureButton.gd
+res://scene/location/locationButtonStyleBox.tres

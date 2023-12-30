@@ -1,11 +1,11 @@
+AudioStreamPlayer
+TextureButton
 Label
 ScrollContainer
 HBoxContainer
-TextureButton
 Panel
 Button
 VBoxContainer
-AudioStreamPlayer
 CanvasLayer
 Node
 AudioStreamPlayer2D

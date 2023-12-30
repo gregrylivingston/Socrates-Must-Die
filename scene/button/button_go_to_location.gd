@@ -16,6 +16,7 @@ func _process(delta):
 
 
 func _on_pressed():
+	$AudioStreamPlayer2.play()
 	Game.gameroot.goToPlace(newSceneName)
 	
 
