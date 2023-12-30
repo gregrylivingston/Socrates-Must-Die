@@ -31,3 +31,8 @@ res://scene/ui/buttonStyle_Normal.tres
 res://scene/ui/innerMap.tscn
 res://scene/ui/Map.gd
 res://scene/location/locationButtonStyleBoxTiny.tres
+res://scene/location/Plato's Academy.tscn
+res://scene/location/The Academy.tscn
+res://scene/location/Mount Hymettus.tscn
+res://scene/location/Southern Road to Piraeus.tscn
+res://scene/location/The Agora.tscn

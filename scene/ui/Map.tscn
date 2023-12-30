@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://cimyam7t74b58"]
+[gd_scene load_steps=5 format=3 uid="uid://cimyam7t74b58"]
 
 [ext_resource type="Script" path="res://scene/ui/Map.gd" id="1_re2aj"]
 [ext_resource type="PackedScene" uid="uid://b4kgf7eucs365" path="res://scene/ui/innerMap.tscn" id="3_4gu6p"]
@@ -14,6 +14,9 @@ corner_radius_top_left = 5
 corner_radius_top_right = 5
 corner_radius_bottom_right = 5
 corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_25thn"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
 
 [node name="Map" type="Control"]
 layout_mode = 3
@@ -63,9 +66,13 @@ layout_mode = 2
 
 [node name="Button" type="Button" parent="Panel/VBoxContainer/HBoxContainer"]
 layout_mode = 2
-text = "X"
+theme_override_constants/outline_size = 10
+theme_override_font_sizes/font_size = 50
+theme_override_styles/normal = SubResource("StyleBoxFlat_25thn")
+text = " X "
 
 [node name="Label" type="Label" parent="Panel/VBoxContainer/HBoxContainer"]
+visible = false
 layout_mode = 2
 text = "  Map
 "

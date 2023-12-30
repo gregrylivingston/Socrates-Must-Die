@@ -10,7 +10,7 @@ var focused = false
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	tooltip_text = "Walk to " + newSceneName.replace("_"," ")
+	tooltip_text = newSceneName.replace("_"," ")
 	if isTiny:
 		custom_minimum_size = Vector2i(20,20)
 		size = custom_minimum_size
