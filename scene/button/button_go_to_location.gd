@@ -17,7 +17,7 @@ func _ready():
 		$RadialProgress.position = custom_minimum_size/2
 		$RadialProgress.radius = 12
 		add_theme_stylebox_override("normal",load("res://scene/location/locationButtonStyleBoxTiny.tres"))
-
+		add_theme_stylebox_override("hover",load("res://scene/location/locationButtonStyleBoxTinyHover.tres"))
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
