@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bavyvccd0hl0k"
+path="res://.godot/imported/The Agora.mp3-2853c90d551a4f8e1aafed725cc61be8.mp3str"
+
+[deps]
+
+source_file="res://sound/voice/The Agora.mp3"
+dest_files=["res://.godot/imported/The Agora.mp3-2853c90d551a4f8e1aafed725cc61be8.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

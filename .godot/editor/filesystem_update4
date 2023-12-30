@@ -1,68 +1,14 @@
-res://scene/location/Piraeus Port.tscn
-res://scene/button/button_go_to_location.tscn
-res://scene/location/place.tscn
-res://scene/location/Piraeus Market West.tscn
-res://scene/location/Minor Temple of Athena.tscn
 res://scene/button/button_open_dialog.tscn
-res://scene/location/Piraeus Market East.tscn
-res://script/global/Colors.gd
-res://scene/button/button_go_to_location.gd
-res://scene/location/Piraeus Gate.tscn
-res://scene/ui/mainMenu.tscn
-res://scene/ui/uiButton.tscn
-res://sources.txt
-res://scene/ui/uiButton.gd
-res://scene/ui/mainMenu.gd
-res://scene/gameroot.tscn
-res://scene/gameroot.gd
-res://scene/location/place.gd
-res://script/global/Game.gd
-res://scene/ui/Settings.tscn
-res://scene/ui/Settings.gd
-res://scene/ui/menu_options.tscn
-res://scene/ui/menu_options.gd
-res://scene/ui/Achievements.tscn
-res://scene/ui/Achievements.gd
-res://scene/ui/textureButton.tscn
-res://scene/ui/textureButton.gd
-res://scene/location/locationButtonStyleBox.tres
-res://scene/ui/Map.tscn
-res://scene/ui/buttonStyle_Normal.tres
-res://scene/ui/innerMap.tscn
-res://scene/ui/Map.gd
-res://scene/location/locationButtonStyleBoxTiny.tres
-res://scene/location/Plato's Academy.tscn
-res://scene/location/The Academy.tscn
-res://scene/location/Mount Hymettus.tscn
-res://scene/location/Southern Road to Piraeus.tscn
-res://scene/location/The Agora.tscn
-res://scene/location/Southern Road To Piraeus.tscn
 res://scene/button/button_open_dialog.gdshader
-res://scene/button/button_open_dialog.gd
-res://script/global/Juror.gd
-res://character/Demitrios.dch
-res://character/Plato.dch
-res://timeline/market_demetrios.dtl
-res://scene/location/Port Of Munichia.tscn
-res://scene/location/Cantharus Harbor.tscn
-res://scene/location/Piraeus Market.tscn
-res://scene/location/Munichia Market.tscn
-res://scene/location/Piraeus Suburb.tscn
-res://scene/location/Munichia Suburb.tscn
-res://scene/location/Wall Of Phalerum.tscn
-res://scene/location/Gate Of Piraeus.tscn
-res://scene/location/Walls Of Phalerum.tscn
-res://scene/location/The People's Court.tscn
-res://scene/location/Well Of Peisistratos.tscn
+res://scene/ui/buttonStyle_Normal.tres
+res://scene/location/locationButtonStyleBoxTiny.tres
 res://scene/location/locationButtonStyleBoxTinyHover.tres
-res://scene/location/Munichia Citadel.tscn
-res://scene/location/Deme of Colonus.tscn
-res://scene/location/Deme Of Colonus.tscn
-res://scene/location/Deme Of Melite.tscn
-res://scene/location/The Academy Gardens.tscn
-res://scene/location/Munichia Inner Citadel.tscn
-res://scene/location/Munichia Outer Citadel.tscn
-res://timeline/Intro.dtl
-res://addons/dialogic/Editor/Events/styles/InputFieldsStyle.tres
-res://scene/ui/Jurors.tscn
-res://scene/ui/Items.tscn
+res://scene/location/Gate Of Piraeus.tscn
+res://scene/ui/mainMenu.tscn
+res://scene/gameroot.tscn
+res://scene/ui/Map.tscn
+res://scene/ui/innerMap.tscn
+res://scene/button/button_go_to_location.tscn
+res://scene/location/The Agora.tscn
+res://scene/location/place.tscn
+res://scene/location/Minor Temple of Athena.tscn
