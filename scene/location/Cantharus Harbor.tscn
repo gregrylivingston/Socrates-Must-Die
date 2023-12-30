@@ -10,6 +10,8 @@ offset_top = -2.0
 offset_right = 10.0
 texture = ExtResource("2_jcdls")
 placeName = "Cantharus Harbor"
+placeDescription = "The Port of Piraeus is a great military and commercial harbour.  It serves as the permanent navy base for the mighty Athenian fleet."
+placeDescriptionAudio = "Cantharus Harbor"
 
 [node name="Button_GoToLocation" parent="CanvasLayer" index="0" instance=ExtResource("3_iokqq")]
 anchors_preset = 9

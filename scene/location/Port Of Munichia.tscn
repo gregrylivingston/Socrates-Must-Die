@@ -11,7 +11,9 @@ offset_top = -2.0
 offset_right = 19.0
 texture = ExtResource("2_8m5xl")
 flip_h = true
-placeName = "Munichia Suburb"
+placeName = "Port Of Munichia"
+placeDescription = "The natural bay at Munichia has been surrounded with impressive walls but is small compared to the main port in Piraeus.  Traders and fisherman arrive at all hours of the day to unload their goods."
+placeDescriptionAudio = "Port Of Munichia"
 
 [node name="Button_GoToLocation3" parent="CanvasLayer" index="0" instance=ExtResource("3_xwn0a")]
 anchors_preset = 9
@@ -24,7 +26,7 @@ offset_top = 529.0
 offset_right = 1080.0
 offset_bottom = -79.0
 grow_horizontal = 1
-tooltip_text = "Piraeus Suburb"
+tooltip_text = "Munichia Market"
 newSceneName = "Munichia Market"
 
 [node name="ButtonOpenDialog" parent="CanvasLayer" index="1" instance=ExtResource("4_ts03k")]
@@ -33,4 +35,3 @@ offset_top = 403.0
 offset_right = 1146.0
 offset_bottom = 1099.0
 scale = Vector2(0.2, 0.2)
-stretch_mode = 5

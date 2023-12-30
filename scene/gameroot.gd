@@ -27,7 +27,7 @@ func goToPlace(placeName: String):
 		descriptionAudioButton.tooltip_text = currentPlace.placeDescription
 	if currentPlace.placeDescriptionAudio != "":
 		descriptionAudioButton.visible = true
-		$HBoxContainer2/descriptionAudioPlayer.stream = load("res://sound/voice/TheAgora.mp3")
+		$HBoxContainer2/descriptionAudioPlayer.stream = load("res://sound/voice/"+currentPlace.placeDescriptionAudio+".mp3")
 	else: descriptionAudioButton.visible = false
 
 
