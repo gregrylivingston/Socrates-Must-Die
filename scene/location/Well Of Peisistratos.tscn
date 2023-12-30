@@ -11,7 +11,9 @@ offset_top = -1.0
 offset_right = 8.0
 texture = ExtResource("2_73k6t")
 flip_h = true
-placeName = "Munichia Suburb"
+placeName = "Well Of Peisistratos"
+placeDescription = "Long ago the Tyrant Peisistratos ordered an aqueduct dug into the city.  The wells associated with his Aqueduct have remained important source of water for the surrounding Deme."
+placeDescriptionAudio = "Well Of Peisistratos"
 
 [node name="Button_GoToLocation" parent="CanvasLayer" index="0" instance=ExtResource("3_bjvq7")]
 anchors_preset = 9
@@ -38,7 +40,7 @@ offset_top = 358.0
 offset_right = 113.0
 offset_bottom = -250.0
 grow_horizontal = 1
-tooltip_text = "Gate Of Piraeus"
+tooltip_text = "Deme Of Melite"
 newSceneName = "Deme Of Melite"
 
 [node name="Button_GoToLocation2" parent="CanvasLayer" index="2" instance=ExtResource("3_bjvq7")]
@@ -75,4 +77,3 @@ offset_top = 251.0
 offset_right = 1130.0
 offset_bottom = 947.0
 scale = Vector2(0.4, 0.4)
-stretch_mode = 5

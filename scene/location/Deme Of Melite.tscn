@@ -9,7 +9,9 @@ offset_left = -2.0
 offset_top = -1.0
 texture = ExtResource("2_qohbm")
 flip_h = true
-placeName = "Munichia Suburb"
+placeName = "Deme Of Melite"
+placeDescription = "Melite is in the heart of the city, near the Agora.  It is home to a large population including many prominent Athenians."
+placeDescriptionAudio = "Deme Of Melite"
 
 [node name="Button_GoToLocation" parent="CanvasLayer" index="0" instance=ExtResource("3_q5ct5")]
 anchors_preset = 9
@@ -22,7 +24,7 @@ offset_top = 588.0
 offset_right = 594.0
 offset_bottom = -20.0
 grow_horizontal = 1
-tooltip_text = "Walls Of Phalerum"
+tooltip_text = "Well Of Peisistratos"
 newSceneName = "Well Of Peisistratos"
 
 [node name="Button_GoToLocation2" parent="CanvasLayer" index="1" instance=ExtResource("3_q5ct5")]
@@ -36,5 +38,5 @@ offset_top = 380.0
 offset_right = 615.0
 offset_bottom = -228.0
 grow_horizontal = 1
-tooltip_text = "Piraeus Suburb"
+tooltip_text = "Deme Of Colonus"
 newSceneName = "Deme Of Colonus"
