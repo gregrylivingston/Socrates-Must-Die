@@ -17,8 +17,11 @@ shader_parameter/add_margins = true
 [node name="ButtonOpenDialog" type="TextureButton"]
 material = SubResource("ShaderMaterial_qhqbw")
 custom_minimum_size = Vector2(50, 50)
+offset_right = 463.0
+offset_bottom = 696.0
 mouse_default_cursor_shape = 2
 texture_normal = ExtResource("1_1q5mw")
+stretch_mode = 5
 script = ExtResource("1_dxy0l")
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]

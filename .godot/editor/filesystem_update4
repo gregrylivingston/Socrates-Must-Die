@@ -64,3 +64,5 @@ res://scene/location/Munichia Inner Citadel.tscn
 res://scene/location/Munichia Outer Citadel.tscn
 res://timeline/Intro.dtl
 res://addons/dialogic/Editor/Events/styles/InputFieldsStyle.tres
+res://scene/ui/Jurors.tscn
+res://scene/ui/Items.tscn
