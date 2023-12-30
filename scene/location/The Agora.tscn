@@ -14,13 +14,13 @@ layout_mode = 1
 anchors_preset = 7
 anchor_top = 1.0
 anchor_bottom = 1.0
-offset_left = 392.0
-offset_top = -449.0
-offset_right = 432.0
-offset_bottom = -409.0
+offset_left = 287.0
+offset_top = -61.0
+offset_right = 327.0
+offset_bottom = -21.0
 grow_vertical = 0
-tooltip_text = "Piraeus Gate"
-newSceneName = "The Acropolis"
+tooltip_text = "The Acropolis"
+newSceneName = "Well Of Peisistratos"
 
 [node name="Button_GoToLocation2" parent="." index="2" instance=ExtResource("3_whgkd")]
 layout_mode = 1
@@ -32,7 +32,7 @@ offset_top = -2.0
 offset_right = 597.0
 offset_bottom = 38.0
 grow_horizontal = 1
-tooltip_text = "Piraeus Market West"
+tooltip_text = "The People's Court"
 newSceneName = "The People's Court"
 
 [node name="ButtonOpenDialog" parent="." index="3" instance=ExtResource("4_x64vi")]
