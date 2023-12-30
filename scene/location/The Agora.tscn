@@ -8,6 +8,8 @@
 [node name="Place" instance=ExtResource("1_iraoa")]
 texture = ExtResource("2_0oc33")
 placeName = "The Agora"
+placeDescription = "The Agora is a bustling hub of activity serving as the heart of Athenian democracy, commerce, and social exchange."
+placeDescriptionAudio = "The Agora"
 
 [node name="Button_GoToLocation" parent="." index="1" instance=ExtResource("3_whgkd")]
 layout_mode = 1

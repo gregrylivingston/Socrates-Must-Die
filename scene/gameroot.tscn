@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://c2cteofjjb626"]
+[gd_scene load_steps=9 format=3 uid="uid://c2cteofjjb626"]
 
 [ext_resource type="Script" path="res://scene/gameroot.gd" id="1_7bqov"]
 [ext_resource type="PackedScene" uid="uid://8mdhwbk75vss" path="res://scene/location/Gate Of Piraeus.tscn" id="2_ye7sw"]
@@ -7,6 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://cqxqyiblhhdhv" path="res://texture/icon/icons8-scales-100.png" id="7_6i462"]
 [ext_resource type="PackedScene" uid="uid://mgh7k4jtiall" path="res://scene/ui/textureButton.tscn" id="7_igm2i"]
 [ext_resource type="Texture2D" uid="uid://b4jh5gwq0bqub" path="res://texture/icon/icons8-grid-100.png" id="8_f4gne"]
+[ext_resource type="Texture2D" uid="uid://bvd5qliwrjdg5" path="res://texture/icon/icons8-audio-wave-100.png" id="8_qsgof"]
 
 [node name="Gameroot" type="CanvasLayer"]
 script = ExtResource("1_7bqov")
@@ -16,17 +17,6 @@ layer = 0
 
 [node name="Place" parent="PlaceParent" instance=ExtResource("2_ye7sw")]
 z_index = -1
-
-[node name="currentPlace" type="Label" parent="."]
-anchors_preset = 2
-anchor_top = 1.0
-anchor_bottom = 1.0
-offset_left = 8.0
-offset_top = -50.0
-offset_right = 404.0
-offset_bottom = -8.0
-grow_vertical = 0
-theme_override_font_sizes/font_size = 36
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("4_4e16a")
@@ -52,5 +42,25 @@ texture_normal = ExtResource("7_6i462")
 layout_mode = 2
 texture_normal = ExtResource("8_f4gne")
 
+[node name="HBoxContainer2" type="HBoxContainer" parent="."]
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -100.0
+offset_right = 204.0
+grow_vertical = 0
+
+[node name="DescriptionAudioButton" parent="HBoxContainer2" instance=ExtResource("7_igm2i")]
+layout_mode = 2
+texture_normal = ExtResource("8_qsgof")
+
+[node name="currentPlace" type="Label" parent="HBoxContainer2"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 42
+text = "Sample Text"
+
+[node name="descriptionAudioPlayer" type="AudioStreamPlayer" parent="HBoxContainer2"]
+
 [connection signal="pressed" from="HBoxContainer/optionMenuB" to="." method="_on_option_menu_b_pressed"]
 [connection signal="pressed" from="HBoxContainer/mapButton2" to="." method="_on_map_button_2_pressed"]
+[connection signal="pressed" from="HBoxContainer2/DescriptionAudioButton" to="." method="_on_description_audio_button_pressed"]

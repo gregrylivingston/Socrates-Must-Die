@@ -6,7 +6,7 @@ var map = null
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	Game.gameroot = self
-	$currentPlace.text = currentPlace.placeName
+	$HBoxContainer2/currentPlace.text = currentPlace.placeName
 	Dialogic.start("Intro")
 
 
@@ -20,7 +20,15 @@ func goToPlace(placeName: String):
 	var newScene = load("res://scene/location/" + placeName + ".tscn").instantiate()
 	$PlaceParent.add_child(newScene)
 	currentPlace = newScene
-	$currentPlace.text = currentPlace.placeName
+	$HBoxContainer2/currentPlace.text = currentPlace.placeName
+	
+	var descriptionAudioButton = $HBoxContainer2/DescriptionAudioButton
+	if currentPlace.placeDescription != "":
+		descriptionAudioButton.tooltip_text = currentPlace.placeDescription
+	if currentPlace.placeDescriptionAudio != "":
+		descriptionAudioButton.visible = true
+		$HBoxContainer2/descriptionAudioPlayer.stream = load("res://sound/voice/TheAgora.mp3")
+	else: descriptionAudioButton.visible = false
 
 
 
@@ -34,3 +42,7 @@ func _on_map_button_2_pressed():
 	var newScene = load("res://scene/ui/Map.tscn").instantiate()
 	add_child(newScene)
 	map = newScene
+
+
+func _on_description_audio_button_pressed():
+	$HBoxContainer2/descriptionAudioPlayer.play()

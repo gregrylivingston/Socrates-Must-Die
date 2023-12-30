@@ -1,6 +1,8 @@
 extends TextureRect
 
 @export var placeName: String
+@export var placeDescription: String = ""
+@export var placeDescriptionAudio: String = ""
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
