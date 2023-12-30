@@ -1,3 +1,4 @@
+AudioStreamPlayer
 Line2D
 Polygon2D
 Node2D
@@ -5,11 +6,9 @@ Container
 ColorRect
 TextureRect
 CanvasLayer
-AudioStreamPlayer
 TextureButton
 Label
 ScrollContainer
 HBoxContainer
 Panel
 Button
-VBoxContainer

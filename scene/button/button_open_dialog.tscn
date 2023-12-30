@@ -1,12 +1,32 @@
-[gd_scene load_steps=3 format=3 uid="uid://b5m2btcrnes5x"]
+[gd_scene load_steps=7 format=3 uid="uid://b5m2btcrnes5x"]
 
 [ext_resource type="Texture2D" uid="uid://bn3772vwapdn0" path="res://character/image/demitrios3.png" id="1_1q5mw"]
 [ext_resource type="Script" path="res://scene/button/button_open_dialog.gd" id="1_dxy0l"]
+[ext_resource type="Shader" path="res://scene/button/button_open_dialog.gdshader" id="1_g81ph"]
+[ext_resource type="AudioStream" uid="uid://lvv0vefp3hsd" path="res://sound/ui/misc_menu_4.wav" id="4_68vw5"]
+[ext_resource type="AudioStream" uid="uid://c1ppxi1gqmh52" path="res://sound/ui/click.wav" id="5_cn8ih"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_qhqbw"]
+shader = ExtResource("1_g81ph")
+shader_parameter/color = Color(1, 1, 1, 1)
+shader_parameter/width = 0.0
+shader_parameter/pattern = 0
+shader_parameter/inside = false
+shader_parameter/add_margins = true
 
 [node name="ButtonOpenDialog" type="TextureButton"]
+material = SubResource("ShaderMaterial_qhqbw")
 custom_minimum_size = Vector2(50, 50)
 mouse_default_cursor_shape = 2
 texture_normal = ExtResource("1_1q5mw")
 script = ExtResource("1_dxy0l")
 
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_68vw5")
+
+[node name="AudioStreamPlayer2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_cn8ih")
+
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited"]
 [connection signal="pressed" from="." to="." method="_on_pressed"]

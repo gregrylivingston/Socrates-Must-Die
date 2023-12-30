@@ -14,3 +14,13 @@ func _process(delta):
 
 func _on_pressed():
 	Dialogic.start(timelineName)
+	$AudioStreamPlayer2.play()
+
+
+func _on_mouse_entered():
+	$AudioStreamPlayer.play()
+	material.set_shader_parameter("width",10.0)
+
+
+func _on_mouse_exited():
+	material.set_shader_parameter("width",0.0)

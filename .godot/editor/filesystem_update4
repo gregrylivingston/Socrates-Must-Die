@@ -36,3 +36,6 @@ res://scene/location/The Academy.tscn
 res://scene/location/Mount Hymettus.tscn
 res://scene/location/Southern Road to Piraeus.tscn
 res://scene/location/The Agora.tscn
+res://scene/location/Southern Road To Piraeus.tscn
+res://scene/button/button_open_dialog.gdshader
+res://scene/button/button_open_dialog.gd
