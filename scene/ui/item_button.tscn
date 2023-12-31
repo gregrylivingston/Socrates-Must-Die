@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://dqvdgkprighcm"]
+
+[ext_resource type="Texture2D" uid="uid://ccmslwgdojky3" path="res://texture/icon/icons8-comedy-100.png" id="1_4u1a7"]
+[ext_resource type="Script" path="res://scene/ui/item_button.gd" id="1_ebr4f"]
+
+[node name="itemButton" type="VBoxContainer"]
+size_flags_horizontal = 6
+script = ExtResource("1_ebr4f")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 2
+text = "hi"
+horizontal_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("1_4u1a7")

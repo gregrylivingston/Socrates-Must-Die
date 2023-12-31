@@ -19,3 +19,9 @@ res://scene/ui/Canvas_JuryMember.gd
 res://scene/ui/Jurors.gd
 res://scene/ui/Achievements.tscn
 res://scene/ui/Achievements.gd
+res://character/Trechus/Trechus.dtl
+res://script/global/Item.gd
+res://scene/ui/Items.tscn
+res://scene/ui/Items.gd
+res://scene/ui/item_button.tscn
+res://scene/ui/item_button.gd

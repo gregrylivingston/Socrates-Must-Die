@@ -1,11 +1,11 @@
-res://texture/map
 res://scene/ui
+res://texture/icon
 res://script/global
+res://texture/map
 res://character/image
 res://character/Athena2/voice
 res://timeline
 res://character
-res://texture/icon
 res://texture/background
 res://sound/voice
 res://sound/ui

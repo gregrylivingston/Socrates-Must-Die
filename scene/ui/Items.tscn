@@ -1,17 +1,17 @@
 [gd_scene load_steps=4 format=3 uid="uid://dotyfykgbr4i5"]
 
-[ext_resource type="Script" path="res://scene/ui/Settings.gd" id="1_fg6mj"]
+[ext_resource type="Script" path="res://scene/ui/Items.gd" id="1_jr3ba"]
 [ext_resource type="StyleBox" uid="uid://bu0tuspnh8bs" path="res://scene/ui/buttonStyle_Normal.tres" id="2_85gva"]
 [ext_resource type="PackedScene" uid="uid://cthrgqgx8vu0m" path="res://scene/ui/uiButton.tscn" id="3_g4epg"]
 
-[node name="Settings" type="Control"]
+[node name="ItemsMenu" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_fg6mj")
+script = ExtResource("1_jr3ba")
 
 [node name="Panel2" type="Panel" parent="."]
 layout_mode = 1
@@ -61,4 +61,13 @@ size_flags_horizontal = 2
 theme_override_font_sizes/font_size = 30
 text = "  Items"
 
-[connection signal="pressed" from="Panel/VBoxContainer/HBoxContainer/UiButton" to="." method="_on_button_pressed"]
+[node name="HSeparator" type="HSeparator" parent="Panel/VBoxContainer"]
+modulate = Color(1, 1, 1, 0)
+custom_minimum_size = Vector2(0, 20)
+layout_mode = 2
+
+[node name="GridContainer" type="GridContainer" parent="Panel/VBoxContainer"]
+layout_mode = 2
+columns = 5
+
+[connection signal="pressed" from="Panel/VBoxContainer/HBoxContainer/UiButton" to="." method="_on_ui_button_pressed"]
