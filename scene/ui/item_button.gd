@@ -9,7 +9,7 @@ func _ready():
 	$Label.text = ItemName
 	$TextureRect.texture = load(textureString)
 	if isBlackedOut:
-		$TextureRect.modulate = Color(0.0,0.0,0.0)
+		$TextureRect. modulate.v = 15
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.

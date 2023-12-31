@@ -4,14 +4,22 @@
 [ext_resource type="Script" path="res://scene/ui/item_button.gd" id="1_ebr4f"]
 
 [node name="itemButton" type="VBoxContainer"]
+scale = Vector2(2, 2)
 size_flags_horizontal = 6
+size_flags_vertical = 6
 script = ExtResource("1_ebr4f")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 2
+texture = ExtResource("1_4u1a7")
+stretch_mode = 5
+
+[node name="HSeparator" type="HSeparator" parent="."]
+modulate = Color(1, 1, 1, 0)
+custom_minimum_size = Vector2(0, 10)
+layout_mode = 2
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 2
 text = "hi"
 horizontal_alignment = 1
-
-[node name="TextureRect" type="TextureRect" parent="."]
-layout_mode = 2
-texture = ExtResource("1_4u1a7")
