@@ -40,6 +40,7 @@ directories/dch_directory={
 directories/dtl_directory={
 "Hiereiai Of Athena2": "res://character/Athena2/Hiereiai Of Athena2.dtl",
 "Intro": "res://timeline/Intro.dtl",
+"Trechus": "res://character/Trechus/Trechus.dtl",
 "market_demetrios": "res://character/Demitrios/market_demetrios.dtl"
 }
 glossary/default_case_sensitive=true

@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1704054258
+::res://::1704055975
 .gitignore.txt::TextFile::-1::1703723105::0::1::::<><>::
 icon.svg::CompressedTexture2D::8382407561772433284::1703715761::1703715768::1::::<><>::
 sources.txt::TextFile::-1::1703891705::0::1::::<><>::
@@ -657,37 +657,39 @@ Lycon_Standing.png::CompressedTexture2D::2134305268064063320::1703984576::170404
 ::res://character/Meletus/::1704048611
 Meletus.dch::Resource::-1::1703993409::0::1::::<><>::
 Meletus_Standing.png::CompressedTexture2D::8669153603393058538::1703982936::1704048611::1::::<><>::
-::res://character/Menander/::1704054219
-Menander1.png::CompressedTexture2D::7382855490733549587::1704054204::1704054219::1::::<><>::
-::res://character/Olympiodoros/::1704054219
-Olympiodoros1.png::CompressedTexture2D::659664257596213221::1704054204::1704054219::1::::<><>::
+::res://character/Menander/::1704056041
+Menander1.png::CompressedTexture2D::7382855490733549587::1704054204::1704056041::1::::<><>::
+::res://character/Olympiodoros/::1704056041
+Olympiodoros1.png::CompressedTexture2D::659664257596213221::1704054204::1704056041::1::::<><>::
 ::res://character/Plato/::1704048615
 Plato.dch::Resource::-1::1703993418::0::1::::<><>::
 Plato_Standing.png::CompressedTexture2D::4550554557509335175::1703984576::1704048615::1::::<><>::
 ::res://character/Socrates/::1704054257
 Socrates.dch::Resource::-1::1703993423::0::1::::<><>::
 Socrates_Speaking.png::CompressedTexture2D::2973424881680707152::1703984576::1704048594::1::::<><>::
-::res://character/Socrates/Haphaestus/::1704054249
+::res://character/Socrates/Haphaestus/::1704054258
 Hierei Of Hephaestus.dch::Resource::-1::1703994431::0::1::::<><>::
 Priestess201.png::CompressedTexture2D::3891005141531879549::1703988862::1704054258::1::::<><>::
-::res://character/Trechus/::1704054219
-Trechus1.png::CompressedTexture2D::4416137401035990407::1704054204::1704054219::1::::<><>::
+::res://character/Trechus/::1704056041
+Trechus1.png::CompressedTexture2D::2067764156103047997::1704056041::1704056054::1::::<><>::
+Trechus.dch::Resource::-1::1704056041::0::1::::<><>::
+Trechus.dtl::Resource::-1::1704056041::0::1::::<><>::
 ::res://character/Xenophon/::1704048591
 Xenophon.dch::Resource::-1::1703993462::0::1::::<><>::
 Xenophon_Standing.png::CompressedTexture2D::722329989350672111::1703984576::1704048591::1::::<><>::
 ::res://previews/::1703811989
 ::res://resource/::1703809931
 ::res://resource/item/::1703811989
-::res://scene/::1704049032
+::res://scene/::1704055973
 gameroot.gd::GDScript::-1::1703978011::0::1::::<>CanvasLayer<>::
-gameroot.tscn::PackedScene::6673230410631324457::1704049032::0::1::::<><>::res://scene/gameroot.gd<>uid://8mdhwbk75vss::::res://scene/location/Gate Of Piraeus.tscn<>uid://c2cw603mpfcnt::::res://sound/music/foreboding_theme.wav<>uid://f7asab816uv3::::res://texture/icon/icons8-window-settings-100.png<>uid://cqxqyiblhhdhv::::res://texture/icon/icons8-scales-100.png<>uid://mgh7k4jtiall::::res://scene/ui/textureButton.tscn<>uid://b4jh5gwq0bqub::::res://texture/icon/icons8-grid-100.png<>uid://bvd5qliwrjdg5::::res://texture/icon/icons8-audio-wave-100.png
-::res://scene/button/::1704049032
+gameroot.tscn::PackedScene::6673230410631324457::1704055973::0::1::::<><>::res://scene/gameroot.gd<>uid://8mdhwbk75vss::::res://scene/location/Gate Of Piraeus.tscn<>uid://c2cw603mpfcnt::::res://sound/music/foreboding_theme.wav<>uid://f7asab816uv3::::res://texture/icon/icons8-window-settings-100.png<>uid://cqxqyiblhhdhv::::res://texture/icon/icons8-scales-100.png<>uid://mgh7k4jtiall::::res://scene/ui/textureButton.tscn<>uid://b4jh5gwq0bqub::::res://texture/icon/icons8-grid-100.png<>uid://bvd5qliwrjdg5::::res://texture/icon/icons8-audio-wave-100.png
+::res://scene/button/::1704055975
 button_go_to_location.gd::GDScript::-1::1703967602::0::1::::<>Button<>::
-button_go_to_location.tscn::PackedScene::8386533217252617902::1704049032::0::1::::<><>::res://scene/button/button_go_to_location.gd<>res://addons/radial_progress/RadialProgress.gd<>uid://dicfyu6na0s8c::::res://sound/ui/Menu Selection Click.wav<>uid://c1ppxi1gqmh52::::res://sound/ui/click.wav
+button_go_to_location.tscn::PackedScene::8386533217252617902::1704055974::0::1::::<><>::res://scene/button/button_go_to_location.gd<>res://addons/radial_progress/RadialProgress.gd<>uid://dicfyu6na0s8c::::res://sound/ui/Menu Selection Click.wav<>uid://c1ppxi1gqmh52::::res://sound/ui/click.wav
 button_open_dialog.gd::GDScript::-1::1704046323::0::1::::<>TextureButton<>::
-button_open_dialog.gdshader::Shader::-1::1704049032::0::1::::<><>::
-button_open_dialog.tscn::PackedScene::4518500672304604523::1704049031::0::1::::<><>::res://scene/button/button_open_dialog.gd<>res://scene/button/button_open_dialog.gdshader<>uid://c76w1lry6cus1::::res://character/image/SoldierJuror1.png<>uid://dicfyu6na0s8c::::res://sound/ui/Menu Selection Click.wav<>uid://c1ppxi1gqmh52::::res://sound/ui/click.wav
-::res://scene/location/::1704049032
+button_open_dialog.gdshader::Shader::-1::1704055975::0::1::::<><>::
+button_open_dialog.tscn::PackedScene::4518500672304604523::1704055973::0::1::::<><>::res://scene/button/button_open_dialog.gd<>res://scene/button/button_open_dialog.gdshader<>uid://c76w1lry6cus1::::res://character/image/SoldierJuror1.png<>uid://dicfyu6na0s8c::::res://sound/ui/Menu Selection Click.wav<>uid://c1ppxi1gqmh52::::res://sound/ui/click.wav
+::res://scene/location/::1704055974
 Cantharus Harbor.tscn::PackedScene::3761967178561103019::1704042088::0::1::::<><>::uid://qvj4ev6spgxd::::res://scene/location/place.tscn<>uid://cabqkk5w7cads::::res://texture/background/port2.png<>uid://drqq8hgfonhms::::res://scene/button/button_go_to_location.tscn
 Deme Of Colonus.tscn::PackedScene::4530425558928084387::1703967365::0::1::::<><>::uid://qvj4ev6spgxd::::res://scene/location/place.tscn<>uid://c2wkg58xe2u2s::::res://texture/background/Deme of Colonus.png<>uid://drqq8hgfonhms::::res://scene/button/button_go_to_location.tscn
 Deme Of Melite.tscn::PackedScene::2961553000381327071::1704048562::0::1::::<><>::uid://qvj4ev6spgxd::::res://scene/location/place.tscn<>uid://c37muw5egn6oa::::res://texture/background/Deme of Melite.png<>uid://drqq8hgfonhms::::res://scene/button/button_go_to_location.tscn<>uid://b5m2btcrnes5x::::res://scene/button/button_open_dialog.tscn<>uid://c74ajthjwrjkc::::res://character/Anytus/Anytus_Standing.png
@@ -695,7 +697,7 @@ Gate Of Piraeus.tscn::PackedScene::2341200182196248250::1704042087::0::1::::<><>
 locationButtonStyleBox.tres::StyleBoxFlat::4734503148832374577::1703899280::0::1::::<><>::
 locationButtonStyleBoxTiny.tres::StyleBoxFlat::8904952943146924434::1704046283::0::1::::<><>::
 locationButtonStyleBoxTinyHover.tres::StyleBoxFlat::6667119956909666223::1704046283::0::1::::<><>::
-Minor Temple of Athena.tscn::PackedScene::5350981094493967727::1704049032::0::1::::<><>::uid://qvj4ev6spgxd::::res://scene/location/place.tscn<>uid://jeq30inbd88m::::res://texture/background/Temple1.png<>uid://drqq8hgfonhms::::res://scene/button/button_go_to_location.tscn<>uid://b5m2btcrnes5x::::res://scene/button/button_open_dialog.tscn<>uid://ceue6fpr87sg::::res://character/Athena2/Priestess101.png
+Minor Temple of Athena.tscn::PackedScene::5350981094493967727::1704055974::0::1::::<><>::uid://qvj4ev6spgxd::::res://scene/location/place.tscn<>uid://jeq30inbd88m::::res://texture/background/Temple1.png<>uid://drqq8hgfonhms::::res://scene/button/button_go_to_location.tscn<>uid://b5m2btcrnes5x::::res://scene/button/button_open_dialog.tscn<>uid://ceue6fpr87sg::::res://character/Athena2/Priestess101.png
 Mount Hymettus.tscn::PackedScene::6814495026958548080::1703957282::0::1::::<><>::uid://qvj4ev6spgxd::::res://scene/location/place.tscn<>uid://su16tfk2tkb6::::res://texture/background/Mount Hymettus.png<>uid://drqq8hgfonhms::::res://scene/button/button_go_to_location.tscn<>uid://b5m2btcrnes5x::::res://scene/button/button_open_dialog.tscn
 Munichia Inner Citadel.tscn::PackedScene::6546763626288771182::1703967365::0::1::::<><>::uid://qvj4ev6spgxd::::res://scene/location/place.tscn<>uid://ceb42nhaaokgq::::res://texture/background/innercitadel.png<>uid://drqq8hgfonhms::::res://scene/button/button_go_to_location.tscn
 Munichia Market.tscn::PackedScene::7479294657633263699::1703967404::0::1::::<><>::uid://qvj4ev6spgxd::::res://scene/location/place.tscn<>uid://b566sccbsssy::::res://texture/background/Market2.png<>uid://drqq8hgfonhms::::res://scene/button/button_go_to_location.tscn<>uid://b5m2btcrnes5x::::res://scene/button/button_open_dialog.tscn
@@ -704,7 +706,7 @@ Munichia Suburb.tscn::PackedScene::7063899598821746815::1703955974::0::1::::<><>
 Piraeus Market.tscn::PackedScene::7416631096560227580::1703964448::0::1::::<><>::uid://qvj4ev6spgxd::::res://scene/location/place.tscn<>uid://b2ojh2sgiyn5y::::res://texture/background/Market1.png<>uid://drqq8hgfonhms::::res://scene/button/button_go_to_location.tscn
 Piraeus Suburb.tscn::PackedScene::1866302555921782889::1703955545::0::1::::<><>::uid://qvj4ev6spgxd::::res://scene/location/place.tscn<>uid://cbhfygkugsx4y::::res://texture/background/Streets3.png<>uid://drqq8hgfonhms::::res://scene/button/button_go_to_location.tscn
 place.gd::GDScript::-1::1703970041::0::1::::<>TextureRect<>::
-place.tscn::PackedScene::1166971915969356385::1704049032::0::1::::<><>::uid://wq52x8qqe0rt::::res://texture/background/Streets4.png<>res://scene/location/place.gd
+place.tscn::PackedScene::1166971915969356385::1704055974::0::1::::<><>::uid://wq52x8qqe0rt::::res://texture/background/Streets4.png<>res://scene/location/place.gd
 Port Of Munichia.tscn::PackedScene::1483924885272506857::1703977954::0::1::::<><>::uid://qvj4ev6spgxd::::res://scene/location/place.tscn<>uid://cj3moir8rqbl6::::res://texture/background/port3.png<>uid://drqq8hgfonhms::::res://scene/button/button_go_to_location.tscn<>uid://b5m2btcrnes5x::::res://scene/button/button_open_dialog.tscn
 The Academy Gardens.tscn::PackedScene::1963548548584811358::1703967365::0::1::::<><>::uid://qvj4ev6spgxd::::res://scene/location/place.tscn<>uid://csk2m361xd6wr::::res://texture/background/gardens2.png<>uid://drqq8hgfonhms::::res://scene/button/button_go_to_location.tscn
 The Academy.tscn::PackedScene::5611027551055307451::1703967365::0::1::::<><>::uid://qvj4ev6spgxd::::res://scene/location/place.tscn<>uid://d3ggnoi74kltt::::res://texture/background/The Academy.png<>uid://drqq8hgfonhms::::res://scene/button/button_go_to_location.tscn
@@ -712,19 +714,22 @@ The Agora.tscn::PackedScene::7787524318331491371::1704042088::0::1::::<><>::uid:
 The People's Court.tscn::PackedScene::6713762880435157585::1703967364::0::1::::<><>::uid://qvj4ev6spgxd::::res://scene/location/place.tscn<>uid://bn2x04ioqrlcj::::res://texture/background/PeoplesCourt.png
 Walls Of Phalerum.tscn::PackedScene::3499700774613783554::1703957459::0::1::::<><>::uid://qvj4ev6spgxd::::res://scene/location/place.tscn<>uid://cpn8ktlkeiwuv::::res://texture/background/WallofPhalerum.png<>uid://drqq8hgfonhms::::res://scene/button/button_go_to_location.tscn<>uid://b5m2btcrnes5x::::res://scene/button/button_open_dialog.tscn
 Well Of Peisistratos.tscn::PackedScene::6445835083615570437::1703978360::0::1::::<><>::uid://qvj4ev6spgxd::::res://scene/location/place.tscn<>uid://cy0xdp02dy5k5::::res://texture/background/well2.png<>uid://drqq8hgfonhms::::res://scene/button/button_go_to_location.tscn<>uid://b5m2btcrnes5x::::res://scene/button/button_open_dialog.tscn
-::res://scene/ui/::1704049032
-Achievements.gd::GDScript::-1::1703893968::0::1::::<>Control<>::
-Achievements.tscn::PackedScene::542697710294703683::1703977953::0::1::::<><>::res://scene/ui/Achievements.gd<>uid://bu0tuspnh8bs::::res://scene/ui/buttonStyle_Normal.tres
-buttonStyle_Normal.tres::StyleBoxFlat::113029332595281952::1703978628::0::1::::<><>::
-innerMap.tscn::PackedScene::4442915845501305564::1704049032::0::1::::<><>::uid://drqq8hgfonhms::::res://scene/button/button_go_to_location.tscn<>uid://dy4vjkxc4ggle::::res://scene/location/locationButtonStyleBoxTiny.tres<>uid://c18uqykkwqkg2::::res://scene/location/locationButtonStyleBoxTinyHover.tres
+::res://scene/ui/::1704055975
+Achievements.gd::GDScript::-1::1704055957::0::1::::<>Control<>::
+Achievements.tscn::PackedScene::542697710294703683::1704055975::0::1::::<><>::res://scene/ui/Achievements.gd<>uid://bu0tuspnh8bs::::res://scene/ui/buttonStyle_Normal.tres
+buttonStyle_Normal.tres::StyleBoxFlat::113029332595281952::1704054632::0::1::::<><>::
+innerMap.tscn::PackedScene::4442915845501305564::1704055973::0::1::::<><>::uid://drqq8hgfonhms::::res://scene/button/button_go_to_location.tscn<>uid://dy4vjkxc4ggle::::res://scene/location/locationButtonStyleBoxTiny.tres<>uid://c18uqykkwqkg2::::res://scene/location/locationButtonStyleBoxTinyHover.tres
 Items.tscn::PackedScene::8182596452417910394::1703976731::0::1::::<><>::res://scene/ui/Settings.gd<>uid://bu0tuspnh8bs::::res://scene/ui/buttonStyle_Normal.tres<>uid://cthrgqgx8vu0m::::res://scene/ui/uiButton.tscn
-Jurors.tscn::PackedScene::415094148108942995::1703977953::0::1::::<><>::res://scene/ui/Settings.gd<>uid://bu0tuspnh8bs::::res://scene/ui/buttonStyle_Normal.tres<>uid://cthrgqgx8vu0m::::res://scene/ui/uiButton.tscn
+Jurors.tscn::PackedScene::415094148108942995::1704055974::0::1::::<><>::res://scene/ui/Jurors.gd<>uid://bu0tuspnh8bs::::res://scene/ui/buttonStyle_Normal.tres<>uid://cthrgqgx8vu0m::::res://scene/ui/uiButton.tscn
 mainMenu.gd::GDScript::-1::1703892319::0::1::::<>Control<>::
 mainMenu.tscn::PackedScene::3957264310306346743::1704042087::0::1::::<><>::uid://tx0jlqa7jg4c::::res://texture/background/trial_image.png<>res://scene/ui/mainMenu.gd<>uid://bo8hobspu7qdf::::res://scene/ui/menu_options.tscn<>uid://b07bqrwhm44lf::::res://sound/music/Harp.mp3
 Map.gd::GDScript::-1::1703901538::0::1::::<>Control<>::
-Map.tscn::PackedScene::5360582537986694505::1704049032::0::1::::<><>::res://scene/ui/Map.gd<>uid://b4kgf7eucs365::::res://scene/ui/innerMap.tscn
+Map.tscn::PackedScene::5360582537986694505::1704055973::0::1::::<><>::res://scene/ui/Map.gd<>uid://b4kgf7eucs365::::res://scene/ui/innerMap.tscn
 menu_options.gd::GDScript::-1::1703967821::0::1::::<>Panel<>::
 menu_options.tscn::PackedScene::3437639061612924875::1703899691::0::1::::<><>::uid://bu0tuspnh8bs::::res://scene/ui/buttonStyle_Normal.tres<>res://scene/ui/menu_options.gd<>uid://cthrgqgx8vu0m::::res://scene/ui/uiButton.tscn
+Canvas_JuryMember.tscn::PackedScene::2381670280060300234::1704055974::0::1::::<><>::res://scene/ui/Canvas_JuryMember.gd<>uid://b36hexjw25kq6::::res://character/Trechus/Trechus1.png
+Canvas_JuryMember.gd::GDScript::-1::1704054915::0::1::::<>VBoxContainer<>::
+Jurors.gd::GDScript::-1::1704055270::0::1::::<>Control<>::
 Settings.gd::GDScript::-1::1703976448::0::1::::<>Control<>::
 Settings.tscn::PackedScene::110267210766072037::1703977953::0::1::::<><>::res://scene/ui/Settings.gd<>uid://bu0tuspnh8bs::::res://scene/ui/buttonStyle_Normal.tres<>uid://cthrgqgx8vu0m::::res://scene/ui/uiButton.tscn
 textureButton.gd::GDScript::-1::1703897705::0::1::::<>TextureButton<>::
@@ -732,10 +737,10 @@ textureButton.tscn::PackedScene::855135125002522705::1703957282::0::1::::<><>::u
 uiButton.gd::GDScript::-1::1703889520::0::1::::<>Button<>::
 uiButton.tscn::PackedScene::6121923795160087110::1703890208::0::1::::<><>::uid://bu0tuspnh8bs::::res://scene/ui/buttonStyle_Normal.tres<>res://scene/ui/uiButton.gd<>uid://6byurfp4a3fr::::res://sound/ui/click_2.wav<>uid://c1ppxi1gqmh52::::res://sound/ui/click.wav
 ::res://script/::1703868953
-::res://script/global/::1703994788
+::res://script/global/::1704054559
 Colors.gd::GDScript::-1::1703869031::0::1::::<>Node<>::
 Game.gd::GDScript::-1::1703967625::0::1::::<>Node<>::
-Juror.gd::GDScript::-1::1703994788::0::1::::<>Node<>::
+Juror.gd::GDScript::-1::1704054559::0::1::::<>Node<>::
 ::res://script/inventory/::1703811990
 ::res://sound/::1703967229
 ::res://sound/music/::1703891718

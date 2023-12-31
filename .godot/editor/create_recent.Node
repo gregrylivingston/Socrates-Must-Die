@@ -1,5 +1,5 @@
-GridContainer
 TextureRect
+GridContainer
 Label
 VBoxContainer
 AudioStreamPlayer
