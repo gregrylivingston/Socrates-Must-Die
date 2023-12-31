@@ -1,0 +1,18 @@
+join Trechus 1
+Trechus: Hi, my name is Trechus. I'm a juror for the trial of Socrates.
+label Home
+Trechus: How can I help you today?
+- What do you think of Socrates?
+	Trechus: I heard he's been going around teaching these young people to question the gods and the state. That's just not right.
+	- Socrates is teaching them to think for themselves.
+		jump Innocent
+	- Thinking for ourselves sets us apart from the animals.
+		jump Guilty
+- Goodbye.
+	[end_timeline]
+label Guilty
+Trechus: Sorry, I still think Socrates is guilty.
+[end_timeline]
+label Innocent
+Trechus: You've convinced me. Socrates is innocent.
+[end_timeline]
