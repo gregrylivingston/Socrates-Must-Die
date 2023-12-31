@@ -1,10 +1,10 @@
+res://character
+res://character/image
 res://texture/icon
 res://texture/background
 res://sound/voice
 res://timeline
 res://sound/ui
-res://character/image
-res://character
 res://scene/button
 res://scene/location
 res://scene/ui

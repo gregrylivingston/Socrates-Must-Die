@@ -24,8 +24,13 @@ Game="*res://script/global/Game.gd"
 [dialogic]
 
 directories/dch_directory={
+"Anytus": "res://character/Anytus.dch",
 "Demitrios": "res://character/Demitrios.dch",
-"Plato": "res://character/Plato.dch"
+"Lycon": "res://character/Lycon.dch",
+"Meletus": "res://character/Meletus.dch",
+"Plato": "res://character/Plato.dch",
+"Socrates": "res://character/Socrates.dch",
+"Xenophon": "res://character/Xenophon.dch"
 }
 directories/dtl_directory={
 "Intro": "res://timeline/Intro.dtl",
@@ -55,6 +60,7 @@ text/autoadvance_enabled=false
 
 [display]
 
+window/size/mode=2
 window/stretch/mode="canvas_items"
 
 [editor_plugins]
