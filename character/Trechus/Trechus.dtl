@@ -1,12 +1,26 @@
 join Trechus 1
-Trechus: Hi, my name is Trechus. I'm a juror for the trial of Socrates.
+Trechus: Hi, I'm Trechus. I'm one of the jurors in the trial of Socrates from the  Euonymon deme.
 label Home
 Trechus: How can I help you today?
 - What do you think of Socrates?
-	Trechus: I heard he's been going around teaching these young people to question the gods and the state. That's just not right.
-	- Socrates is teaching them to think for themselves.
-		jump Innocent
-	- Thinking for ourselves sets us apart from the animals.
+	Trechus: I don't know about this Socrates guy. I've heard he's been going around teaching these young people to question the gods and the state. That's just not right.
+	- You've got it all wrong. Socrates isn't teaching these young people to question the gods or the state, he's teaching them to think for themselves and question everything.
+		Trechus: I see your point about freedom of thought and expression in a democratic society, but I believe that it's also important to respect authority and the rule of law. If we start questioning every decision made by our leaders, then where does it end? Before long, we'll have a society where no one respects anyone else, and there's just chaos all round. We can't have that.
+		Trechus: But isn't it our duty as citizens to follow the rules and laws set by the city leaders? And if we start questioning their decisions, won't that lead to a total breakdown of the legal system?
+		- I understand that following the rules and laws is important, but doesn't everyone have the right to express their opinions and question the decisions of the leaders in a democratic society? Don't you think that's a fundamental right for every citizen?
+			Trechus: I agree that everyone has the right to express their opinions and question the decisions of the leaders in a democratic society. However, I also believe that there is a time and place for everything, and that freedom of speech should not be used as an excuse to break the rules or cause chaos. In the case of Socrates, he was using his freedom of speech to spread ideas that were against the laws of his society, and that is why he was found guilty. But in general, I do believe that freedom of speech is a fundamental right that every citizen should have.
+			- I believe that free speech is a basic human right that should not be taken away from anyone, regardless of the laws in society. People should be able to express their opinions and criticize their leaders without fear of punishment or retribution. While I understand that it's important to follow the rules and laws, there should still be room for individuality and personal expression in a democratic society. The right to free speech is what sets us apart from other creatures and makes us human, and it should be protected at all costs.
+				Trechus: I understand your point of view, and I agree that free speech is a fundamental human right. However, in a democracy, we must also respect the rule of law and the will of the majority. While it is essential to allow for criticism of authority and government, it is also important to maintain order and stability in society. Perhaps a compromise can be found where citizens can freely express their opinions without overstepping the boundaries of the law.
+				jump Guilty
+			- The right to free speech and the ability to express unpopular opinions are fundamental principles of a democracy. In a society where the government dictates what can and cannot be said, where dissent is silenced, and where individuals are punished for speaking out, it is impossible to have true freedom or justice.
+				You know, you make a good point. I hadn't thought of it that way before. It's true that the right to free speech and the ability to question authority are fundamental rights in a democratic society, and Socrates was just exercising those rights. I guess I was wrong about this one. Thank you for opening my eyes to this perspective.
+				jump Innocent
+		- I think that people should be able to think whatever they want, and it shouldn't matter what the laws say. If the leaders pass a law that's unfair, then people should be able to question it and make it better.
+			Trechus: I see your point about freedom of thought and expression in a democratic society, but I believe that it's also important to respect authority and the rule of law. If we start questioning every decision made by our leaders, then where does it end? Before long, we'll have a society where no one respects anyone else, and there's just chaos all round. We can't have that.
+			jump Guilty
+	- But isn't the ability to think for ourselves and question everything what sets us apart from animals? It's what makes us human.
+		Trechus: We are part of a society, and our actions impact not only ourselves but also those around us. If we truly value human dignity and the good of humanity as a whole, then we must also recognize that there are certain rules and laws that we must follow in order to protect and promote the greater good.
+		Trechus: While it's true that our capacity for self-awareness and the ability to reason are key features that distinguish us from other animals, I don't think that means we can just do whatever we want without any limit or consequence.
 		jump Guilty
 - Goodbye.
 	[end_timeline]
