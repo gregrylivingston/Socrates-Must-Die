@@ -1,7 +1,8 @@
+HSeparator
 TextureRect
-GridContainer
 Label
 VBoxContainer
+GridContainer
 AudioStreamPlayer
 Node2D
 Line2D

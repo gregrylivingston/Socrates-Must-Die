@@ -21,6 +21,7 @@ Dialogic="*res://addons/dialogic/Other/DialogicGameHandler.gd"
 Colors="*res://script/global/Colors.gd"
 Game="*res://script/global/Game.gd"
 Jury="*res://script/global/Juror.gd"
+Item="*res://script/global/Item.gd"
 
 [dialogic]
 
