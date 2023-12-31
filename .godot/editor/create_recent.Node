@@ -1,7 +1,9 @@
 HSeparator
+VBoxContainer
+VSeparator
+ScrollContainer
 TextureRect
 Label
-VBoxContainer
 GridContainer
 AudioStreamPlayer
 Node2D
@@ -10,6 +12,3 @@ Polygon2D
 Container
 ColorRect
 CanvasLayer
-TextureButton
-ScrollContainer
-HBoxContainer

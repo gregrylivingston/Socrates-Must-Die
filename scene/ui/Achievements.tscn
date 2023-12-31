@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://hy5ffygkmrb4"]
+[gd_scene load_steps=4 format=3 uid="uid://hy5ffygkmrb4"]
 
 [ext_resource type="Script" path="res://scene/ui/Achievements.gd" id="1_c663e"]
 [ext_resource type="StyleBox" uid="uid://bu0tuspnh8bs" path="res://scene/ui/buttonStyle_Normal.tres" id="2_sduvc"]
+[ext_resource type="PackedScene" uid="uid://cthrgqgx8vu0m" path="res://scene/ui/uiButton.tscn" id="3_k12q2"]
 
 [node name="Settings" type="Control"]
 layout_mode = 3
@@ -33,51 +34,62 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_styles/panel = ExtResource("2_sduvc")
 
-[node name="ScrollContainer" type="ScrollContainer" parent="Panel"]
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel"]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 25.0
-offset_top = 25.0
-offset_right = -25.0
-offset_bottom = -25.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="VBoxContainer" type="VBoxContainer" parent="Panel/ScrollContainer"]
+[node name="HBoxContainer" type="HBoxContainer" parent="Panel/VBoxContainer"]
 layout_mode = 2
 
-[node name="HBoxContainer" type="HBoxContainer" parent="Panel/ScrollContainer/VBoxContainer"]
+[node name="UiButton" parent="Panel/VBoxContainer/HBoxContainer" instance=ExtResource("3_k12q2")]
+custom_minimum_size = Vector2(50, 50)
 layout_mode = 2
-
-[node name="Button" type="Button" parent="Panel/ScrollContainer/VBoxContainer/HBoxContainer"]
-layout_mode = 2
+size_flags_horizontal = 0
+theme_override_font_sizes/font_size = 30
 text = "X"
 
-[node name="Label" type="Label" parent="Panel/ScrollContainer/VBoxContainer/HBoxContainer"]
+[node name="jurorCount" type="Label" parent="Panel/VBoxContainer/HBoxContainer"]
 layout_mode = 2
-text = "  Achievements
+size_flags_horizontal = 6
+theme_override_font_sizes/font_size = 30
+text = "Jurors Convinced
 "
 
-[node name="Label" type="Label" parent="Panel/ScrollContainer/VBoxContainer"]
+[node name="itemCount" type="Label" parent="Panel/VBoxContainer/HBoxContainer"]
 layout_mode = 2
-text = "Locations"
+size_flags_horizontal = 6
+theme_override_font_sizes/font_size = 30
+text = "Items Found
+"
 
-[node name="Label2" type="Label" parent="Panel/ScrollContainer/VBoxContainer"]
+[node name="locationCount" type="Label" parent="Panel/VBoxContainer/HBoxContainer"]
 layout_mode = 2
-text = "Items"
+size_flags_horizontal = 6
+theme_override_font_sizes/font_size = 30
+text = "Locations Found  0/4
+"
 
-[node name="Label3" type="Label" parent="Panel/ScrollContainer/VBoxContainer"]
+[node name="HSeparator" type="HSeparator" parent="Panel/VBoxContainer"]
+modulate = Color(1, 1, 1, 0)
+custom_minimum_size = Vector2(0, 20)
 layout_mode = 2
-text = "Acuse Socrates"
 
-[node name="accusers" type="GridContainer" parent="Panel/ScrollContainer/VBoxContainer"]
+[node name="ScrollContainer" type="ScrollContainer" parent="Panel/VBoxContainer"]
 layout_mode = 2
-columns = 3
+size_flags_vertical = 3
 
-[node name="Label4" type="Label" parent="Panel/ScrollContainer/VBoxContainer"]
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel/VBoxContainer/ScrollContainer"]
 layout_mode = 2
-text = "Defend Socrates"
+size_flags_horizontal = 3
+size_flags_vertical = 3
 
-[connection signal="pressed" from="Panel/ScrollContainer/VBoxContainer/HBoxContainer/Button" to="." method="_on_button_pressed"]
+[node name="grid" type="GridContainer" parent="Panel/VBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/v_separation = 60
+columns = 5
+
+[connection signal="pressed" from="Panel/VBoxContainer/HBoxContainer/UiButton" to="." method="_on_ui_button_pressed"]

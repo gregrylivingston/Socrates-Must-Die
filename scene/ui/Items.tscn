@@ -35,16 +35,13 @@ grow_vertical = 2
 theme_override_styles/panel = ExtResource("2_85gva")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="Panel"]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 5.0
-offset_top = 5.0
-offset_right = -5.0
-offset_bottom = -5.0
+layout_mode = 2
+offset_right = 1102.0
+offset_bottom = 598.0
 grow_horizontal = 2
 grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
 
 [node name="HBoxContainer" type="HBoxContainer" parent="Panel/VBoxContainer"]
 layout_mode = 2
@@ -63,11 +60,19 @@ text = "  Items"
 
 [node name="HSeparator" type="HSeparator" parent="Panel/VBoxContainer"]
 modulate = Color(1, 1, 1, 0)
-custom_minimum_size = Vector2(0, 20)
+custom_minimum_size = Vector2(0, 40)
 layout_mode = 2
 
-[node name="GridContainer" type="GridContainer" parent="Panel/VBoxContainer"]
+[node name="ScrollContainer" type="ScrollContainer" parent="Panel/VBoxContainer"]
 layout_mode = 2
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="GridContainer" type="GridContainer" parent="Panel/VBoxContainer/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/v_separation = 60
 columns = 5
 
 [connection signal="pressed" from="Panel/VBoxContainer/HBoxContainer/UiButton" to="." method="_on_ui_button_pressed"]
