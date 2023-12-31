@@ -26,6 +26,10 @@ Game="*res://script/global/Game.gd"
 directories/dch_directory={
 "Anytus": "res://character/Anytus.dch",
 "Demitrios": "res://character/Demitrios.dch",
+"Hierei Of Anakeion": "res://character/Hierei Of Anakeion.dch",
+"Hierei Of Hephaestus": "res://character/Hierei Of Hephaestus.dch",
+"Hiereiai Of Athena": "res://character/Hiereiai Of Athena.dch",
+"Hiereriai Of Zeus": "res://character/Hiereriai Of Zeus.dch",
 "Lycon": "res://character/Lycon.dch",
 "Meletus": "res://character/Meletus.dch",
 "Plato": "res://character/Plato.dch",
