@@ -29,7 +29,7 @@ directories/dch_directory={
 "Hierei Of Anakeion": "res://character/Hierei Of Anakeion.dch",
 "Hierei Of Hephaestus": "res://character/Hierei Of Hephaestus.dch",
 "Hiereiai Of Athena": "res://character/Hiereiai Of Athena.dch",
-"Hiereriai Of Zeus": "res://character/Hiereriai Of Zeus.dch",
+"Hiereriai Of Zeus": "res://character/Hiereiai Of Athena2.dch",
 "Lycon": "res://character/Lycon.dch",
 "Meletus": "res://character/Meletus.dch",
 "Plato": "res://character/Plato.dch",
@@ -37,6 +37,7 @@ directories/dch_directory={
 "Xenophon": "res://character/Xenophon.dch"
 }
 directories/dtl_directory={
+"Hiereiai Of Athena2": "res://timeline/Hiereiai Of Athena2.dtl",
 "Intro": "res://timeline/Intro.dtl",
 "market_demetrios": "res://timeline/market_demetrios.dtl"
 }

@@ -1,9 +1,10 @@
-res://character
+res://character/Athena2/voice
+res://timeline
 res://character/image
+res://character
 res://texture/icon
 res://texture/background
 res://sound/voice
-res://timeline
 res://sound/ui
 res://scene/button
 res://scene/location

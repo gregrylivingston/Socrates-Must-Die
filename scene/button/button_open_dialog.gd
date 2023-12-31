@@ -15,7 +15,7 @@ func _process(delta):
 func _on_pressed():
 	Dialogic.start(timelineName)
 	$AudioStreamPlayer2.play()
-	self.visible = false
+	#self.visible = false
 
 
 func _on_mouse_entered():

@@ -1,0 +1,22 @@
+join "Hiereiai Of Athena" 1
+[sound path="res://character/Athena2/voice/Athena2.Welcome.mp3" volume="0.0"]
+label Home
+"Hiereiai Of Athena": Child of Athena, you are blessed.  Welcome.
+- Will Athena intercede in the trial of Socrates?
+	[voice path="res://character/Athena2/voice/Athena2.SocratesFate.mp3" volume="0.0"]
+	"Hiereiai Of Athena": The jurors will decide his fate with Athena's blessing.
+	jump Home
+- Offer a prayer to Athena with wine.
+	[voice path="res://character/Athena2/voice/Athena2.WineRequired.mp3" volume="0.0"]
+	"Hiereiai Of Athena": Athena requires an offering of wine before the prayer.
+	jump Home
+- Offer a decidaction to Athena with holy water.
+	[voice path="res://character/Athena2/voice/Athena2.HolyWaterRequired.mp3" volume="0.0"]
+	"Hiereiai Of Athena": Athena requires an offering of holy water before the dedication.
+	jump Home
+- Offer a sacrifice to Athena with goat.
+	[voice path="res://character/Athena2/voice/Athena2.GoatRequired.mp3" volume="0.0"]
+	"Hiereiai Of Athena": Athena requires an offering of goat before the sacrifice.
+	jump Home
+- Could you speak with Mestopheles about the trial.  I believer he is wrong about Socrates. [if {} == ""][else="hide"]
+- Goodbye
