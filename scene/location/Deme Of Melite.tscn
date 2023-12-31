@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://c37muw5egn6oa" path="res://texture/background/Deme of Melite.png" id="2_qohbm"]
 [ext_resource type="PackedScene" uid="uid://drqq8hgfonhms" path="res://scene/button/button_go_to_location.tscn" id="3_q5ct5"]
 [ext_resource type="PackedScene" uid="uid://b5m2btcrnes5x" path="res://scene/button/button_open_dialog.tscn" id="4_ijtia"]
-[ext_resource type="Texture2D" uid="uid://c74ajthjwrjkc" path="res://character/image/Anytus_Standing.png" id="5_tfwh3"]
+[ext_resource type="Texture2D" uid="uid://c74ajthjwrjkc" path="res://character/Anytus/Anytus_Standing.png" id="5_tfwh3"]
 
 [node name="Place" instance=ExtResource("1_of1re")]
 offset_left = -2.0

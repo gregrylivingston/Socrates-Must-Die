@@ -24,22 +24,22 @@ Game="*res://script/global/Game.gd"
 [dialogic]
 
 directories/dch_directory={
-"Anytus": "res://character/Anytus.dch",
-"Demitrios": "res://character/Demitrios.dch",
-"Hierei Of Anakeion": "res://character/Hierei Of Anakeion.dch",
-"Hierei Of Hephaestus": "res://character/Hierei Of Hephaestus.dch",
-"Hiereiai Of Athena": "res://character/Hiereiai Of Athena.dch",
-"Hiereriai Of Zeus": "res://character/Hiereiai Of Athena2.dch",
-"Lycon": "res://character/Lycon.dch",
-"Meletus": "res://character/Meletus.dch",
-"Plato": "res://character/Plato.dch",
-"Socrates": "res://character/Socrates.dch",
-"Xenophon": "res://character/Xenophon.dch"
+"Anytus": "res://character/Anytus/Anytus.dch",
+"Demitrios": "res://character/Demitrios/Demitrios.dch",
+"Hierei Of Anakeion": "res://character/Anakeion/Hierei Of Anakeion.dch",
+"Hierei Of Hephaestus": "res://character/Haphaestus/Hierei Of Hephaestus.dch",
+"Hiereiai Of Athena": "res://character/Athena1/Hiereiai Of Athena.dch",
+"Hiereriai Of Zeus": "res://character/Athena2/Hiereiai Of Athena2.dch",
+"Lycon": "res://character/Lycon/Lycon.dch",
+"Meletus": "res://character/Meletus/Meletus.dch",
+"Plato": "res://character/Plato/Plato.dch",
+"Socrates": "res://character/Socrates/Socrates.dch",
+"Xenophon": "res://character/Xenophon/Xenophon.dch"
 }
 directories/dtl_directory={
-"Hiereiai Of Athena2": "res://timeline/Hiereiai Of Athena2.dtl",
+"Hiereiai Of Athena2": "res://character/Athena2/Hiereiai Of Athena2.dtl",
 "Intro": "res://timeline/Intro.dtl",
-"market_demetrios": "res://timeline/market_demetrios.dtl"
+"market_demetrios": "res://character/Demitrios/market_demetrios.dtl"
 }
 glossary/default_case_sensitive=true
 layout/style_list=[]

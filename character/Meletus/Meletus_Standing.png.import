@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://biml4xvjdcdt5"
-path="res://.godot/imported/Socrates_Speaking.png-a973b6e0d283114c8e822e56ebcf2612.ctex"
+uid="uid://dvrnxtoh56j5s"
+path="res://.godot/imported/Meletus_Standing.png-ee81fa6e7e242823dce4168c7804b457.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://character/image/Socrates_Speaking.png"
-dest_files=["res://.godot/imported/Socrates_Speaking.png-a973b6e0d283114c8e822e56ebcf2612.ctex"]
+source_file="res://character/Meletus/Meletus_Standing.png"
+dest_files=["res://.godot/imported/Meletus_Standing.png-ee81fa6e7e242823dce4168c7804b457.ctex"]
 
 [params]
 

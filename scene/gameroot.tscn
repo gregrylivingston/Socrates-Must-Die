@@ -20,7 +20,7 @@ z_index = -1
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("4_4e16a")
-volume_db = -10.0
+volume_db = -15.0
 autoplay = true
 
 [node name="HBoxContainer" type="HBoxContainer" parent="."]

@@ -1,8 +1,8 @@
 [gd_scene load_steps=7 format=3 uid="uid://b5m2btcrnes5x"]
 
-[ext_resource type="Texture2D" uid="uid://bn3772vwapdn0" path="res://character/image/demitrios3.png" id="1_1q5mw"]
 [ext_resource type="Script" path="res://scene/button/button_open_dialog.gd" id="1_dxy0l"]
 [ext_resource type="Shader" path="res://scene/button/button_open_dialog.gdshader" id="1_g81ph"]
+[ext_resource type="Texture2D" uid="uid://bn3772vwapdn0" path="res://character/Demitrios/demitrios3.png" id="2_i0vi3"]
 [ext_resource type="AudioStream" uid="uid://dicfyu6na0s8c" path="res://sound/ui/Menu Selection Click.wav" id="4_jn6iv"]
 [ext_resource type="AudioStream" uid="uid://c1ppxi1gqmh52" path="res://sound/ui/click.wav" id="5_cn8ih"]
 
@@ -20,7 +20,7 @@ custom_minimum_size = Vector2(50, 50)
 offset_right = 463.0
 offset_bottom = 696.0
 mouse_default_cursor_shape = 2
-texture_normal = ExtResource("1_1q5mw")
+texture_normal = ExtResource("2_i0vi3")
 ignore_texture_size = true
 stretch_mode = 5
 script = ExtResource("1_dxy0l")

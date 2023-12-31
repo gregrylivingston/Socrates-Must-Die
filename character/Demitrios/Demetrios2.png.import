@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://kj5w020efhh4"
-path="res://.godot/imported/Xenophon_Standing.png-dd5145f3bcbd2d39dbe3bf438b386e2d.ctex"
+uid="uid://urdrgnco1axq"
+path="res://.godot/imported/Demetrios2.png-b737649203b6a8cb3e02fb165a07a20a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://character/image/Xenophon_Standing.png"
-dest_files=["res://.godot/imported/Xenophon_Standing.png-dd5145f3bcbd2d39dbe3bf438b386e2d.ctex"]
+source_file="res://character/Demitrios/Demetrios2.png"
+dest_files=["res://.godot/imported/Demetrios2.png-b737649203b6a8cb3e02fb165a07a20a.ctex"]
 
 [params]
 

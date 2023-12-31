@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c74ajthjwrjkc"
-path="res://.godot/imported/Anytus_Standing.png-3cd4484b0044bf36cc188f195d2df81f.ctex"
+uid="uid://kj5w020efhh4"
+path="res://.godot/imported/Xenophon_Standing.png-c6f7283ecd0162e5e4d98d5df6383219.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://character/image/Anytus_Standing.png"
-dest_files=["res://.godot/imported/Anytus_Standing.png-3cd4484b0044bf36cc188f195d2df81f.ctex"]
+source_file="res://character/Xenophon/Xenophon_Standing.png"
+dest_files=["res://.godot/imported/Xenophon_Standing.png-c6f7283ecd0162e5e4d98d5df6383219.ctex"]
 
 [params]
 

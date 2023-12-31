@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b53k763qrxa3h"
-path="res://.godot/imported/Plato_Standing.png-69bab48d25c4e9381f76a6ef03c846ee.ctex"
+uid="uid://bn3772vwapdn0"
+path="res://.godot/imported/demitrios3.png-30d72c95c7def8857d839c6fdd3e0ae2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://character/image/Plato_Standing.png"
-dest_files=["res://.godot/imported/Plato_Standing.png-69bab48d25c4e9381f76a6ef03c846ee.ctex"]
+source_file="res://character/Demitrios/demitrios3.png"
+dest_files=["res://.godot/imported/demitrios3.png-30d72c95c7def8857d839c6fdd3e0ae2.ctex"]
 
 [params]
 

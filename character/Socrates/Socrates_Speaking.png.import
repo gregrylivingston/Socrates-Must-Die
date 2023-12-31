@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://5n4xwrgqw7x1"
-path="res://.godot/imported/Lycon_Standing.png-a7cf3e7f7e0866c96845eccf0e73a344.ctex"
+uid="uid://biml4xvjdcdt5"
+path="res://.godot/imported/Socrates_Speaking.png-9667fc19ee6b9412355774b7c0451ee5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://character/image/Lycon_Standing.png"
-dest_files=["res://.godot/imported/Lycon_Standing.png-a7cf3e7f7e0866c96845eccf0e73a344.ctex"]
+source_file="res://character/Socrates/Socrates_Speaking.png"
+dest_files=["res://.godot/imported/Socrates_Speaking.png-9667fc19ee6b9412355774b7c0451ee5.ctex"]
 
 [params]
 
