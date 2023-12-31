@@ -1,0 +1,30 @@
+join Menander 1
+Menander: Hi, I'm Menander. I'm one of the jurors in the trial of Socrates.
+label Home
+Menander: How can I help you today?
+- What do you think of Socrates?
+	Menander: I don't trust Socrates. I think he's a troublemaker who's trying to incite a rebellion against Athens.
+	- While it is true that Socrates often questioned the decisions of the authorities in Athens, he never called for violence or outright rebellion against them. He simply believed that individuals have the right to express their opinions and think for themselves, which is an important part of a democratic society. If we start punishing people for merely expressing their thoughts, it could lead to a suppression of freedom of speech and thought. Is that really what we want for Athens?
+		Menander: Socrates may not have directly called for violence or rebellion, but his teachings inspired many of his followers to do just that. His ideas were dangerous and ultimately led to the downfall of Athens and the death of thousands of innocent people.
+		- While it is true that Socrates' ideas and teachings might have had unintended consequences, it is important to remember that his actions were always in pursuit of knowledge and wisdom. He believed that individuals had the right to express their opinions and challenge the decisions of the authorities, and he never intended for his teachings to lead to violence or rebellion. It is important to allow for the free exchange of ideas and the pursuit of knowledge in a democratic society, even if some may find those ideas to be upsetting or controversial.
+			Menander: I understand where you're coming from, but I still believe that Socrates' teachings were inherently dangerous and that he was responsible for the downfall of Athens. His ideas were a threat to the stability of Greek society, and he knew that. He was a dangerous radical who cared more about his ego and fame than he did about the people he was leading to destruction.
+			- I can see where you're coming from, but I don't think it's fair to blame all of Athens' troubles on Socrates. He was simply a thinker and a philosopher who was trying to encourage people to think for themselves and question the status quo. While he might have had his moments of arrogance and self-importance, he was not responsible for the downfall of Athens. There were many other factors at play that led to the city-state's collapse.
+				Menander: Socrates's ideas, while they may have been controversial, were never intended to create chaos or instability in society. He believed in the power of knowledge and the importance of individuals being able to think for themselves and question authority. While his teachings may have been misinterpreted or misunderstood by some, it is not fair to blame him for the actions of others. It is important for a society to respect the rights of its citizens to express their opinions and beliefs, as well as to allow for the peaceful exchange of ideas. That is the essence of a democratic society, and it is something that we should all strive to protect and uphold.
+				jump Guilty
+			- The right to free speech and the ability to express unpopular opinions are fundamental principles of a democracy. In a society where the government dictates what can and cannot be said, where dissent is silenced, and where individuals are punished for speaking out, it is impossible to have true freedom or justice.
+				Menander: You know, you make a good point. I hadn't thought of it that way before. It's true that the right to free speech and the ability to question authority are fundamental rights in a democratic society, and Socrates was just exercising those rights. I guess I was wrong about this one. Thank you for opening my eyes to this perspective.
+				jump Innocent
+		- I see your point, but let's be honest, Athens was already in trouble before Socrates came along. He was just trying to give people something to think about and challenge the status quo. It's not like he actually wanted to overthrow the government.
+			Menander: I'm not interested in excuses. The fact is, Socrates' ideas were dangerous and led to the downfall of Athens. He should have known better than to question the authority of the government and encourage people to rebel against it. He got what he deserved.
+			jump Guilty
+	- I mean, technically, it's not a crime to question authority or advocate for changes in society, right? So, even if he did promote insurrection, there's no real evidence that he did anything illegal.
+		Menander: Sure, it's not technically illegal to question authority or advocate for changes in society, but when it comes to undermining the stability and security of the state, I think we should take a more cautious approach. If we let people like Socrates go unchecked, it could lead to chaos and destruction, and I'm not willing to take that risk for the sake of protecting his 'right' to free speech.
+		jump Guilty
+- Goodbye.
+	[end_timeline]
+label Guilty
+Menander: Sorry, I still think Socrates is guilty.
+[end_timeline]
+label Innocent
+Menander: You've convinced me. Socrates is innocent.
+[end_timeline]
