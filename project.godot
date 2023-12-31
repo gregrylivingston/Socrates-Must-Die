@@ -36,6 +36,7 @@ directories/dch_directory={
 "Meletus": "res://character/Meletus/Meletus.dch",
 "Plato": "res://character/Plato/Plato.dch",
 "Socrates": "res://character/Socrates/Socrates.dch",
+"Trechus": "res://character/Trechus/Trechus.dch",
 "Xenophon": "res://character/Xenophon/Xenophon.dch"
 }
 directories/dtl_directory={
@@ -47,7 +48,9 @@ directories/dtl_directory={
 glossary/default_case_sensitive=true
 layout/style_list=[]
 layout/default_style="Default"
-variables={}
+variables={
+"correctAnswers": 0
+}
 text/letter_speed=0.01
 text/initial_text_reveal_skippable=true
 text/text_reveal_skip_delay=0.1

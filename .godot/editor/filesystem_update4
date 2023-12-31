@@ -25,3 +25,5 @@ res://scene/ui/Items.tscn
 res://scene/ui/Items.gd
 res://scene/ui/item_button.tscn
 res://scene/ui/item_button.gd
+res://character/Trechus/Trechus.dch
+res://addons/dialogic/Editor/Events/styles/InputFieldsStyle.tres
