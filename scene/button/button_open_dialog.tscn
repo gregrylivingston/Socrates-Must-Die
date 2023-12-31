@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://scene/button/button_open_dialog.gd" id="1_dxy0l"]
 [ext_resource type="Shader" path="res://scene/button/button_open_dialog.gdshader" id="1_g81ph"]
-[ext_resource type="Texture2D" uid="uid://bn3772vwapdn0" path="res://character/Demitrios/demitrios3.png" id="2_i0vi3"]
+[ext_resource type="Texture2D" uid="uid://c76w1lry6cus1" path="res://character/image/SoldierJuror1.png" id="2_ieqva"]
 [ext_resource type="AudioStream" uid="uid://dicfyu6na0s8c" path="res://sound/ui/Menu Selection Click.wav" id="4_jn6iv"]
 [ext_resource type="AudioStream" uid="uid://c1ppxi1gqmh52" path="res://sound/ui/click.wav" id="5_cn8ih"]
 
@@ -17,10 +17,10 @@ shader_parameter/add_margins = true
 [node name="ButtonOpenDialog" type="TextureButton"]
 material = SubResource("ShaderMaterial_qhqbw")
 custom_minimum_size = Vector2(50, 50)
-offset_right = 463.0
-offset_bottom = 696.0
+offset_right = 510.0
+offset_bottom = 553.0
 mouse_default_cursor_shape = 2
-texture_normal = ExtResource("2_i0vi3")
+texture_normal = ExtResource("2_ieqva")
 ignore_texture_size = true
 stretch_mode = 5
 script = ExtResource("1_dxy0l")

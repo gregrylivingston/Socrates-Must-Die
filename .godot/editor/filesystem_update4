@@ -11,3 +11,11 @@ res://scene/location/place.tscn
 res://scene/button/button_open_dialog.gd
 res://timeline/Hiereiai Of Athena2.dtl
 res://character/Athena2/Hiereiai Of Athena2.dtl
+res://script/global/Juror.gd
+res://scene/ui/Jurors.tscn
+res://scene/ui/buttonStyle_Normal.tres
+res://scene/ui/Canvas_JuryMember.tscn
+res://scene/ui/Canvas_JuryMember.gd
+res://scene/ui/Jurors.gd
+res://scene/ui/Achievements.tscn
+res://scene/ui/Achievements.gd

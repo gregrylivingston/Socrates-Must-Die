@@ -9,13 +9,12 @@ func _ready():
 		var jurorButton = jurorButtonScene.instantiate()
 		jurorButton.JurorName = juror.name
 		jurorButton.textureString = juror.image
-		$Panel/ScrollContainer/VBoxContainer/accusers.add_child(jurorButton)
-
+		$Panel/VBoxContainer/GridContainer.add_child(jurorButton)
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	pass
 
 
-func _on_button_pressed():
+func _on_ui_exit_button_pressed():
 	queue_free()

@@ -72,6 +72,10 @@ text = "Items"
 layout_mode = 2
 text = "Acuse Socrates"
 
+[node name="accusers" type="GridContainer" parent="Panel/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+columns = 3
+
 [node name="Label4" type="Label" parent="Panel/ScrollContainer/VBoxContainer"]
 layout_mode = 2
 text = "Defend Socrates"

@@ -1,11 +1,21 @@
 extends Node
 
 
-@export var Juror = [
+@export var list = [
 	{
-		"name":"Plato",
+		"name":"Trechus",
 		"accuser":false,
+		"image":"res://character/Trechus/Trechus1.png",
 	},
+	{
+		"name":"Olympiodoros",
+		"image":"res://character/Olympiodoros/Olympiodoros1.png",
+	},
+	{
+		"name":"Menander",
+		"image":"res://character/Menander/Menander1.png",
+	},
+	
 ]
 
 var temples = ["zeus","parthanon","Haphaestus","Anakeion"]

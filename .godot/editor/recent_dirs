@@ -1,6 +1,8 @@
+res://scene/ui
+res://script/global
+res://character/image
 res://character/Athena2/voice
 res://timeline
-res://character/image
 res://character
 res://texture/icon
 res://texture/background
@@ -8,6 +10,4 @@ res://sound/voice
 res://sound/ui
 res://scene/button
 res://scene/location
-res://scene/ui
-res://script/global
 D:/Godot/PointAndClickGreece

@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://86x05l2u74dq"]
+
+[ext_resource type="Script" path="res://scene/ui/Canvas_JuryMember.gd" id="1_xjbjg"]
+[ext_resource type="Texture2D" uid="uid://b36hexjw25kq6" path="res://character/Trechus/Trechus1.png" id="1_yq101"]
+
+[node name="Member" type="VBoxContainer"]
+size_flags_horizontal = 3
+script = ExtResource("1_xjbjg")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 2
+text = "Trechus"
+horizontal_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="."]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+texture = ExtResource("1_yq101")
+expand_mode = 1
+stretch_mode = 5

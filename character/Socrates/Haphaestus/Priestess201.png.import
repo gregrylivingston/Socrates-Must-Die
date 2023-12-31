@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bvo3jy3y1numn"
-path="res://.godot/imported/Priestess201.png-b97d5f080eb462af4c17278244f15689.ctex"
+path="res://.godot/imported/Priestess201.png-deb5b08ee896e7a5e56ff6455b9e60eb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://character/image/Priestess201.png"
-dest_files=["res://.godot/imported/Priestess201.png-b97d5f080eb462af4c17278244f15689.ctex"]
+source_file="res://character/Socrates/Haphaestus/Priestess201.png"
+dest_files=["res://.godot/imported/Priestess201.png-deb5b08ee896e7a5e56ff6455b9e60eb.ctex"]
 
 [params]
 
