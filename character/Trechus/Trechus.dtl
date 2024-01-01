@@ -30,7 +30,7 @@ Trechus: Sad times when even the elders can't be trusted to honor the gods.
 		Trechus: We must respect the rule of law and the will of the majority.  There is no choice.
 	- We should be free to express our opinions without fear.
 		update Trechus (Unhappy) 1
-		[voice path="res://character/Trechus/voice/Trechus_1.A2.mp3" volume="0.0"]
+		[voice path="res://character/Trechus/voice/Trechus_1.2A2.mp3" volume="0.0"]
 		Trechus: Before long, we'll have a society where no one respects anyone else.
 	- A balance between justice and freedom is our only hope for order.
 		update Trechus (Happy) 1

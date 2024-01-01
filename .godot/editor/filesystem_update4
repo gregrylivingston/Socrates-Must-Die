@@ -1,26 +1,11 @@
-res://character/Trechus/Trechus.dch
-res://scene/button/button_open_dialog.tscn
+res://scene/ui/Settings.tscn
 res://scene/button/button_open_dialog.gdshader
-res://scene/location/locationButtonStyleBoxTiny.tres
-res://scene/location/locationButtonStyleBoxTinyHover.tres
 res://scene/ui/buttonStyle_Normal.tres
+res://character/Trechus/Trechus.dtl
+res://scene/button/button_open_dialog.tscn
 res://scene/gameroot.tscn
-res://scene/ui/Map.tscn
-res://scene/button/button_go_to_location.tscn
-res://scene/location/place.tscn
-res://scene/location/Minor Temple of Athena.tscn
-res://scene/ui/innerMap.tscn
-res://scene/ui/Items.tscn
 res://scene/ui/item_button.tscn
 res://scene/ui/Achievements.tscn
-res://character/Trechus/Trechus.dtl
-res://addons/dialogic/Editor/Events/styles/InputFieldsStyle.tres
 res://scene/location/Well Of Peisistratos.tscn
-res://script/global/Juror.gd
-res://scene/ui/Achievements.gd
-res://scene/ui/Canvas_JuryMember.tscn
-res://scene/ui/Canvas_JuryMember.gd
-res://scene/ui/Jurors.tscn
-res://scene/ui/Jurors.gd
-res://scene/ui/Map.gd
-res://scene/ui/Settings.tscn
+res://scene/location/Cantharus Harbor.tscn
+res://character/Trechus/Trechus.dch

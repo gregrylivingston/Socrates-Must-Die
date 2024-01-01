@@ -38,5 +38,5 @@ offset_top = 339.0
 offset_right = 993.0
 offset_bottom = -269.0
 grow_horizontal = 1
-tooltip_text = "Piraeus Suburbs"
+tooltip_text = "Piraeus Suburb"
 newSceneName = "Piraeus Suburb"

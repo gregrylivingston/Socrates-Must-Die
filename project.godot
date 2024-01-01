@@ -53,8 +53,8 @@ layout/default_style="Default"
 variables={
 "correctAnswers": 0
 }
-text/letter_speed=0.01
-text/initial_text_reveal_skippable=true
+text/letter_speed=0.005
+text/initial_text_reveal_skippable=false
 text/text_reveal_skip_delay=0.1
 text/autoadvance_per_character_delay=0.1
 text/autoadvance_ignored_characters_enabled=true
