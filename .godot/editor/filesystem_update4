@@ -33,3 +33,10 @@ res://script/global/Item.gd
 res://addons/dialogic/Editor/Events/styles/InputFieldsStyle.tres
 res://scene/location/Cantharus Fish Monger.tscn
 res://scene/location/Cantharus Fine Imports.tscn
+res://scene/location/Munichia Suburb.tscn
+res://scene/location/Walls Of Phalerum.tscn
+res://scene/location/Munichia Market.tscn
+res://character/Olympiodoros/Olympiodoros.dch
+res://character/Olympiodoros/Olympiodoros.dtl
+res://script/global/Juror.gd
+res://character/Athena2/Hiereiai Of Athena2.dtl

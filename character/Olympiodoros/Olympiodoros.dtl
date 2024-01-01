@@ -1,0 +1,16 @@
+join Olympiodoros 1
+if Jury.getJurorState("Olympiodoros") == true:
+	jump AlreadyApproved
+label Home
+do Jury.discoverJuror("Olympiodoros")
+[voice path="res://character/Olympiodoros/voice/Olymp1.mp3" volume="0.0"]
+Olympiodoros: Those honoring the gods will see justice.
+- Could you be convinced Socrates is innocent?
+	[voice path="res://character/Olympiodoros/voice/Olymp2.mp3" volume="0.0"]
+	Olympiodoros: Only Athena herself could convince me.
+	[end_timeline]
+- Goodbye
+	[end_timeline]
+
+
+label AlreadyApproved

@@ -33,6 +33,9 @@ func discoverJuror(jurorName):
 	myJuror[0].hasDiscovered = true
 	myJuror[0].discoveryAchievement = true
 
+func isJurorDiscovered(jurorName):
+	var myJuror = list.filter(func(jurymember): return jurymember.name == jurorName)
+	return myJuror[0].hasDiscovered
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
