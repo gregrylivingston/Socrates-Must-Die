@@ -63,3 +63,6 @@ func hideInterface():
 	
 func showInterface():
 	currentPlace.showInterface()
+	$HBoxContainer.visible = true
+	$HBoxContainer2.visible = true
+	
