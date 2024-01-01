@@ -21,7 +21,7 @@ func _ready():
 			jurorButton.JurorName = "Unknown"
 		$Panel/VBoxContainer/ScrollContainer/VBoxContainer/grid.add_child(jurorButton)
 		
-	$Panel/VBoxContainer/HBoxContainer/jurorCount.text = "Jurors Convinced  " + str(juryConvinced) + "/" + str(juryCount)
+	$Panel/VBoxContainer/HBoxContainer2/jurorCount.text = "Jurors Convinced  " + str(juryConvinced) + "/" + str(juryCount)
 
 	for item in Item.list:
 		itemCount += 1
@@ -34,7 +34,7 @@ func _ready():
 		else: itemsFound +=1
 		$Panel/VBoxContainer/ScrollContainer/VBoxContainer/grid.add_child(itemButton)
 
-	$Panel/VBoxContainer/HBoxContainer/itemCount.text = "Items Found  " + str(itemsFound) + "/" + str(itemCount)
+	$Panel/VBoxContainer/HBoxContainer2/itemCount.text = "Items Found  " + str(itemsFound) + "/" + str(itemCount)
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):

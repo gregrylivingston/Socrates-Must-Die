@@ -3,11 +3,6 @@ extends Node
 
 @export var list = [
 	{
-		"name":"Trechus",
-		"image":"res://character/Trechus/Trechus1.png",
-		"achieved":false,"hasConvinced":false,"hasDiscovered":false,"discoveryAchievement":false,
-	},
-	{
 		"name":"Olympiodoros",
 		"image":"res://character/Olympiodoros/Olympiodoros1.png",
 		"achieved":false,"hasConvinced":false,"hasDiscovered":false,"discoveryAchievement":false,
@@ -17,7 +12,11 @@ extends Node
 		"image":"res://character/Menander/Menander1.png",
 		"achieved":false,"hasConvinced":false,"hasDiscovered":false,"discoveryAchievement":false,
 	},
-	
+	{
+		"name":"Trechus",
+		"image":"res://character/Trechus/Trechus1.png",
+		"achieved":false,"hasConvinced":false,"hasDiscovered":false,"discoveryAchievement":false,
+	},
 ]
 
 func getJurorState(jurorName):
@@ -34,7 +33,6 @@ func discoverJuror(jurorName):
 	myJuror[0].hasDiscovered = true
 	myJuror[0].discoveryAchievement = true
 
-var temples = ["zeus","parthanon","Haphaestus","Anakeion"]
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
