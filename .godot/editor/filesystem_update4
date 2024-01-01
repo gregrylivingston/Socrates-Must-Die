@@ -40,3 +40,10 @@ res://character/Olympiodoros/Olympiodoros.dch
 res://character/Olympiodoros/Olympiodoros.dtl
 res://script/global/Juror.gd
 res://character/Athena2/Hiereiai Of Athena2.dtl
+res://scene/gameroot.gd
+res://scene/location/place.gd
+res://scene/location/place.tscn
+res://script/global/Game.gd
+res://scene/button/button_open_dialog.gd
+res://addons/dialogic/Resources/event.gd
+res://addons/dialogic/Other/DialogicGameHandler.gd

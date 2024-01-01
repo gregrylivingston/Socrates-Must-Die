@@ -21,3 +21,4 @@ label Home
 - Could you speak with Mestopheles about the trial.  I believer he is wrong about Socrates. [if Jury.isJurorDiscovered("Olympiodoros") == true][else="hide"]
 	"Hiereiai Of Athena": Oh my yes.
 - Goodbye
+do Game.showInterface()

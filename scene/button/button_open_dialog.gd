@@ -13,9 +13,12 @@ func _process(delta):
 
 
 func _on_pressed():
+	Game.hideInterface()
 	Dialogic.start(timelineName)
 	$AudioStreamPlayer2.play()
 	#self.visible = false
+
+
 
 
 func _on_mouse_entered():
