@@ -25,13 +25,16 @@ func getJurorState(jurorName):
 
 func convinceJuror(jurorName):
 	var myJuror = list.filter(func(jurymember): return jurymember.name == jurorName)
+	Game.gameroot.createNotification(jurorName + " Plans To Support Socrates")
 	myJuror[0].achieved = true
 	myJuror[0].hasConvinced = true
 	
 func discoverJuror(jurorName):
 	var myJuror = list.filter(func(jurymember): return jurymember.name == jurorName)
-	myJuror[0].hasDiscovered = true
-	myJuror[0].discoveryAchievement = true
+	if not myJuror[0].hasDiscovered:
+		Game.gameroot.createNotification("You Have Met " + jurorName)
+		myJuror[0].hasDiscovered = true
+		myJuror[0].discoveryAchievement = true
 
 func isJurorDiscovered(jurorName):
 	var myJuror = list.filter(func(jurymember): return jurymember.name == jurorName)

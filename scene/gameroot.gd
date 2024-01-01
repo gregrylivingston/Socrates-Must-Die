@@ -66,3 +66,9 @@ func showInterface():
 	$HBoxContainer.visible = true
 	$HBoxContainer2.visible = true
 	
+var noticeScene = preload("res://scene/ui/notification.tscn")
+func createNotification(text):
+	var notice = noticeScene.instantiate()
+	notice.notificationText = text
+	$noticeVbox.add_child(notice)
+	

@@ -52,3 +52,5 @@ res://scene/location/Minor Temple of Athena.tscn
 res://scene/location/Mount Hymettus.tscn
 res://scene/location/The People's Court.tscn
 res://scene/location/Piraeus Suburb.tscn
+res://scene/ui/notification.tscn
+res://scene/ui/notification.gd

@@ -1,3 +1,4 @@
+VBoxContainer
 TextureRect
 ProgressBar
 HSeparator
@@ -5,7 +6,6 @@ CheckButton
 CheckBox
 Label
 HBoxContainer
-VBoxContainer
 ScrollContainer
 VSeparator
 GridContainer
