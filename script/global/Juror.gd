@@ -24,9 +24,9 @@ extends Node
 ]
 
 func convinceJuror(jurorName):
-	var myJuror = list.find("name" == jurorName)
-	myJuror.achieved = true
-	myJuror.hasConvinced = true
+	var myJuror = list.filter(func(jurymember): return jurymember.name == jurorName)
+	myJuror[0].achieved = true
+	myJuror[0].hasConvinced = true
 	
 
 var temples = ["zeus","parthanon","Haphaestus","Anakeion"]
