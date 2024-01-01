@@ -23,6 +23,10 @@ extends Node
 	
 ]
 
+func getJurorState(jurorName):
+	var myJuror = list.filter(func(jurymember): return jurymember.name == jurorName)
+	return myJuror[0].hasConvinced
+
 func convinceJuror(jurorName):
 	var myJuror = list.filter(func(jurymember): return jurymember.name == jurorName)
 	myJuror[0].achieved = true

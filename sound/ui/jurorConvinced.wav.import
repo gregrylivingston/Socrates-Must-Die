@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://b3f2teyk7f1kh"
-path="res://.godot/imported/misc_sound.wav-22ec964f6c85fb3ce524fff743f026ec.sample"
+path="res://.godot/imported/jurorConvinced.wav-0e6e4bbbee3ceb7a363338911dffca04.sample"
 
 [deps]
 
-source_file="res://sound/ui/misc_sound.wav"
-dest_files=["res://.godot/imported/misc_sound.wav-22ec964f6c85fb3ce524fff743f026ec.sample"]
+source_file="res://sound/ui/jurorConvinced.wav"
+dest_files=["res://.godot/imported/jurorConvinced.wav-0e6e4bbbee3ceb7a363338911dffca04.sample"]
 
 [params]
 

@@ -1,3 +1,4 @@
+res://sound/ui
 res://character/Trechus/voice
 res://character/Athena2
 res://character/Trechus
@@ -11,7 +12,6 @@ res://timeline
 res://character
 res://texture/background
 res://sound/voice
-res://sound/ui
 res://scene/button
 res://scene/location
 D:/Godot/PointAndClickGreece
