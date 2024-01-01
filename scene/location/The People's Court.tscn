@@ -1,8 +1,23 @@
-[gd_scene load_steps=3 format=3 uid="uid://c2wgxt8ccpt8l"]
+[gd_scene load_steps=4 format=3 uid="uid://c2wgxt8ccpt8l"]
 
 [ext_resource type="PackedScene" uid="uid://qvj4ev6spgxd" path="res://scene/location/place.tscn" id="1_uy85b"]
 [ext_resource type="Texture2D" uid="uid://bn2x04ioqrlcj" path="res://texture/background/PeoplesCourt.png" id="2_vnte3"]
+[ext_resource type="PackedScene" uid="uid://drqq8hgfonhms" path="res://scene/button/button_go_to_location.tscn" id="3_ovbbv"]
 
 [node name="Place" instance=ExtResource("1_uy85b")]
 texture = ExtResource("2_vnte3")
 placeName = "The People's Court"
+
+[node name="Button_GoToLocation2" parent="CanvasLayer" index="0" instance=ExtResource("3_ovbbv")]
+anchors_preset = 9
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 1.0
+offset_left = 406.0
+offset_top = 583.0
+offset_right = 446.0
+offset_bottom = -25.0
+grow_horizontal = 1
+tooltip_text = "The Academy"
+newSceneName = "The Agora"

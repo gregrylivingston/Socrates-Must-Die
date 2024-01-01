@@ -47,3 +47,8 @@ res://script/global/Game.gd
 res://scene/button/button_open_dialog.gd
 res://addons/dialogic/Resources/event.gd
 res://addons/dialogic/Other/DialogicGameHandler.gd
+res://scene/location/Gate Of Piraeus.tscn
+res://scene/location/Minor Temple of Athena.tscn
+res://scene/location/Mount Hymettus.tscn
+res://scene/location/The People's Court.tscn
+res://scene/location/Piraeus Suburb.tscn

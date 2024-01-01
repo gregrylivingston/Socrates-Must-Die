@@ -10,8 +10,7 @@ placeName = "The Agora"
 placeDescription = "The Agora is a bustling hub of activity serving as the heart of Athenian democracy, commerce, and social exchange."
 placeDescriptionAudio = "The Agora"
 
-[node name="Button_GoToLocation" parent="." index="1" instance=ExtResource("3_whgkd")]
-layout_mode = 1
+[node name="Button_GoToLocation" parent="CanvasLayer" index="0" instance=ExtResource("3_whgkd")]
 anchors_preset = 7
 anchor_top = 1.0
 anchor_bottom = 1.0
@@ -23,8 +22,7 @@ grow_vertical = 0
 tooltip_text = "Well Of Peisistratos"
 newSceneName = "Well Of Peisistratos"
 
-[node name="Button_GoToLocation3" parent="." index="2" instance=ExtResource("3_whgkd")]
-layout_mode = 1
+[node name="Button_GoToLocation3" parent="CanvasLayer" index="1" instance=ExtResource("3_whgkd")]
 anchors_preset = 7
 anchor_top = 1.0
 anchor_bottom = 1.0
@@ -33,11 +31,10 @@ offset_top = -73.0
 offset_right = 25.0
 offset_bottom = -33.0
 grow_vertical = 0
-tooltip_text = "Well Of Peisistratos"
+tooltip_text = "Deme Of Colonus"
 newSceneName = "Deme Of Colonus"
 
-[node name="Button_GoToLocation2" parent="." index="3" instance=ExtResource("3_whgkd")]
-layout_mode = 1
+[node name="Button_GoToLocation2" parent="CanvasLayer" index="2" instance=ExtResource("3_whgkd")]
 anchors_preset = 4
 anchor_left = 0.0
 anchor_right = 0.0

@@ -57,7 +57,9 @@ func _on_items_button_pressed():
 	map = newScene
 	
 func hideInterface():
-	$PlaceParent/Place.hideInterface()
+	currentPlace.hideInterface()
+	$HBoxContainer.visible = false
+	$HBoxContainer2.visible = false
 	
 func showInterface():
-	$PlaceParent/Place.showInterface()
+	currentPlace.showInterface()

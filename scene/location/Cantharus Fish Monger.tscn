@@ -28,20 +28,22 @@ grow_horizontal = 1
 tooltip_text = "Cantharus Harbor"
 newSceneName = "Cantharus Harbor"
 
-[node name="ButtonOpenDialog" parent="." index="1" instance=ExtResource("4_i15dp")]
-layout_mode = 0
-offset_left = 356.0
-offset_top = 56.0
-offset_right = 731.0
-offset_bottom = 568.0
+[node name="ButtonOpenDialog" parent="CanvasLayer" index="1" instance=ExtResource("4_i15dp")]
+offset_left = 355.0
+offset_top = 54.0
+offset_right = 730.0
+offset_bottom = 566.0
 texture_normal = ExtResource("5_2m0la")
 timelineName = "Pelagius"
 
-[node name="TextureRect" type="TextureRect" parent="." index="2"]
-layout_mode = 1
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer" index="2"]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_left = -1.0
+offset_top = -2.0
+offset_right = -1.0
+offset_bottom = -2.0
 grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 2

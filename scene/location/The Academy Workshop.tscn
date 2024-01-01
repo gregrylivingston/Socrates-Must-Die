@@ -8,8 +8,7 @@
 texture = ExtResource("2_qbrqd")
 placeName = "The Academy Workshop"
 
-[node name="Button_GoToLocation" parent="." index="1" instance=ExtResource("3_h2mtl")]
-layout_mode = 1
+[node name="Button_GoToLocation" parent="CanvasLayer" index="0" instance=ExtResource("3_h2mtl")]
 anchors_preset = 7
 anchor_top = 1.0
 anchor_bottom = 1.0

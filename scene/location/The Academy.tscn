@@ -8,8 +8,7 @@
 texture = ExtResource("2_am4pk")
 placeName = "The Academy"
 
-[node name="Button_GoToLocation" parent="." index="1" instance=ExtResource("3_vvg5n")]
-layout_mode = 1
+[node name="Button_GoToLocation" parent="CanvasLayer" index="0" instance=ExtResource("3_vvg5n")]
 anchors_preset = 7
 anchor_top = 1.0
 anchor_bottom = 1.0
@@ -18,11 +17,10 @@ offset_top = -71.0
 offset_right = 17.0
 offset_bottom = -31.0
 grow_vertical = 0
-tooltip_text = "Deme Of Colonus"
+tooltip_text = "The Sacred Gate"
 newSceneName = "The Sacred Gate"
 
-[node name="Button_GoToLocation2" parent="." index="2" instance=ExtResource("3_vvg5n")]
-layout_mode = 1
+[node name="Button_GoToLocation2" parent="CanvasLayer" index="1" instance=ExtResource("3_vvg5n")]
 anchors_preset = 7
 anchor_top = 1.0
 anchor_bottom = 1.0
@@ -34,8 +32,7 @@ grow_vertical = 0
 tooltip_text = "The Academy Gardens"
 newSceneName = "The Academy Gardens"
 
-[node name="Button_GoToLocation3" parent="." index="3" instance=ExtResource("3_vvg5n")]
-layout_mode = 1
+[node name="Button_GoToLocation3" parent="CanvasLayer" index="2" instance=ExtResource("3_vvg5n")]
 anchors_preset = 7
 anchor_top = 1.0
 anchor_bottom = 1.0
@@ -44,11 +41,10 @@ offset_top = -326.0
 offset_right = 22.0
 offset_bottom = -286.0
 grow_vertical = 0
-tooltip_text = "The Academy Gardens"
+tooltip_text = "The Academy Hall"
 newSceneName = "The Academy Hall"
 
-[node name="Button_GoToLocation4" parent="." index="4" instance=ExtResource("3_vvg5n")]
-layout_mode = 1
+[node name="Button_GoToLocation4" parent="CanvasLayer" index="3" instance=ExtResource("3_vvg5n")]
 anchors_preset = 7
 anchor_top = 1.0
 anchor_bottom = 1.0
@@ -57,5 +53,5 @@ offset_top = -311.0
 offset_right = 337.0
 offset_bottom = -271.0
 grow_vertical = 0
-tooltip_text = "The Academy Hall"
+tooltip_text = "The Academy Workshop"
 newSceneName = "The Academy Workshop"

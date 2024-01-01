@@ -8,8 +8,7 @@
 texture = ExtResource("2_xp0ev")
 placeName = "Piraeus Suburb"
 
-[node name="Button_GoToLocation" parent="." index="1" instance=ExtResource("3_yngk3")]
-layout_mode = 1
+[node name="Button_GoToLocation" parent="CanvasLayer" index="0" instance=ExtResource("3_yngk3")]
 anchors_preset = 7
 anchor_top = 1.0
 anchor_bottom = 1.0
@@ -18,14 +17,13 @@ offset_top = -67.0
 offset_right = 70.0
 offset_bottom = -27.0
 grow_vertical = 0
-tooltip_text = "Piraeus Market East"
+tooltip_text = "Munichia Suburb"
 newSceneName = "Munichia Suburb"
 
-[node name="Button_GoToLocation2" parent="." index="2" instance=ExtResource("3_yngk3")]
-layout_mode = 1
+[node name="Button_GoToLocation2" parent="CanvasLayer" index="1" instance=ExtResource("3_yngk3")]
 offset_left = 22.0
 offset_top = 119.0
 offset_right = 62.0
 offset_bottom = 159.0
-tooltip_text = "Minor Temple of Athena"
+tooltip_text = "Cantharus Harbor"
 newSceneName = "Cantharus Harbor"

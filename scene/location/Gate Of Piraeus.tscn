@@ -8,8 +8,7 @@
 texture = ExtResource("2_nqxk4")
 placeName = "Gate Of Piraeus"
 
-[node name="Button_GoToLocation" parent="." index="1" instance=ExtResource("3_823qt")]
-layout_mode = 1
+[node name="Button_GoToLocation" parent="CanvasLayer" index="0" instance=ExtResource("3_823qt")]
 offset_left = -32.0
 offset_top = 85.0
 offset_right = 8.0
@@ -17,8 +16,7 @@ offset_bottom = 125.0
 tooltip_text = "Walls Of Phalerum"
 newSceneName = "Walls Of Phalerum"
 
-[node name="Button_GoToLocation2" parent="." index="2" instance=ExtResource("3_823qt")]
-layout_mode = 1
+[node name="Button_GoToLocation2" parent="CanvasLayer" index="1" instance=ExtResource("3_823qt")]
 anchors_preset = 7
 anchor_top = 1.0
 anchor_bottom = 1.0

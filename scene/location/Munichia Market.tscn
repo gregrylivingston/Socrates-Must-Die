@@ -10,8 +10,7 @@
 texture = ExtResource("2_dhsud")
 placeName = "Munichia Market"
 
-[node name="Button_GoToLocation" parent="." index="1" instance=ExtResource("3_kgye4")]
-layout_mode = 1
+[node name="Button_GoToLocation" parent="CanvasLayer" index="0" instance=ExtResource("3_kgye4")]
 anchors_preset = 7
 anchor_top = 1.0
 anchor_bottom = 1.0
@@ -23,8 +22,7 @@ grow_vertical = 0
 tooltip_text = "Munichia Suburb"
 newSceneName = "Munichia Suburb"
 
-[node name="Button_GoToLocation3" parent="." index="2" instance=ExtResource("3_kgye4")]
-layout_mode = 1
+[node name="Button_GoToLocation3" parent="CanvasLayer" index="1" instance=ExtResource("3_kgye4")]
 anchors_preset = 7
 anchor_top = 1.0
 anchor_bottom = 1.0
@@ -36,8 +34,7 @@ grow_vertical = 0
 tooltip_text = "Munichia Outer Citadel"
 newSceneName = "Munichia Outer Citadel"
 
-[node name="Button_GoToLocation2" parent="." index="3" instance=ExtResource("3_kgye4")]
-layout_mode = 1
+[node name="Button_GoToLocation2" parent="CanvasLayer" index="2" instance=ExtResource("3_kgye4")]
 anchors_preset = 4
 anchor_left = 0.0
 anchor_right = 0.0
@@ -49,8 +46,7 @@ grow_horizontal = 1
 tooltip_text = "Port Of Munichia"
 newSceneName = "Port Of Munichia"
 
-[node name="ButtonOpenDialog" parent="." index="4" instance=ExtResource("4_bftg4")]
-layout_mode = 0
+[node name="ButtonOpenDialog" parent="CanvasLayer" index="3" instance=ExtResource("4_bftg4")]
 offset_left = 601.0
 offset_top = 296.0
 offset_right = 811.0

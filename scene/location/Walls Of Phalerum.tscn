@@ -10,28 +10,26 @@ offset_bottom = 220.0
 texture = ExtResource("2_okd7q")
 placeName = "Wall Of Phalerum"
 
-[node name="Button_GoToLocation" parent="." index="1" instance=ExtResource("3_k1oiy")]
-layout_mode = 1
+[node name="Button_GoToLocation" parent="CanvasLayer" index="0" instance=ExtResource("3_k1oiy")]
 anchors_preset = 7
 anchor_top = 1.0
 anchor_bottom = 1.0
-offset_left = -139.5
-offset_top = -259.0
-offset_right = -99.5
-offset_bottom = -219.0
+offset_left = 56.0
+offset_top = -39.0
+offset_right = 96.0
+offset_bottom = 1.0
 grow_vertical = 0
 tooltip_text = "Munichia Suburb"
 newSceneName = "Munichia Suburb"
 
-[node name="Button_GoToLocation2" parent="." index="2" instance=ExtResource("3_k1oiy")]
-layout_mode = 1
+[node name="Button_GoToLocation2" parent="CanvasLayer" index="1" instance=ExtResource("3_k1oiy")]
 anchors_preset = 4
 anchor_left = 0.0
 anchor_right = 0.0
 offset_left = 277.0
-offset_top = -22.0
+offset_top = 88.0
 offset_right = 317.0
-offset_bottom = 18.0
+offset_bottom = 128.0
 grow_horizontal = 1
 tooltip_text = "Gate Of Piraeus"
 newSceneName = "Gate Of Piraeus"
