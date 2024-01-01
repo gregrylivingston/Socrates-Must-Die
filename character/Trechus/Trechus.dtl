@@ -2,9 +2,10 @@ join Trechus 1
 if Jury.getJurorState("Trechus") == true:
 	jump AlreadyApproved
 label Home
+do Jury.discoverJuror("Trechus")
 [voice path="res://character/Trechus/voice/Trechus_1Intro.mp3" volume="0.0"]
 Trechus: Sad times when even the elders can't be trusted to honor the gods.
-- Could you be convinced Socrates is innocent.
+- Could you be convinced Socrates is innocent?
 	[voice path="res://character/Trechus/voice/Trechus_1.1Q.mp3" volume="0.0"]
 	Trechus: I don't know.  Maybe. I heard he's teaching the children to question their parents. That's  not right.
 	- He's teaching them to question... everything.

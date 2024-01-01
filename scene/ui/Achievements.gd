@@ -15,6 +15,10 @@ func _ready():
 		jurorButton.JurorName = juror.name
 		jurorButton.textureString = juror.image
 		juryCount += 1
+		if not juror.achieved:
+			jurorButton.isBlackedOut = true
+		if not juror.discoveryAchievement:
+			jurorButton.JurorName = "Unknown"
 		$Panel/VBoxContainer/ScrollContainer/VBoxContainer/grid.add_child(jurorButton)
 		
 	$Panel/VBoxContainer/HBoxContainer/jurorCount.text = "Jurors Convinced  " + str(juryConvinced) + "/" + str(juryCount)

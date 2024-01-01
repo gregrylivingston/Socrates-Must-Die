@@ -65,5 +65,5 @@ text = "  Jurors"
 layout_mode = 2
 columns = 5
 
-[connection signal="pressed" from="Panel/VBoxContainer/HBoxContainer/UiExitButton" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="Panel/VBoxContainer/HBoxContainer/UiExitButton" to="." method="_on_ui_exit_button_pressed"]
+[connection signal="pressed" from="Panel/VBoxContainer/HBoxContainer/UiExitButton" to="." method="_on_button_pressed"]
