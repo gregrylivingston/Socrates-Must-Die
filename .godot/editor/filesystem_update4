@@ -17,3 +17,4 @@ res://character/Trechus/Trechus.dtl
 res://addons/dialogic/Editor/Events/styles/InputFieldsStyle.tres
 res://scene/location/Well Of Peisistratos.tscn
 res://script/global/Juror.gd
+res://scene/ui/Achievements.gd

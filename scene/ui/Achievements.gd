@@ -24,7 +24,9 @@ func _ready():
 		var itemButton = itemButtonScene.instantiate()
 		itemButton.ItemName = item.name
 		itemButton.textureString = item.image
-		if not item.achieved:itemButton.isBlackedOut = true
+		if not item.achieved:
+			pass
+			#itemButton.isBlackedOut = true
 		else: itemsFound +=1
 		$Panel/VBoxContainer/ScrollContainer/VBoxContainer/grid.add_child(itemButton)
 
