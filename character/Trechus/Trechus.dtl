@@ -1,53 +1,66 @@
 join Trechus 1
 label Home
+[voice path="res://character/Trechus/voice/Trechus_1Intro.mp3" volume="0.0"]
 Trechus: Sad times when even the elders can't be trusted to honor the gods.
-- What would it take to convince you Socrates is innocent.
-	Trechus: I don't know much about it.  I could be convinced. I heard he's teaching the children to question their parents. That's just not right.
-	- He's not teaching them to question their parents, he's teaching them to question everything.
-		join Trechus (Unhappy) 1
+- Could you be convinced Socrates is innocent.
+	[voice path="res://character/Trechus/voice/Trechus_1.1Q.mp3" volume="0.0"]
+	Trechus: I don't know.  Maybe. I heard he's teaching the children to question their parents. That's  not right.
+	- He's teaching them to question... everything.
+		update Trechus (Unhappy) 1
+		[voice path="res://character/Trechus/voice/Trechus_1.1A1.mp3" volume="0.0"]
 		Trechus: What a dangerous man!
-	- He's not teaching them to question their parents, he's teaching them to think for themselves.
-		join Trechus (Happy) 1
+	- He's teaching them to think for themselves, not disrespect their parents.
+		update Trechus (Happy) 1
+		[voice path="res://character/Trechus/voice/Trechus_1.1A2.mp3" volume="0.0"]
 		Trechus: I remember questioning my own parents often.  Bless their tolerance.
 		set {correctAnswers} += 1
 	- Children should question their parents.  It's how they become adults.
-		join Trechus (Unhappy) 1
+		update Trechus (Unhappy) 1
+		[voice path="res://character/Trechus/voice/Trechus1.1A3.mp3" volume="0.0"]
 		Trechus: Even as adults we should continue to respect our elders.
-	join Trechus (Standing) 1
+	update Trechus (Standing) 1
+	[voice path="res://character/Trechus/voice/Trechus_1.2Q.mp3" volume="0.0"]
 	Trechus: What do we have if not respect for authority and the rule of law? Look around, this old man is bringing us to chaos.
 	- To try an old man for his mumblings.  What good is rule of law then?
-		join Trechus (Unhappy) 1
-		Trechus: We must also respect the rule of law and the will of the majority.  If the majority says he is guilty so be it.
-	- We should be free to express our opinions and criticize our leaders without fear of punishment or retribution.
-		join Trechus (Unhappy) 1
+		update Trechus (Unhappy) 1
+		[voice path="res://character/Trechus/voice/Trechus_1.2A1.mp3" volume="0.0"]
+		Trechus: We must respect the rule of law and the will of the majority.  There is no choice.
+	- We should be free to express our opinions without fear of punishment or retribution.
+		update Trechus (Unhappy) 1
+		[voice path="res://character/Trechus/voice/Trechus_1.A2.mp3" volume="0.0"]
 		Trechus: Before long, we'll have a society where no one respects anyone else.
-	- Where dissent is silenced, and where individuals are punished for speaking out, it is impossible to have true freedom or justice.
-		join Trechus (Happy) 1
+	- When individuals are punished for speaking out, it is impossible to have both freedom and justice.
+		update Trechus (Happy) 1
+		[voice path="res://character/Trechus/voice/Trechus_1.2A3.mp3" volume="0.0"]
 		Trechus: I see your point.  We must strike a careful balance between order and freedom.
 		set {correctAnswers} += 1
-	join Trechus (Standing) 1
-	Trechus: We must recognize that there are certain rules and laws that we must follow in order to protect and promote the greater good.  Socrates seems to have forgotten this in his old age.
-	- But what harm to the greater good has Socrates really committed?
-		join Trechus (Happy) 1
-		Trechus: To be honest, I'm not quite sure.  We will have to hear his accusers at the trial
+	update Trechus (Standing) 1
+	[voice path="res://character/Trechus/voice/Trechus_1.3Q.mp3" volume="0.0"]
+	Trechus: We must follow rules and laws to protect and promote the greater good.  Even if we don't agree with them.
+	- But what harm to the greater good has Socrates committed?
+		update Trechus (Happy) 1
 		set {correctAnswers} += 1
-	- The tyrants who now govern Athens know nothing of the greater good.
-		join Trechus (Unhappy) 1
-		Trechus: Do you also intend to end up before the People's Court, my friend?
-	- I'm still trying to figure out who has been harmed badly enough to go to the Archon.
-		join Trechus (Unhappy) 1
-		Trechus: What is a crime without a victim?
-		set {correctAnswers} += 1
+		[voice path="res://character/Trechus/voice/Trechus_1.3A1.mp3" volume="0.0"]
+		Trechus: Maybe the trial is a little much.
+	- The tyrants who really govern Athens know nothing of the greater good.
+		update Trechus (Unhappy) 1
+		[voice path="res://character/Trechus/voice/Trechus_1.3A2.mp3" volume="0.0"]
+		Trechus: Do you also intend to end up before the People's Court?
+	- Maybe it is time to change the rules.
+		update Trechus (Unhappy) 1
+		Trechus: And who should decide them.  You?
+		[voice path="res://character/Trechus/voice/Trechus_1.3A3.mp3" volume="0.0"]
 	jump Resolve
 - Goodbye
 	[end_timeline]
 label Resolve
 if {correctAnswers} >= 3:
-	join Trechus (Happy) 1
-	Trechus: I think I see your point my friend.  Maybe Socrates should be spared.
-	You seem to have convinced Trechus that Socrates is innocent.  Hopefully he is able to convince some of the other Jurors too.
+	update Trechus (Happy) 1
+	[voice path="res://character/Trechus/voice/Trechus_1.Success.mp3" volume="0.0"]
+	Trechus: I think I'm beginning to see your point my friend.  Maybe Socrates should be spared.
 	do Jury.convinceJuror("Trechus")
 else:
-	join Trechus (Standing) 1
-	Trechus: I'm not sure I see your point.  We will see what Athens thinks at the trial.
+	update Trechus (Standing) 1
+	[voice path="res://character/Trechus/voice/Trechus_1.Failure.mp3" volume="0.0"]
+	Trechus: I'm not sure I see your point.  We will see what Athens thinks of Socrates at the trial.
 [end_timeline]

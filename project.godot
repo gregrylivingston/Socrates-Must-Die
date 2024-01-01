@@ -34,6 +34,7 @@ directories/dch_directory={
 "Hiereriai Of Zeus": "res://character/Athena2/Hiereiai Of Athena2.dch",
 "Lycon": "res://character/Lycon/Lycon.dch",
 "Meletus": "res://character/Meletus/Meletus.dch",
+"Menander": "res://character/Menander/Menander.dch",
 "Plato": "res://character/Plato/Plato.dch",
 "Socrates": "res://character/Socrates/Socrates.dch",
 "Trechus": "res://character/Trechus/Trechus.dch",
@@ -42,6 +43,7 @@ directories/dch_directory={
 directories/dtl_directory={
 "Hiereiai Of Athena2": "res://character/Athena2/Hiereiai Of Athena2.dtl",
 "Intro": "res://timeline/Intro.dtl",
+"Menander": "res://character/Menander/Menander.dtl",
 "Trechus": "res://character/Trechus/Trechus.dtl",
 "market_demetrios": "res://character/Demitrios/market_demetrios.dtl"
 }
