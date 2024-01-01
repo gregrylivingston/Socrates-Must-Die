@@ -1,9 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://c7v2nn4kaojdf"]
+[gd_scene load_steps=4 format=3 uid="uid://c7v2nn4kaojdf"]
 
 [ext_resource type="PackedScene" uid="uid://qvj4ev6spgxd" path="res://scene/location/place.tscn" id="1_ggsnr"]
 [ext_resource type="Texture2D" uid="uid://tdiv76p62drh" path="res://texture/background/Deme2.png" id="2_fct7m"]
 [ext_resource type="PackedScene" uid="uid://drqq8hgfonhms" path="res://scene/button/button_go_to_location.tscn" id="3_djtju"]
-[ext_resource type="PackedScene" uid="uid://b5m2btcrnes5x" path="res://scene/button/button_open_dialog.tscn" id="4_x3j75"]
 
 [node name="Place" instance=ExtResource("1_ggsnr")]
 offset_left = -24.0
@@ -24,7 +23,7 @@ offset_top = 588.0
 offset_right = 594.0
 offset_bottom = -20.0
 grow_horizontal = 1
-tooltip_text = "Port Of Munichia"
+tooltip_text = "Walls Of Phalerum"
 newSceneName = "Walls Of Phalerum"
 
 [node name="Button_GoToLocation2" parent="CanvasLayer" index="1" instance=ExtResource("3_djtju")]
@@ -38,7 +37,7 @@ offset_top = 340.0
 offset_right = 922.0
 offset_bottom = -268.0
 grow_horizontal = 1
-tooltip_text = "Walls Of Phalerum"
+tooltip_text = "Piraeus Suburb"
 newSceneName = "Piraeus Suburb"
 
 [node name="Button_GoToLocation3" parent="CanvasLayer" index="2" instance=ExtResource("3_djtju")]
@@ -52,13 +51,5 @@ offset_top = 319.0
 offset_right = 301.0
 offset_bottom = -289.0
 grow_horizontal = 1
-tooltip_text = "Piraeus Suburb"
+tooltip_text = "Munichia Market"
 newSceneName = "Munichia Market"
-
-[node name="ButtonOpenDialog" parent="CanvasLayer" index="3" instance=ExtResource("4_x3j75")]
-offset_left = 838.0
-offset_top = 476.0
-offset_right = 1301.0
-offset_bottom = 1172.0
-scale = Vector2(0.15, 0.15)
-stretch_mode = 5

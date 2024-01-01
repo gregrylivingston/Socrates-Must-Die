@@ -18,5 +18,6 @@ label Home
 	[voice path="res://character/Athena2/voice/Athena2.GoatRequired.mp3" volume="0.0"]
 	"Hiereiai Of Athena": Athena requires an offering of goat before the sacrifice.
 	jump Home
-- Could you speak with Mestopheles about the trial.  I believer he is wrong about Socrates. [if {} == ""][else="hide"]
+- Could you speak with Mestopheles about the trial.  I believer he is wrong about Socrates. [if Jury.isJurorDiscovered("Olympiodoros") == true][else="hide"]
+	"Hiereiai Of Athena": Oh my yes.
 - Goodbye
