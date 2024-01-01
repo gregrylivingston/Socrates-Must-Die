@@ -155,6 +155,7 @@ func hasItem(itemName):
 
 func acquireItem(itemName):
 	var myItem = list.filter(func(item): return item.name == itemName)
+	Game.gameroot.createNotification("You have acquired an " + itemName)
 	myItem[0].achieved = true
 	myItem[0].hasNow = true
 
