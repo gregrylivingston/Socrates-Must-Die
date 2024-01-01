@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cy3ervwja8bv"
-path="res://.godot/imported/Deme Of Colonus.png-dd2a0d1c1ed5a7e224408957ff172280.ctex"
+uid="uid://c2wkg58xe2u2s"
+path="res://.godot/imported/Deme.png-f4fddbb95fc16f1dd24ff1ec1597f9e3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://texture/background/Deme Of Colonus.png"
-dest_files=["res://.godot/imported/Deme Of Colonus.png-dd2a0d1c1ed5a7e224408957ff172280.ctex"]
+source_file="res://texture/background/Deme.png"
+dest_files=["res://.godot/imported/Deme.png-f4fddbb95fc16f1dd24ff1ec1597f9e3.ctex"]
 
 [params]
 

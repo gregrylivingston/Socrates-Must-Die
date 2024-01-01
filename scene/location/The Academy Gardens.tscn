@@ -6,7 +6,7 @@
 
 [node name="Place" instance=ExtResource("1_j1a2f")]
 texture = ExtResource("2_qqub6")
-placeName = "The Academy"
+placeName = "The Academy Gardens"
 
 [node name="Button_GoToLocation" parent="." index="1" instance=ExtResource("3_wepii")]
 layout_mode = 1
@@ -18,5 +18,5 @@ offset_top = -79.0
 offset_right = 19.0
 offset_bottom = -39.0
 grow_vertical = 0
-tooltip_text = "Deme Of Colonus"
+tooltip_text = "The Academy"
 newSceneName = "The Academy"

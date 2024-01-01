@@ -35,6 +35,8 @@ directories/dch_directory={
 "Lycon": "res://character/Lycon/Lycon.dch",
 "Meletus": "res://character/Meletus/Meletus.dch",
 "Menander": "res://character/Menander/Menander.dch",
+"PelagiusTheMerchant": "res://character/Pelagius/PelagiusTheMerchant.dch",
+"Perikles": "res://character/Perikles/Perikles.dch",
 "Plato": "res://character/Plato/Plato.dch",
 "Socrates": "res://character/Socrates/Socrates.dch",
 "Trechus": "res://character/Trechus/Trechus.dch",

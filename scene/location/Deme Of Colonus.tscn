@@ -1,13 +1,13 @@
 [gd_scene load_steps=4 format=3 uid="uid://b5stpg162fhcl"]
 
 [ext_resource type="PackedScene" uid="uid://qvj4ev6spgxd" path="res://scene/location/place.tscn" id="1_elmda"]
-[ext_resource type="Texture2D" uid="uid://c2wkg58xe2u2s" path="res://texture/background/Deme of Colonus.png" id="2_bh30g"]
+[ext_resource type="Texture2D" uid="uid://cy3ervwja8bv" path="res://texture/background/Deme Of Colonus.png" id="2_bfcpg"]
 [ext_resource type="PackedScene" uid="uid://drqq8hgfonhms" path="res://scene/button/button_go_to_location.tscn" id="3_ad7c1"]
 
 [node name="Place" instance=ExtResource("1_elmda")]
 offset_top = -1.0
 offset_right = 3.0
-texture = ExtResource("2_bh30g")
+texture = ExtResource("2_bfcpg")
 flip_h = true
 placeName = "Deme Of Colonus"
 
@@ -31,13 +31,13 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 1.0
-offset_left = 559.0
-offset_top = 360.0
-offset_right = 599.0
-offset_bottom = -248.0
+offset_left = 612.0
+offset_top = 366.0
+offset_right = 652.0
+offset_bottom = -242.0
 grow_horizontal = 1
 tooltip_text = "The Academy"
-newSceneName = "The Academy"
+newSceneName = "The Sacred Gate"
 
 [node name="Button_GoToLocation3" parent="CanvasLayer" index="2" instance=ExtResource("3_ad7c1")]
 anchors_preset = 9
@@ -45,10 +45,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 1.0
-offset_left = 113.0
-offset_top = 354.0
-offset_right = 153.0
-offset_bottom = -254.0
+offset_left = 407.0
+offset_top = 424.0
+offset_right = 447.0
+offset_bottom = -184.0
 grow_horizontal = 1
 tooltip_text = "Deme Of Melite"
 newSceneName = "Deme Of Melite"

@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://c0tgsabrlvsu3"]
+
+[ext_resource type="PackedScene" uid="uid://qvj4ev6spgxd" path="res://scene/location/place.tscn" id="1_m0anm"]
+[ext_resource type="Texture2D" uid="uid://eu5hcxbp82k3" path="res://texture/background/The Academy Interior1.png" id="2_qbrqd"]
+[ext_resource type="PackedScene" uid="uid://drqq8hgfonhms" path="res://scene/button/button_go_to_location.tscn" id="3_h2mtl"]
+
+[node name="Place" instance=ExtResource("1_m0anm")]
+texture = ExtResource("2_qbrqd")
+placeName = "The Academy Workshop"
+
+[node name="Button_GoToLocation" parent="." index="1" instance=ExtResource("3_h2mtl")]
+layout_mode = 1
+anchors_preset = 7
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = -21.0
+offset_top = -79.0
+offset_right = 19.0
+offset_bottom = -39.0
+grow_vertical = 0
+tooltip_text = "The Academy"
+newSceneName = "The Academy"

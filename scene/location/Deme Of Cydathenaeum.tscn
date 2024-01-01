@@ -1,0 +1,40 @@
+[gd_scene load_steps=4 format=3 uid="uid://cjvx2wib7q816"]
+
+[ext_resource type="PackedScene" uid="uid://qvj4ev6spgxd" path="res://scene/location/place.tscn" id="1_ltwje"]
+[ext_resource type="Texture2D" uid="uid://tdiv76p62drh" path="res://texture/background/Deme of Cydathenaeum.png" id="2_ca1vm"]
+[ext_resource type="PackedScene" uid="uid://drqq8hgfonhms" path="res://scene/button/button_go_to_location.tscn" id="3_ukyt5"]
+
+[node name="Place" instance=ExtResource("1_ltwje")]
+offset_top = -1.0
+offset_right = 3.0
+texture = ExtResource("2_ca1vm")
+flip_h = true
+placeName = "Deme Of Cydathenaeum"
+
+[node name="Button_GoToLocation" parent="CanvasLayer" index="0" instance=ExtResource("3_ukyt5")]
+anchors_preset = 9
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 1.0
+offset_left = 554.0
+offset_top = 588.0
+offset_right = 594.0
+offset_bottom = -20.0
+grow_horizontal = 1
+tooltip_text = "The Agora"
+newSceneName = "Well Of Peisistratos"
+
+[node name="Button_GoToLocation3" parent="CanvasLayer" index="1" instance=ExtResource("3_ukyt5")]
+anchors_preset = 9
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 1.0
+offset_left = 293.0
+offset_top = 291.0
+offset_right = 333.0
+offset_bottom = -317.0
+grow_horizontal = 1
+tooltip_text = "Deme Of Melite"
+newSceneName = "The Agora"
