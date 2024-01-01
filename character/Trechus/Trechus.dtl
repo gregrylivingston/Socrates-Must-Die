@@ -48,8 +48,8 @@ Trechus: Sad times when even the elders can't be trusted to honor the gods.
 		Trechus: Do you also intend to end up before the People's Court?
 	- Maybe it is time to change the rules.
 		update Trechus (Unhappy) 1
-		Trechus: And who should decide them.  You?
 		[voice path="res://character/Trechus/voice/Trechus_1.3A3.mp3" volume="0.0"]
+		Trechus: And who should decide them.  You?
 	jump Resolve
 - Goodbye
 	[end_timeline]
