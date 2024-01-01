@@ -43,18 +43,21 @@ func _on_map_button_2_pressed():
 	add_child(newScene)
 	map = newScene
 
-
 func _on_description_audio_button_pressed():
 	$HBoxContainer2/descriptionAudioPlayer.play()
-
 
 func _on_justice_button_pressed():
 	var newScene = load("res://scene/ui/Jurors.tscn").instantiate()
 	add_child(newScene)
 	map = newScene
 
-
 func _on_items_button_pressed():
 	var newScene = load("res://scene/ui/Items.tscn").instantiate()
 	add_child(newScene)
 	map = newScene
+	
+func hideInterface():
+	$PlaceParent/Place.hideInterface()
+	
+func showInterface():
+	$PlaceParent/Place.showInterface()
