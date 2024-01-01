@@ -9,7 +9,7 @@ offset_top = -1.0
 offset_right = 3.0
 texture = ExtResource("2_bh30g")
 flip_h = true
-placeName = "Munichia Suburb"
+placeName = "Deme Of Colonus"
 
 [node name="Button_GoToLocation" parent="CanvasLayer" index="0" instance=ExtResource("3_ad7c1")]
 anchors_preset = 9
@@ -22,7 +22,7 @@ offset_top = 588.0
 offset_right = 594.0
 offset_bottom = -20.0
 grow_horizontal = 1
-tooltip_text = "Well Of Peisistratos"
+tooltip_text = "The Agora"
 newSceneName = "The Agora"
 
 [node name="Button_GoToLocation2" parent="CanvasLayer" index="1" instance=ExtResource("3_ad7c1")]
@@ -36,7 +36,7 @@ offset_top = 360.0
 offset_right = 599.0
 offset_bottom = -248.0
 grow_horizontal = 1
-tooltip_text = "The Agora"
+tooltip_text = "The Academy"
 newSceneName = "The Academy"
 
 [node name="Button_GoToLocation3" parent="CanvasLayer" index="2" instance=ExtResource("3_ad7c1")]
@@ -50,5 +50,5 @@ offset_top = 354.0
 offset_right = 153.0
 offset_bottom = -254.0
 grow_horizontal = 1
-tooltip_text = "Deme Of Colonus"
+tooltip_text = "Deme Of Melite"
 newSceneName = "Deme Of Melite"

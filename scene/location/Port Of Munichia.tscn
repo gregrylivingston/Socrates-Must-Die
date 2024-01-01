@@ -1,15 +1,14 @@
-[gd_scene load_steps=5 format=3 uid="uid://ve3a5ed788o8"]
+[gd_scene load_steps=4 format=3 uid="uid://ve3a5ed788o8"]
 
 [ext_resource type="PackedScene" uid="uid://qvj4ev6spgxd" path="res://scene/location/place.tscn" id="1_a16q8"]
-[ext_resource type="Texture2D" uid="uid://cj3moir8rqbl6" path="res://texture/background/port3.png" id="2_8m5xl"]
+[ext_resource type="Texture2D" uid="uid://cl4shqbsxi7r7" path="res://texture/background/port3 (2).png" id="2_ocia1"]
 [ext_resource type="PackedScene" uid="uid://drqq8hgfonhms" path="res://scene/button/button_go_to_location.tscn" id="3_xwn0a"]
-[ext_resource type="PackedScene" uid="uid://b5m2btcrnes5x" path="res://scene/button/button_open_dialog.tscn" id="4_ts03k"]
 
 [node name="Place" instance=ExtResource("1_a16q8")]
-offset_left = -26.0
+offset_left = -1.0
 offset_top = -2.0
-offset_right = 19.0
-texture = ExtResource("2_8m5xl")
+offset_right = 13.0
+texture = ExtResource("2_ocia1")
 flip_h = true
 placeName = "Port Of Munichia"
 placeDescription = "The natural bay at Munichia has been surrounded with impressive walls but is small compared to the main port in Piraeus.  Traders and fisherman arrive at all hours of the day to unload their goods."
@@ -21,17 +20,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 1.0
-offset_left = 1040.0
-offset_top = 529.0
-offset_right = 1080.0
-offset_bottom = -79.0
+offset_left = 108.0
+offset_top = 453.0
+offset_right = 148.0
+offset_bottom = -155.0
 grow_horizontal = 1
 tooltip_text = "Munichia Market"
 newSceneName = "Munichia Market"
-
-[node name="ButtonOpenDialog" parent="CanvasLayer" index="1" instance=ExtResource("4_ts03k")]
-offset_left = 683.0
-offset_top = 403.0
-offset_right = 1146.0
-offset_bottom = 1099.0
-scale = Vector2(0.2, 0.2)

@@ -5,8 +5,10 @@
 [ext_resource type="PackedScene" uid="uid://drqq8hgfonhms" path="res://scene/button/button_go_to_location.tscn" id="3_2of6w"]
 
 [node name="Place" instance=ExtResource("1_w0mho")]
-offset_top = -154.0
-offset_right = 274.0
+offset_left = -121.0
+offset_top = -351.0
+offset_right = 521.0
+offset_bottom = 10.0
 texture = ExtResource("2_ioldo")
 placeName = "Munichia Inner Citadel"
 
@@ -16,9 +18,9 @@ anchors_preset = 7
 anchor_top = 1.0
 anchor_bottom = 1.0
 offset_left = -22.0
-offset_top = -386.0
+offset_top = -494.0
 offset_right = 18.0
-offset_bottom = -346.0
+offset_bottom = -454.0
 grow_vertical = 0
-tooltip_text = "Munichia Market"
+tooltip_text = "Munichia Outer Citadel"
 newSceneName = "Munichia Outer Citadel"
