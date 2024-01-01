@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dy74s5oa4kwby"
-path="res://.godot/imported/Deme Of Melite.png-c170e14f74dce41b7a54ab0b67f429fa.ctex"
+uid="uid://tdiv76p62drh"
+path="res://.godot/imported/Deme2.png-728ade35a9f3fc76aa65684438b018bc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://texture/background/Deme Of Melite.png"
-dest_files=["res://.godot/imported/Deme Of Melite.png-c170e14f74dce41b7a54ab0b67f429fa.ctex"]
+source_file="res://texture/background/Deme2.png"
+dest_files=["res://.godot/imported/Deme2.png-728ade35a9f3fc76aa65684438b018bc.ctex"]
 
 [params]
 

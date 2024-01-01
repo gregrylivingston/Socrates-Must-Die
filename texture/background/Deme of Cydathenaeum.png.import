@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://tdiv76p62drh"
-path="res://.godot/imported/Deme of Cydathenaeum.png-0ce88ca792e12b0c9abe95e3eb0e2463.ctex"
+uid="uid://3l52sx7nn3up"
+path="res://.godot/imported/Deme Of Cydathenaeum.png-ec2c5a7446efbb853e7b8f3e711e4c89.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://texture/background/Deme of Cydathenaeum.png"
-dest_files=["res://.godot/imported/Deme of Cydathenaeum.png-0ce88ca792e12b0c9abe95e3eb0e2463.ctex"]
+source_file="res://texture/background/Deme Of Cydathenaeum.png"
+dest_files=["res://.godot/imported/Deme Of Cydathenaeum.png-ec2c5a7446efbb853e7b8f3e711e4c89.ctex"]
 
 [params]
 
