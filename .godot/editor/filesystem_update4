@@ -17,3 +17,10 @@ res://character/Trechus/Trechus.dtl
 res://addons/dialogic/Editor/Events/styles/InputFieldsStyle.tres
 res://scene/location/Well Of Peisistratos.tscn
 res://script/global/Juror.gd
+res://scene/ui/Achievements.gd
+res://scene/ui/Canvas_JuryMember.tscn
+res://scene/ui/Canvas_JuryMember.gd
+res://scene/ui/Jurors.tscn
+res://scene/ui/Jurors.gd
+res://scene/ui/Map.gd
+res://scene/ui/Settings.tscn

@@ -15,20 +15,26 @@ func _ready():
 		jurorButton.JurorName = juror.name
 		jurorButton.textureString = juror.image
 		juryCount += 1
+		if not juror.achieved:
+			jurorButton.isBlackedOut = true
+		if not juror.discoveryAchievement:
+			jurorButton.JurorName = "Unknown"
 		$Panel/VBoxContainer/ScrollContainer/VBoxContainer/grid.add_child(jurorButton)
 		
-	$Panel/VBoxContainer/HBoxContainer/jurorCount.text = "Jurors Convinced  " + str(juryConvinced) + "/" + str(juryCount)
+	$Panel/VBoxContainer/HBoxContainer2/jurorCount.text = "Jurors Convinced  " + str(juryConvinced) + "/" + str(juryCount)
 
 	for item in Item.list:
 		itemCount += 1
 		var itemButton = itemButtonScene.instantiate()
 		itemButton.ItemName = item.name
 		itemButton.textureString = item.image
-		if not item.achieved:itemButton.isBlackedOut = true
+		if not item.achieved:
+			pass
+			#itemButton.isBlackedOut = true
 		else: itemsFound +=1
 		$Panel/VBoxContainer/ScrollContainer/VBoxContainer/grid.add_child(itemButton)
 
-	$Panel/VBoxContainer/HBoxContainer/itemCount.text = "Items Found  " + str(itemsFound) + "/" + str(itemCount)
+	$Panel/VBoxContainer/HBoxContainer2/itemCount.text = "Items Found  " + str(itemsFound) + "/" + str(itemCount)
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):

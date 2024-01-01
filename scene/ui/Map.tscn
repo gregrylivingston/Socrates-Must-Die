@@ -1,6 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://cimyam7t74b58"]
 
 [ext_resource type="Script" path="res://scene/ui/Map.gd" id="1_re2aj"]
+[ext_resource type="PackedScene" uid="uid://cthrgqgx8vu0m" path="res://scene/ui/uiButton.tscn" id="2_ipfyk"]
 [ext_resource type="PackedScene" uid="uid://b4kgf7eucs365" path="res://scene/ui/innerMap.tscn" id="3_4gu6p"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ywap5"]
@@ -14,9 +15,6 @@ corner_radius_top_left = 5
 corner_radius_top_right = 5
 corner_radius_bottom_right = 5
 corner_radius_bottom_left = 5
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_25thn"]
-bg_color = Color(0.6, 0.6, 0.6, 0)
 
 [node name="Map" type="Control"]
 layout_mode = 3
@@ -64,12 +62,11 @@ grow_vertical = 2
 [node name="HBoxContainer" type="HBoxContainer" parent="Panel/VBoxContainer"]
 layout_mode = 2
 
-[node name="Button" type="Button" parent="Panel/VBoxContainer/HBoxContainer"]
+[node name="UiButton" parent="Panel/VBoxContainer/HBoxContainer" instance=ExtResource("2_ipfyk")]
+custom_minimum_size = Vector2(50, 50)
 layout_mode = 2
-theme_override_constants/outline_size = 10
-theme_override_font_sizes/font_size = 50
-theme_override_styles/normal = SubResource("StyleBoxFlat_25thn")
-text = " X "
+theme_override_font_sizes/font_size = 30
+text = "X"
 
 [node name="Label" type="Label" parent="Panel/VBoxContainer/HBoxContainer"]
 visible = false
@@ -79,4 +76,4 @@ text = "  Map
 
 [node name="Node2D" parent="Panel/VBoxContainer" instance=ExtResource("3_4gu6p")]
 
-[connection signal="pressed" from="Panel/VBoxContainer/HBoxContainer/Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Panel/VBoxContainer/HBoxContainer/UiButton" to="." method="_on_ui_button_pressed"]

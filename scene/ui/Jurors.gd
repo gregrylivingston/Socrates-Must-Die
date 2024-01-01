@@ -9,7 +9,15 @@ func _ready():
 		var jurorButton = jurorButtonScene.instantiate()
 		jurorButton.JurorName = juror.name
 		jurorButton.textureString = juror.image
+		if not juror.hasConvinced:
+			jurorButton.isBlackedOut = true
+		if not juror.hasDiscovered:
+			jurorButton.JurorName = "Unknown"
 		$Panel/VBoxContainer/GridContainer.add_child(jurorButton)
+
+
+
+
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):

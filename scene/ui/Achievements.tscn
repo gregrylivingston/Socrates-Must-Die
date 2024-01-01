@@ -39,6 +39,10 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_left = 10.0
+offset_top = 10.0
+offset_right = -10.0
+offset_bottom = -10.0
 grow_horizontal = 2
 grow_vertical = 2
 
@@ -52,21 +56,34 @@ size_flags_horizontal = 0
 theme_override_font_sizes/font_size = 30
 text = "X"
 
-[node name="jurorCount" type="Label" parent="Panel/VBoxContainer/HBoxContainer"]
+[node name="Label" type="Label" parent="Panel/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "  Achievements"
+
+[node name="HSeparator2" type="HSeparator" parent="Panel/VBoxContainer"]
+modulate = Color(1, 1, 1, 0)
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="Panel/VBoxContainer"]
+layout_mode = 2
+
+[node name="jurorCount" type="Label" parent="Panel/VBoxContainer/HBoxContainer2"]
 layout_mode = 2
 size_flags_horizontal = 6
 theme_override_font_sizes/font_size = 30
 text = "Jurors Convinced
 "
 
-[node name="itemCount" type="Label" parent="Panel/VBoxContainer/HBoxContainer"]
+[node name="itemCount" type="Label" parent="Panel/VBoxContainer/HBoxContainer2"]
 layout_mode = 2
 size_flags_horizontal = 6
 theme_override_font_sizes/font_size = 30
 text = "Items Found
 "
 
-[node name="locationCount" type="Label" parent="Panel/VBoxContainer/HBoxContainer"]
+[node name="locationCount" type="Label" parent="Panel/VBoxContainer/HBoxContainer2"]
 layout_mode = 2
 size_flags_horizontal = 6
 theme_override_font_sizes/font_size = 30
@@ -75,7 +92,7 @@ text = "Locations Found  0/4
 
 [node name="HSeparator" type="HSeparator" parent="Panel/VBoxContainer"]
 modulate = Color(1, 1, 1, 0)
-custom_minimum_size = Vector2(0, 20)
+custom_minimum_size = Vector2(0, 50)
 layout_mode = 2
 
 [node name="ScrollContainer" type="ScrollContainer" parent="Panel/VBoxContainer"]

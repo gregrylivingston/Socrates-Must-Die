@@ -11,5 +11,5 @@ func _process(delta):
 	pass
 
 
-func _on_button_pressed():
+func _on_ui_button_pressed():
 	queue_free()

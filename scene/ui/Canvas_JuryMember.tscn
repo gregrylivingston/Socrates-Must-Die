@@ -7,14 +7,14 @@
 size_flags_horizontal = 3
 script = ExtResource("1_xjbjg")
 
-[node name="Label" type="Label" parent="."]
-layout_mode = 2
-text = "Trechus"
-horizontal_alignment = 1
-
 [node name="TextureRect" type="TextureRect" parent="."]
 custom_minimum_size = Vector2(200, 200)
 layout_mode = 2
 texture = ExtResource("1_yq101")
 expand_mode = 1
 stretch_mode = 5
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 2
+text = "Trechus"
+horizontal_alignment = 1

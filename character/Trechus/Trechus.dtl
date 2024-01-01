@@ -1,35 +1,38 @@
 join Trechus 1
+if Jury.getJurorState("Trechus") == true:
+	jump AlreadyApproved
 label Home
+do Jury.discoverJuror("Trechus")
 [voice path="res://character/Trechus/voice/Trechus_1Intro.mp3" volume="0.0"]
 Trechus: Sad times when even the elders can't be trusted to honor the gods.
-- Could you be convinced Socrates is innocent.
+- Could you be convinced Socrates is innocent?
 	[voice path="res://character/Trechus/voice/Trechus_1.1Q.mp3" volume="0.0"]
 	Trechus: I don't know.  Maybe. I heard he's teaching the children to question their parents. That's  not right.
 	- He's teaching them to question... everything.
 		update Trechus (Unhappy) 1
 		[voice path="res://character/Trechus/voice/Trechus_1.1A1.mp3" volume="0.0"]
 		Trechus: What a dangerous man!
-	- He's teaching them to think for themselves, not disrespect their parents.
+	- He's teaching them critical thinking, not disrespect.
 		update Trechus (Happy) 1
 		[voice path="res://character/Trechus/voice/Trechus_1.1A2.mp3" volume="0.0"]
 		Trechus: I remember questioning my own parents often.  Bless their tolerance.
 		set {correctAnswers} += 1
-	- Children should question their parents.  It's how they become adults.
+	- Children must question their parents to become adults.
 		update Trechus (Unhappy) 1
 		[voice path="res://character/Trechus/voice/Trechus1.1A3.mp3" volume="0.0"]
 		Trechus: Even as adults we should continue to respect our elders.
 	update Trechus (Standing) 1
 	[voice path="res://character/Trechus/voice/Trechus_1.2Q.mp3" volume="0.0"]
 	Trechus: What do we have if not respect for authority and the rule of law? Look around, this old man is bringing us to chaos.
-	- To try an old man for his mumblings.  What good is rule of law then?
+	- An old man's mumblings could hardly be responsible for chaos.
 		update Trechus (Unhappy) 1
 		[voice path="res://character/Trechus/voice/Trechus_1.2A1.mp3" volume="0.0"]
 		Trechus: We must respect the rule of law and the will of the majority.  There is no choice.
-	- We should be free to express our opinions without fear of punishment or retribution.
+	- We should be free to express our opinions without fear.
 		update Trechus (Unhappy) 1
 		[voice path="res://character/Trechus/voice/Trechus_1.A2.mp3" volume="0.0"]
 		Trechus: Before long, we'll have a society where no one respects anyone else.
-	- When individuals are punished for speaking out, it is impossible to have both freedom and justice.
+	- A balance between justice and freedom is our only hope for order.
 		update Trechus (Happy) 1
 		[voice path="res://character/Trechus/voice/Trechus_1.2A3.mp3" volume="0.0"]
 		Trechus: I see your point.  We must strike a careful balance between order and freedom.
@@ -55,10 +58,11 @@ Trechus: Sad times when even the elders can't be trusted to honor the gods.
 	[end_timeline]
 label Resolve
 if {correctAnswers} >= 3:
+	do Jury.convinceJuror("Trechus")
+	label AlreadyApproved
 	update Trechus (Happy) 1
 	[voice path="res://character/Trechus/voice/Trechus_1.Success.mp3" volume="0.0"]
 	Trechus: I think I'm beginning to see your point my friend.  Maybe Socrates should be spared.
-	do Jury.convinceJuror("Trechus")
 else:
 	update Trechus (Standing) 1
 	[voice path="res://character/Trechus/voice/Trechus_1.Failure.mp3" volume="0.0"]
