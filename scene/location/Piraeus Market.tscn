@@ -18,7 +18,7 @@ offset_top = -91.0
 offset_right = 123.0
 offset_bottom = -51.0
 grow_vertical = 0
-tooltip_text = "Cantharus Habor"
+tooltip_text = "Cantharus Harbor"
 newSceneName = "Cantharus Harbor"
 
 [node name="Button_GoToLocation2" parent="." index="2" instance=ExtResource("3_oaca2")]

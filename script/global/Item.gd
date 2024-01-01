@@ -147,10 +147,16 @@ extends Node
 	},
 ]
 
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
 
+
+func hasItem(itemName):
+	var myItem = list.filter(func(item): return item.name == itemName)
+	return myItem[0].hasNow
+
+func acquireItem(itemName):
+	var myItem = list.filter(func(item): return item.name == itemName)
+	myItem[0].achieved = true
+	myItem[0].hasNow = true
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):

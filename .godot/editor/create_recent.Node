@@ -1,3 +1,4 @@
+TextureRect
 ProgressBar
 HSeparator
 CheckButton
@@ -7,9 +8,7 @@ HBoxContainer
 VBoxContainer
 ScrollContainer
 VSeparator
-TextureRect
 GridContainer
 AudioStreamPlayer
 Node2D
 Line2D
-Polygon2D

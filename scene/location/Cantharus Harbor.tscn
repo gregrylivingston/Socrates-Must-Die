@@ -40,3 +40,31 @@ offset_bottom = -269.0
 grow_horizontal = 1
 tooltip_text = "Piraeus Suburb"
 newSceneName = "Piraeus Suburb"
+
+[node name="Button_GoToLocation4" parent="CanvasLayer" index="2" instance=ExtResource("3_iokqq")]
+anchors_preset = 9
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 1.0
+offset_left = 808.0
+offset_top = 334.0
+offset_right = 848.0
+offset_bottom = -274.0
+grow_horizontal = 1
+tooltip_text = "Piraeus Suburb"
+newSceneName = "Cantharus Fine Imports"
+
+[node name="Button_GoToLocation3" parent="CanvasLayer" index="3" instance=ExtResource("3_iokqq")]
+anchors_preset = 9
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 1.0
+offset_left = 294.0
+offset_top = 416.0
+offset_right = 334.0
+offset_bottom = -192.0
+grow_horizontal = 1
+tooltip_text = "Piraeus Market"
+newSceneName = "Cantharus Fish Monger"

@@ -1,0 +1,12 @@
+join PelagiusTheMerchant 1
+[voice path="res://character/Pelagius/voice/Pelagius-FreshFish.mp3" volume="0.0"]
+PelagiusTheMerchant: Greetings friend.  Freshest fish in the city.  Good price.
+- Yes, please. [if Item.hasItem("Fish")  ==  false][else="hide"]
+	jump RequestFish
+- No thanks.
+	[end_timeline]
+label RequestFish
+do Item.acquireItem("Fish")
+[voice path="res://character/Pelagius/voice/Pelagius-Excellent.mp3" volume="0.0"]
+PelagiusTheMerchant: Excellent Choice.
+[end_timeline]

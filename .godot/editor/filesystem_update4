@@ -22,3 +22,14 @@ res://scene/location/The Academy Gardens.tscn
 res://scene/location/The Academy Workshop.tscn
 res://character/Perikles/Perikles.dch
 res://scene/location/The Sacred Gate.tscn
+res://character/Demitrios/market_demetrios.dtl
+res://character/Demitrios/Demitrios.dch
+res://character/Anytus/Anytus.dch
+res://character/Pelagius/Pelgaius.dtl
+res://character/Pelagius/Pelagius.dch
+res://character/Pelagius/Pelagius.dtl
+res://scene/location/Piraeus Market.tscn
+res://script/global/Item.gd
+res://addons/dialogic/Editor/Events/styles/InputFieldsStyle.tres
+res://scene/location/Cantharus Fish Monger.tscn
+res://scene/location/Cantharus Fine Imports.tscn

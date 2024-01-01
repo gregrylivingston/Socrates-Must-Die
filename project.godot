@@ -35,7 +35,7 @@ directories/dch_directory={
 "Lycon": "res://character/Lycon/Lycon.dch",
 "Meletus": "res://character/Meletus/Meletus.dch",
 "Menander": "res://character/Menander/Menander.dch",
-"PelagiusTheMerchant": "res://character/Pelagius/PelagiusTheMerchant.dch",
+"PelagiusTheMerchant": "res://character/Pelagius/Pelagius.dch",
 "Perikles": "res://character/Perikles/Perikles.dch",
 "Plato": "res://character/Plato/Plato.dch",
 "Socrates": "res://character/Socrates/Socrates.dch",
@@ -46,6 +46,7 @@ directories/dtl_directory={
 "Hiereiai Of Athena2": "res://character/Athena2/Hiereiai Of Athena2.dtl",
 "Intro": "res://timeline/Intro.dtl",
 "Menander": "res://character/Menander/Menander.dtl",
+"Pelagius": "res://character/Pelagius/Pelagius.dtl",
 "Trechus": "res://character/Trechus/Trechus.dtl",
 "market_demetrios": "res://character/Demitrios/market_demetrios.dtl"
 }
