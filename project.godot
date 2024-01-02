@@ -53,6 +53,7 @@ directories/dch_directory={
 "Zeno": "res://character/Zeno/Zeno.dch"
 }
 directories/dtl_directory={
+"Demostrate": "res://character/Demostrate/Demostrate.dtl",
 "Hiereiai Of Athena2": "res://character/Athena2/Hiereiai Of Athena2.dtl",
 "Intro": "res://timeline/Intro.dtl",
 "Meletus": "res://character/Meletus/Meletus.dtl",
@@ -61,6 +62,7 @@ directories/dtl_directory={
 "Olympiodoros": "res://character/Olympiodoros/Olympiodoros.dtl",
 "Pelagius": "res://character/Pelagius/Pelagius.dtl",
 "Plato": "res://character/Plato/Plato.dtl",
+"Seleukos": "res://character/Seleukos/Seleukos.dtl",
 "Socrates": "res://character/Socrates/Socrates.dtl",
 "Trechus": "res://character/Trechus/Trechus.dtl",
 "Xenophon": "res://character/Xenophon/Xenophon.dtl",

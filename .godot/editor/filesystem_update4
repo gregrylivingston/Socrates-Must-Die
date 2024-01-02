@@ -29,3 +29,17 @@ res://character/Nikon/Nikon.dch
 res://character/Nikon/Nikon.dtl
 res://scene/location/Deme Of Melite.tscn
 res://scene/location/Deme Of Cydathenaeum.tscn
+res://character/Seleukos/Seleukos.dtl
+res://scene/location/Deme Of Colonus.tscn
+res://character/Seleukos/Seleukos.dch
+res://script/global/Juror.gd
+res://scene/location/Demostrate's Home.tscn
+res://scene/location/locationButtonStyleBox.tres
+res://character/Demostrate/Demostrate.dtl
+res://character/Demostrate/Demostrate.dch
+res://character/Trechus/Trechus.dch
+res://scene/location/The Sacred Gate.tscn
+res://scene/location/Port Of Munichia.tscn
+res://scene/location/Piraeus Suburb.tscn
+res://scene/location/Piraeus Market.tscn
+res://scene/location/Munichia Suburb.tscn

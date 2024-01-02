@@ -17,6 +17,11 @@ extends Node
 		"image":"res://character/Trechus/Trechus1.png",
 		"achieved":false,"hasConvinced":false,"hasDiscovered":false,"discoveryAchievement":false,
 	},
+	{
+		"name":"Seleukos",
+		"image":"res://character/Seleukos/Seleukos1.png",
+		"achieved":false,"hasConvinced":false,"hasDiscovered":false,"discoveryAchievement":false,
+	},
 ]
 
 func getJurorState(jurorName):

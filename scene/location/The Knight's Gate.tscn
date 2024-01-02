@@ -16,7 +16,15 @@ offset_bottom = 73.0
 tooltip_text = "Walls Of Phalerum"
 newSceneName = "Walls Of Phalerum"
 
-[node name="Button_GoToLocation3" parent="CanvasLayer" index="1" instance=ExtResource("3_823qt")]
+[node name="Button_GoToLocation4" parent="CanvasLayer" index="1" instance=ExtResource("3_823qt")]
+offset_left = 211.0
+offset_top = 115.0
+offset_right = 251.0
+offset_bottom = 155.0
+tooltip_text = "Walls Of Phalerum"
+newSceneName = "Demostrate's Home"
+
+[node name="Button_GoToLocation3" parent="CanvasLayer" index="2" instance=ExtResource("3_823qt")]
 offset_left = 352.0
 offset_top = -243.0
 offset_right = 392.0
@@ -24,7 +32,7 @@ offset_bottom = -203.0
 tooltip_text = "Prison Of Socrates"
 newSceneName = "Prison Of Socrates"
 
-[node name="Button_GoToLocation2" parent="CanvasLayer" index="2" instance=ExtResource("3_823qt")]
+[node name="Button_GoToLocation2" parent="CanvasLayer" index="3" instance=ExtResource("3_823qt")]
 anchors_preset = 7
 anchor_top = 1.0
 anchor_bottom = 1.0

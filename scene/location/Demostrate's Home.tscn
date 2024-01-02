@@ -1,0 +1,32 @@
+[gd_scene load_steps=6 format=3 uid="uid://hy1bp7ticqcj"]
+
+[ext_resource type="PackedScene" uid="uid://qvj4ev6spgxd" path="res://scene/location/place.tscn" id="1_p23if"]
+[ext_resource type="Texture2D" uid="uid://cy2t1nedi2os6" path="res://texture/background/Demostrate's Home.png" id="2_tj7l0"]
+[ext_resource type="PackedScene" uid="uid://drqq8hgfonhms" path="res://scene/button/button_go_to_location.tscn" id="3_rfoqq"]
+[ext_resource type="PackedScene" uid="uid://b5m2btcrnes5x" path="res://scene/button/button_open_dialog.tscn" id="4_3snrp"]
+[ext_resource type="Texture2D" uid="uid://bruf3k1ehnin" path="res://character/Demostrate/Demostrate1.png" id="5_4fbr7"]
+
+[node name="Place" instance=ExtResource("1_p23if")]
+texture = ExtResource("2_tj7l0")
+placeName = "The Knight's Gate"
+
+[node name="Button_GoToLocation2" parent="CanvasLayer" index="0" instance=ExtResource("3_rfoqq")]
+anchors_preset = 7
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 279.0
+offset_top = -97.0
+offset_right = 319.0
+offset_bottom = -57.0
+grow_vertical = 0
+tooltip_text = "Well Of Peisistratos"
+newSceneName = "The Knight's Gate"
+
+[node name="ButtonOpenDialog" parent="CanvasLayer" index="1" instance=ExtResource("4_3snrp")]
+offset_left = 401.0
+offset_top = 215.0
+offset_right = 1177.0
+offset_bottom = 1328.0
+scale = Vector2(0.4, 0.4)
+texture_normal = ExtResource("5_4fbr7")
+timelineName = "Demostrate"
