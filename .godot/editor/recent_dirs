@@ -1,3 +1,5 @@
+res://character/Nikon
+res://character/Meletus
 res://character/Socrates
 res://character/Plato
 res://character/Xenophon
@@ -18,6 +20,4 @@ res://character/Athena2/voice
 res://timeline
 res://character
 res://texture/background
-res://sound/voice
-res://scene/button
 D:/Godot/PointAndClickGreece

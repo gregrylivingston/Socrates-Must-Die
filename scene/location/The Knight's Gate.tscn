@@ -21,7 +21,7 @@ offset_left = 352.0
 offset_top = -243.0
 offset_right = 392.0
 offset_bottom = -203.0
-tooltip_text = "Walls Of Phalerum"
+tooltip_text = "Prison Of Socrates"
 newSceneName = "Prison Of Socrates"
 
 [node name="Button_GoToLocation2" parent="CanvasLayer" index="2" instance=ExtResource("3_823qt")]

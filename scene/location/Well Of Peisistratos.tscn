@@ -27,7 +27,7 @@ offset_top = 585.0
 offset_right = 645.0
 offset_bottom = -23.0
 grow_horizontal = 1
-tooltip_text = "Gate Of Piraeus"
+tooltip_text = "The Knight's Gate"
 newSceneName = "The Knight's Gate"
 
 [node name="Button_GoToLocation4" parent="CanvasLayer" index="1" instance=ExtResource("3_bjvq7")]
