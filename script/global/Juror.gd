@@ -3,8 +3,8 @@ extends Node
 
 @export var list = [
 	{
-		"name":"Olympiodoros",
-		"image":"res://character/Olympiodoros/Olympiodoros1.png",
+		"name":"Demostrate",
+		"image":"res://character/Demostrate/Demostrate1.png",
 		"achieved":false,"hasConvinced":false,"hasDiscovered":false,"discoveryAchievement":false,
 	},
 	{
@@ -13,8 +13,8 @@ extends Node
 		"achieved":false,"hasConvinced":false,"hasDiscovered":false,"discoveryAchievement":false,
 	},
 	{
-		"name":"Trechus",
-		"image":"res://character/Trechus/Trechus1.png",
+		"name":"Olympiodoros",
+		"image":"res://character/Olympiodoros/Olympiodoros1.png",
 		"achieved":false,"hasConvinced":false,"hasDiscovered":false,"discoveryAchievement":false,
 	},
 	{
@@ -22,6 +22,12 @@ extends Node
 		"image":"res://character/Seleukos/Seleukos1.png",
 		"achieved":false,"hasConvinced":false,"hasDiscovered":false,"discoveryAchievement":false,
 	},
+	{
+		"name":"Trechus",
+		"image":"res://character/Trechus/Trechus1.png",
+		"achieved":false,"hasConvinced":false,"hasDiscovered":false,"discoveryAchievement":false,
+	},
+	
 ]
 
 func getJurorState(jurorName):
