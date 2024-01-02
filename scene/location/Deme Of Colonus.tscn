@@ -55,6 +55,20 @@ grow_horizontal = 1
 tooltip_text = "Deme Of Melite"
 newSceneName = "Deme Of Melite"
 
+[node name="Button_GoToLocation4" parent="CanvasLayer" index="3" instance=ExtResource("3_ad7c1")]
+anchors_preset = 9
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 1.0
+offset_left = 120.0
+offset_top = 406.0
+offset_right = 160.0
+offset_bottom = -202.0
+grow_horizontal = 1
+tooltip_text = "Deme Of Melite"
+newSceneName = "Hespero's Apothecary"
+
 [node name="ButtonOpenDialog" parent="." index="1" instance=ExtResource("4_0pser")]
 layout_mode = 0
 offset_left = 442.0

@@ -29,6 +29,7 @@ directories/dch_directory={
 "Anytus": "res://character/Anytus/Anytus.dch",
 "Demitrios": "res://character/Demitrios/Demitrios.dch",
 "Demostrate": "res://character/Demostrate/Demostrate.dch",
+"Epiktetos": "res://character/Epiktetos/Epiktetos.dch",
 "Euphrasia": "res://character/Euphrasia/Euphrasia.dch",
 "Galenos": "res://character/Galenos/Galenos.dch",
 "Hesperos": "res://character/Hesperos/Hesperos.dch",
@@ -54,6 +55,7 @@ directories/dch_directory={
 }
 directories/dtl_directory={
 "Demostrate": "res://character/Demostrate/Demostrate.dtl",
+"Hespero": "res://character/Hesperos/Hespero.dtl",
 "Hiereiai Of Athena2": "res://character/Athena2/Hiereiai Of Athena2.dtl",
 "Intro": "res://timeline/Intro.dtl",
 "Meletus": "res://character/Meletus/Meletus.dtl",
