@@ -1,12 +1,17 @@
-[gd_scene load_steps=4 format=3 uid="uid://cjvx2wib7q816"]
+[gd_scene load_steps=7 format=3 uid="uid://cjvx2wib7q816"]
 
 [ext_resource type="PackedScene" uid="uid://qvj4ev6spgxd" path="res://scene/location/place.tscn" id="1_ltwje"]
 [ext_resource type="Texture2D" uid="uid://3l52sx7nn3up" path="res://texture/background/Deme Of Cydathenaeum.png" id="2_5nhe5"]
 [ext_resource type="PackedScene" uid="uid://drqq8hgfonhms" path="res://scene/button/button_go_to_location.tscn" id="3_ukyt5"]
+[ext_resource type="PackedScene" uid="uid://b5m2btcrnes5x" path="res://scene/button/button_open_dialog.tscn" id="4_0m5rg"]
+[ext_resource type="Texture2D" uid="uid://dx5we58in5rp3" path="res://character/Nikon/Nikon1.png" id="5_758yw"]
+[ext_resource type="Texture2D" uid="uid://270kviiiwa7j" path="res://texture/background/Deme Of CydathenaeumOverlay.png" id="6_vgp1s"]
 
 [node name="Place" instance=ExtResource("1_ltwje")]
+offset_left = -187.0
 offset_top = -1.0
 offset_right = 3.0
+offset_bottom = 105.0
 texture = ExtResource("2_5nhe5")
 flip_h = true
 placeName = "Deme Of Cydathenaeum"
@@ -17,10 +22,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 1.0
-offset_left = 554.0
-offset_top = 588.0
-offset_right = 594.0
-offset_bottom = -20.0
+offset_left = 718.0
+offset_top = 585.0
+offset_right = 758.0
+offset_bottom = -23.0
 grow_horizontal = 1
 tooltip_text = "Well Of Peisistratos"
 newSceneName = "Well Of Peisistratos"
@@ -31,10 +36,30 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 1.0
-offset_left = 371.0
-offset_top = 429.0
-offset_right = 411.0
-offset_bottom = -179.0
+offset_left = 227.0
+offset_top = 485.0
+offset_right = 267.0
+offset_bottom = -123.0
 grow_horizontal = 1
 tooltip_text = "The Agora"
 newSceneName = "The Agora"
+
+[node name="ButtonOpenDialog2" parent="." index="1" instance=ExtResource("4_0m5rg")]
+offset_left = 718.0
+offset_top = 374.0
+offset_right = 1141.0
+offset_bottom = 980.0
+scale = Vector2(0.4, 0.4)
+texture_normal = ExtResource("5_758yw")
+timelineName = "Nikon"
+
+[node name="TextureRect" type="TextureRect" parent="." index="2"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("6_vgp1s")
+expand_mode = 1

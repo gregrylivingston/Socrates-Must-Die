@@ -5,8 +5,10 @@
 [ext_resource type="PackedScene" uid="uid://drqq8hgfonhms" path="res://scene/button/button_go_to_location.tscn" id="3_q5ct5"]
 
 [node name="Place" instance=ExtResource("1_of1re")]
-offset_left = -2.0
-offset_top = -1.0
+offset_left = -218.0
+offset_top = -105.0
+offset_right = 179.0
+offset_bottom = 118.0
 texture = ExtResource("2_86v4j")
 flip_h = true
 placeName = "Deme Of Melite"
@@ -19,10 +21,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 1.0
-offset_left = 514.0
-offset_top = 577.0
-offset_right = 554.0
-offset_bottom = -31.0
+offset_left = 665.0
+offset_top = 567.0
+offset_right = 705.0
+offset_bottom = -41.0
 grow_horizontal = 1
 tooltip_text = "Well Of Peisistratos"
 newSceneName = "Well Of Peisistratos"
@@ -33,10 +35,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 1.0
-offset_left = 913.0
-offset_top = 345.0
-offset_right = 953.0
-offset_bottom = -263.0
+offset_left = 1078.0
+offset_top = 459.0
+offset_right = 1118.0
+offset_bottom = -149.0
 grow_horizontal = 1
 tooltip_text = "Deme Of Colonus"
 newSceneName = "Deme Of Colonus"
