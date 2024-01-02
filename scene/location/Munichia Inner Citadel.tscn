@@ -1,8 +1,10 @@
-[gd_scene load_steps=4 format=3 uid="uid://c0jkif65ne7ws"]
+[gd_scene load_steps=6 format=3 uid="uid://c0jkif65ne7ws"]
 
 [ext_resource type="PackedScene" uid="uid://qvj4ev6spgxd" path="res://scene/location/place.tscn" id="1_w0mho"]
 [ext_resource type="Texture2D" uid="uid://ceb42nhaaokgq" path="res://texture/background/innercitadel.png" id="2_ioldo"]
 [ext_resource type="PackedScene" uid="uid://drqq8hgfonhms" path="res://scene/button/button_go_to_location.tscn" id="3_2of6w"]
+[ext_resource type="PackedScene" uid="uid://b5m2btcrnes5x" path="res://scene/button/button_open_dialog.tscn" id="4_oclna"]
+[ext_resource type="Texture2D" uid="uid://kj5w020efhh4" path="res://character/Xenophon/Xenophon_Standing.png" id="5_cdn6y"]
 
 [node name="Place" instance=ExtResource("1_w0mho")]
 offset_left = -121.0
@@ -23,3 +25,11 @@ offset_bottom = -444.0
 grow_vertical = 0
 tooltip_text = "Munichia Outer Citadel"
 newSceneName = "Munichia Outer Citadel"
+
+[node name="ButtonOpenDialog" parent="CanvasLayer" index="1" instance=ExtResource("4_oclna")]
+offset_left = 806.0
+offset_top = 94.0
+offset_right = 1266.0
+offset_bottom = 656.0
+texture_normal = ExtResource("5_cdn6y")
+timelineName = "Xenophon"

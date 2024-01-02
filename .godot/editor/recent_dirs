@@ -1,3 +1,6 @@
+res://character/Socrates
+res://character/Plato
+res://character/Xenophon
 res://character/Olympiodoros/voice
 res://character/Olympiodoros
 res://character/Pelagius/voice
@@ -17,5 +20,4 @@ res://character
 res://texture/background
 res://sound/voice
 res://scene/button
-res://scene/location
 D:/Godot/PointAndClickGreece

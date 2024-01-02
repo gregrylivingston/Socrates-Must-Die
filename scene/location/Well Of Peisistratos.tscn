@@ -28,7 +28,7 @@ offset_right = 645.0
 offset_bottom = -23.0
 grow_horizontal = 1
 tooltip_text = "Gate Of Piraeus"
-newSceneName = "Gate Of Piraeus"
+newSceneName = "The Knight's Gate"
 
 [node name="Button_GoToLocation4" parent="CanvasLayer" index="1" instance=ExtResource("3_bjvq7")]
 anchors_preset = 9
@@ -55,7 +55,7 @@ offset_top = 392.0
 offset_right = 985.0
 offset_bottom = -216.0
 grow_horizontal = 1
-tooltip_text = "Piraeus Suburb"
+tooltip_text = "Deme Of Cydathenaeum"
 newSceneName = "Deme Of Cydathenaeum"
 
 [node name="Button_GoToLocation3" parent="CanvasLayer" index="3" instance=ExtResource("3_bjvq7")]

@@ -1,0 +1,37 @@
+[gd_scene load_steps=4 format=3 uid="uid://8mdhwbk75vss"]
+
+[ext_resource type="PackedScene" uid="uid://qvj4ev6spgxd" path="res://scene/location/place.tscn" id="1_wbhc6"]
+[ext_resource type="Texture2D" uid="uid://dc7165orakwwq" path="res://texture/background/The Knight's Gate.png" id="2_uacaq"]
+[ext_resource type="PackedScene" uid="uid://drqq8hgfonhms" path="res://scene/button/button_go_to_location.tscn" id="3_823qt"]
+
+[node name="Place" instance=ExtResource("1_wbhc6")]
+texture = ExtResource("2_uacaq")
+placeName = "The Knight's Gate"
+
+[node name="Button_GoToLocation" parent="CanvasLayer" index="0" instance=ExtResource("3_823qt")]
+offset_left = 13.0
+offset_top = 33.0
+offset_right = 53.0
+offset_bottom = 73.0
+tooltip_text = "Walls Of Phalerum"
+newSceneName = "Walls Of Phalerum"
+
+[node name="Button_GoToLocation3" parent="CanvasLayer" index="1" instance=ExtResource("3_823qt")]
+offset_left = 352.0
+offset_top = -243.0
+offset_right = 392.0
+offset_bottom = -203.0
+tooltip_text = "Walls Of Phalerum"
+newSceneName = "Prison Of Socrates"
+
+[node name="Button_GoToLocation2" parent="CanvasLayer" index="2" instance=ExtResource("3_823qt")]
+anchors_preset = 7
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = -11.0
+offset_top = -86.0
+offset_right = 29.0
+offset_bottom = -46.0
+grow_vertical = 0
+tooltip_text = "Well Of Peisistratos"
+newSceneName = "Well Of Peisistratos"

@@ -1,56 +1,24 @@
-res://scene/ui/Settings.tscn
-res://scene/button/button_open_dialog.gdshader
-res://scene/ui/buttonStyle_Normal.tres
-res://character/Trechus/Trechus.dtl
 res://scene/button/button_open_dialog.tscn
-res://scene/gameroot.tscn
-res://scene/ui/item_button.tscn
-res://scene/ui/Achievements.tscn
-res://scene/location/Well Of Peisistratos.tscn
-res://scene/location/Cantharus Harbor.tscn
-res://character/Trechus/Trechus.dch
-res://scene/location/Port Of Munichia.tscn
-res://scene/location/Munichia Outer Citadel.tscn
-res://scene/location/Munichia Inner Citadel.tscn
-res://scene/location/The Agora.tscn
-res://scene/location/Deme Of Colonus.tscn
-res://scene/location/Deme Of Cydathenaeum.tscn
-res://scene/location/Deme Of Melite.tscn
-res://scene/location/The Academy.tscn
-res://scene/location/The Academy Hall.tscn
-res://scene/location/The Academy Gardens.tscn
-res://scene/location/The Academy Workshop.tscn
-res://character/Perikles/Perikles.dch
-res://scene/location/The Sacred Gate.tscn
-res://character/Demitrios/market_demetrios.dtl
+res://scene/ui/buttonStyle_Normal.tres
+res://scene/button/button_open_dialog.gdshader
 res://character/Demitrios/Demitrios.dch
-res://character/Anytus/Anytus.dch
-res://character/Pelagius/Pelgaius.dtl
-res://character/Pelagius/Pelagius.dch
-res://character/Pelagius/Pelagius.dtl
-res://scene/location/Piraeus Market.tscn
-res://script/global/Item.gd
-res://addons/dialogic/Editor/Events/styles/InputFieldsStyle.tres
-res://scene/location/Cantharus Fish Monger.tscn
-res://scene/location/Cantharus Fine Imports.tscn
-res://scene/location/Munichia Suburb.tscn
-res://scene/location/Walls Of Phalerum.tscn
-res://scene/location/Munichia Market.tscn
-res://character/Olympiodoros/Olympiodoros.dch
-res://character/Olympiodoros/Olympiodoros.dtl
-res://script/global/Juror.gd
-res://character/Athena2/Hiereiai Of Athena2.dtl
-res://scene/gameroot.gd
-res://scene/location/place.gd
+res://scene/gameroot.tscn
 res://scene/location/place.tscn
-res://script/global/Game.gd
-res://scene/button/button_open_dialog.gd
-res://addons/dialogic/Resources/event.gd
-res://addons/dialogic/Other/DialogicGameHandler.gd
-res://scene/location/Gate Of Piraeus.tscn
-res://scene/location/Minor Temple of Athena.tscn
-res://scene/location/Mount Hymettus.tscn
-res://scene/location/The People's Court.tscn
-res://scene/location/Piraeus Suburb.tscn
 res://scene/ui/notification.tscn
-res://scene/ui/notification.gd
+res://character/Plato/Plato.dtl
+res://scene/location/The Academy Hall.tscn
+res://character/Xenophon/Xenophon.dtl
+res://scene/location/Munichia Inner Citadel.tscn
+res://character/Xenophon/Xenophon.dch
+res://character/Plato/Plato.dch
+res://scene/location/Gate Of Piraeus.tscn
+res://scene/location/Well Of Peisistratos.tscn
+res://scene/location/Walls Of Phalerum.tscn
+res://scene/ui/innerMap.tscn
+res://scene/location/locationButtonStyleBoxTiny.tres
+res://scene/location/locationButtonStyleBoxTinyHover.tres
+res://scene/location/The Knight's Gate.tscn
+res://scene/location/The Agora.tscn
+res://scene/location/Prison Of Socrates.tscn
+res://character/Socrates/Socrates.dtl
+res://character/Socrates/Socrates.dch

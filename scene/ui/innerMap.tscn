@@ -170,7 +170,7 @@ tooltip_text = "Gate Of Piraeus"
 theme_override_styles/normal = ExtResource("2_r4wl5")
 theme_override_styles/hover = ExtResource("3_g7rww")
 theme_override_styles/focus = ExtResource("3_g7rww")
-newSceneName = "Gate Of Piraeus"
+newSceneName = "The Knight's Gate"
 isTiny = true
 
 [node name="Well Of Peisistratos" parent="Node2D" instance=ExtResource("1_oxo0m")]

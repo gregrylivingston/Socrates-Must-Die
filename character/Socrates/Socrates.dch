@@ -17,7 +17,7 @@
 "portraits": {
 "Speaking": {
 "export_overrides": {
-"image": "\"res://character/image/Socrates_Speaking.png\""
+"image": "\"res://character/Socrates/Socrates_Speaking.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),

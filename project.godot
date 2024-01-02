@@ -28,20 +28,29 @@ Item="*res://script/global/Item.gd"
 directories/dch_directory={
 "Anytus": "res://character/Anytus/Anytus.dch",
 "Demitrios": "res://character/Demitrios/Demitrios.dch",
+"Demostrate": "res://character/Demostrate/Demostrate.dch",
+"Euphrasia": "res://character/Euphrasia/Euphrasia.dch",
+"Galenos": "res://character/Galenos/Galenos.dch",
+"Hesperos": "res://character/Hesperos/Hesperos.dch",
 "Hierei Of Anakeion": "res://character/Anakeion/Hierei Of Anakeion.dch",
-"Hierei Of Hephaestus": "res://character/Socrates/Haphaestus/Hierei Of Hephaestus.dch",
+"Hierei Of Hephaestus": "res://character/Haphaestus/Hierei Of Hephaestus.dch",
 "Hiereiai Of Athena": "res://character/Athena1/Hiereiai Of Athena.dch",
 "Hiereriai Of Zeus": "res://character/Athena2/Hiereiai Of Athena2.dch",
+"Kleitos": "res://character/Kleitos/Kleitos.dch",
 "Lycon": "res://character/Lycon/Lycon.dch",
 "Meletus": "res://character/Meletus/Meletus.dch",
 "Menander": "res://character/Menander/Menander.dch",
+"Nikon": "res://character/Nikon/Nikon.dch",
 "Olympiodoros": "res://character/Olympiodoros/Olympiodoros.dch",
 "PelagiusTheMerchant": "res://character/Pelagius/Pelagius.dch",
 "Perikles": "res://character/Perikles/Perikles.dch",
+"Philandros": "res://character/Philandros/Philandros.dch",
 "Plato": "res://character/Plato/Plato.dch",
+"Seleukos": "res://character/Seleukos/Seleukos.dch",
 "Socrates": "res://character/Socrates/Socrates.dch",
 "Trechus": "res://character/Trechus/Trechus.dch",
-"Xenophon": "res://character/Xenophon/Xenophon.dch"
+"Xenophon": "res://character/Xenophon/Xenophon.dch",
+"Zeno": "res://character/Zeno/Zeno.dch"
 }
 directories/dtl_directory={
 "Hiereiai Of Athena2": "res://character/Athena2/Hiereiai Of Athena2.dtl",
@@ -49,7 +58,10 @@ directories/dtl_directory={
 "Menander": "res://character/Menander/Menander.dtl",
 "Olympiodoros": "res://character/Olympiodoros/Olympiodoros.dtl",
 "Pelagius": "res://character/Pelagius/Pelagius.dtl",
+"Plato": "res://character/Plato/Plato.dtl",
+"Socrates": "res://character/Socrates/Socrates.dtl",
 "Trechus": "res://character/Trechus/Trechus.dtl",
+"Xenophon": "res://character/Xenophon/Xenophon.dtl",
 "market_demetrios": "res://character/Demitrios/market_demetrios.dtl"
 }
 glossary/default_case_sensitive=true

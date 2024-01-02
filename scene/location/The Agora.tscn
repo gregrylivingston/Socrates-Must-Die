@@ -45,3 +45,15 @@ offset_bottom = 187.0
 grow_horizontal = 1
 tooltip_text = "The People's Court"
 newSceneName = "The People's Court"
+
+[node name="Button_GoToLocation4" parent="CanvasLayer" index="3" instance=ExtResource("3_whgkd")]
+anchors_preset = 4
+anchor_left = 0.0
+anchor_right = 0.0
+offset_left = 466.0
+offset_top = 27.0
+offset_right = 506.0
+offset_bottom = 67.0
+grow_horizontal = 1
+tooltip_text = "The People's Court"
+newSceneName = "The People's Court"

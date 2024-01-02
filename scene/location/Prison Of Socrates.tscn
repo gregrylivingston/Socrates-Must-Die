@@ -1,0 +1,38 @@
+[gd_scene load_steps=6 format=3 uid="uid://bc3udyy4sb0tq"]
+
+[ext_resource type="PackedScene" uid="uid://qvj4ev6spgxd" path="res://scene/location/place.tscn" id="1_2fr0a"]
+[ext_resource type="Texture2D" uid="uid://docvyx2dkc70n" path="res://texture/background/Prison Of Socrates.png" id="2_1lixk"]
+[ext_resource type="PackedScene" uid="uid://drqq8hgfonhms" path="res://scene/button/button_go_to_location.tscn" id="3_j47tp"]
+[ext_resource type="PackedScene" uid="uid://b5m2btcrnes5x" path="res://scene/button/button_open_dialog.tscn" id="4_b2036"]
+[ext_resource type="Texture2D" uid="uid://biml4xvjdcdt5" path="res://character/Socrates/Socrates_Speaking.png" id="5_8gupk"]
+
+[node name="Place" instance=ExtResource("1_2fr0a")]
+offset_left = -157.0
+offset_top = -89.0
+offset_right = 13.0
+texture = ExtResource("2_1lixk")
+flip_h = true
+placeName = "Prison Of Socrates"
+
+[node name="Button_GoToLocation3" parent="CanvasLayer" index="0" instance=ExtResource("3_j47tp")]
+anchors_preset = 9
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 1.0
+offset_left = 537.0
+offset_top = 259.0
+offset_right = 577.0
+offset_bottom = -349.0
+grow_horizontal = 1
+tooltip_text = "Munichia Market"
+newSceneName = "The Knight's Gate"
+
+[node name="ButtonOpenDialog" parent="CanvasLayer" index="1" instance=ExtResource("4_b2036")]
+offset_left = 265.0
+offset_top = 123.0
+offset_right = 672.0
+offset_bottom = 620.0
+texture_normal = ExtResource("5_8gupk")
+flip_h = true
+timelineName = "Socrates"
