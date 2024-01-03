@@ -27,6 +27,7 @@ Item="*res://script/global/Item.gd"
 
 directories/dch_directory={
 "Anytus": "res://character/Anytus/Anytus.dch",
+"Colaeus": "res://character/Colaeus/Colaeus.dch",
 "Demitrios": "res://character/Demitrios/Demitrios.dch",
 "Demostrate": "res://character/Demostrate/Demostrate.dch",
 "Epiktetos": "res://character/Epiktetos/Epiktetos.dch",
@@ -49,6 +50,7 @@ directories/dch_directory={
 "Plato": "res://character/Plato/Plato.dch",
 "Seleukos": "res://character/Seleukos/Seleukos.dch",
 "Socrates": "res://character/Socrates/Socrates.dch",
+"Sostratus": "res://character/Sostratus/Sostratus.dch",
 "Trechus": "res://character/Trechus/Trechus.dch",
 "Xenophon": "res://character/Xenophon/Xenophon.dch",
 "Zeno": "res://character/Zeno/Zeno.dch"

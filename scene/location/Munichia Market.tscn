@@ -1,14 +1,39 @@
-[gd_scene load_steps=6 format=3 uid="uid://deta5jfjk22l0"]
+[gd_scene load_steps=10 format=3 uid="uid://deta5jfjk22l0"]
 
 [ext_resource type="PackedScene" uid="uid://qvj4ev6spgxd" path="res://scene/location/place.tscn" id="1_haohd"]
 [ext_resource type="Texture2D" uid="uid://b566sccbsssy" path="res://texture/background/Market2.png" id="2_dhsud"]
 [ext_resource type="PackedScene" uid="uid://drqq8hgfonhms" path="res://scene/button/button_go_to_location.tscn" id="3_kgye4"]
+[ext_resource type="Texture2D" uid="uid://dk0lnhgx5m8qa" path="res://texture/background/Munichia Market 2.png" id="3_o7d0j"]
 [ext_resource type="PackedScene" uid="uid://b5m2btcrnes5x" path="res://scene/button/button_open_dialog.tscn" id="4_bftg4"]
+[ext_resource type="Texture2D" uid="uid://ck3kjc1suqod2" path="res://texture/background/3dEnvTest.png" id="4_d1yqg"]
+[ext_resource type="Texture2D" uid="uid://8i7gv2y8fg0e" path="res://texture/background/3dimageTest2.png" id="5_cy3rc"]
 [ext_resource type="Texture2D" uid="uid://dd286ear8bwap" path="res://character/Olympiodoros/Olympiodoros1.png" id="5_hiu7r"]
+[ext_resource type="Texture2D" uid="uid://dcx2ljpcanlls" path="res://texture/background/3denvtest3.png" id="6_r6m0t"]
 
 [node name="Place" instance=ExtResource("1_haohd")]
 texture = ExtResource("2_dhsud")
 placeName = "Munichia Market"
+
+[node name="TextureRect" type="TextureRect" parent="." index="0"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_o7d0j")
+expand_mode = 1
+
+[node name="TextureRect2" type="TextureRect" parent="." index="1"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("4_d1yqg")
+expand_mode = 1
 
 [node name="Button_GoToLocation" parent="CanvasLayer" index="0" instance=ExtResource("3_kgye4")]
 anchors_preset = 7
@@ -47,9 +72,39 @@ tooltip_text = "Port Of Munichia"
 newSceneName = "Port Of Munichia"
 
 [node name="ButtonOpenDialog" parent="CanvasLayer" index="3" instance=ExtResource("4_bftg4")]
-offset_left = 601.0
-offset_top = 296.0
-offset_right = 811.0
-offset_bottom = 582.0
+offset_left = 640.0
+offset_top = 349.0
+offset_right = 834.0
+offset_bottom = 613.0
+texture_normal = ExtResource("5_hiu7r")
+timelineName = "Olympiodoros"
+
+[node name="TextureRect3" type="TextureRect" parent="." index="3"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("5_cy3rc")
+expand_mode = 1
+
+[node name="TextureRect4" type="TextureRect" parent="." index="4"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("6_r6m0t")
+expand_mode = 1
+
+[node name="ButtonOpenDialog2" parent="TextureRect4" index="0" instance=ExtResource("4_bftg4")]
+offset_left = 331.0
+offset_top = 97.0
+offset_right = 647.0
+offset_bottom = 527.0
 texture_normal = ExtResource("5_hiu7r")
 timelineName = "Olympiodoros"

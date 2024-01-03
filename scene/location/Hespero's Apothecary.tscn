@@ -19,7 +19,7 @@ offset_top = -92.0
 offset_right = 431.0
 offset_bottom = -52.0
 grow_vertical = 0
-tooltip_text = "The Knight's Gate"
+tooltip_text = "Deme Of Colonus"
 newSceneName = "Deme Of Colonus"
 
 [node name="ButtonOpenDialog" parent="CanvasLayer" index="1" instance=ExtResource("4_vdub1")]

@@ -1,47 +1,11 @@
-res://scene/button/button_open_dialog.tscn
-res://scene/ui/buttonStyle_Normal.tres
+res://scene/location/Walls Of Phalerum.tscn
 res://scene/button/button_open_dialog.gdshader
-res://character/Demitrios/Demitrios.dch
+res://scene/ui/buttonStyle_Normal.tres
+res://scene/button/button_open_dialog.tscn
 res://scene/gameroot.tscn
 res://scene/location/place.tscn
 res://scene/ui/notification.tscn
-res://character/Plato/Plato.dtl
-res://scene/location/The Academy Hall.tscn
-res://character/Xenophon/Xenophon.dtl
-res://scene/location/Munichia Inner Citadel.tscn
-res://character/Xenophon/Xenophon.dch
-res://character/Plato/Plato.dch
-res://scene/location/Gate Of Piraeus.tscn
 res://scene/location/Well Of Peisistratos.tscn
-res://scene/location/Walls Of Phalerum.tscn
-res://scene/ui/innerMap.tscn
-res://scene/location/locationButtonStyleBoxTiny.tres
-res://scene/location/locationButtonStyleBoxTinyHover.tres
-res://scene/location/The Knight's Gate.tscn
-res://scene/location/The Agora.tscn
-res://scene/location/Prison Of Socrates.tscn
-res://character/Socrates/Socrates.dtl
-res://character/Socrates/Socrates.dch
-res://character/Meletus/Meletus.dtl
-res://character/Meletus/Meletus.dch
-res://character/Menander/Menander.dtl
-res://character/Nikon/Nikon.dch
-res://character/Nikon/Nikon.dtl
-res://scene/location/Deme Of Melite.tscn
-res://scene/location/Deme Of Cydathenaeum.tscn
-res://character/Seleukos/Seleukos.dtl
 res://scene/location/Deme Of Colonus.tscn
-res://character/Seleukos/Seleukos.dch
-res://script/global/Juror.gd
-res://scene/location/Demostrate's Home.tscn
-res://scene/location/locationButtonStyleBox.tres
-res://character/Demostrate/Demostrate.dtl
-res://character/Demostrate/Demostrate.dch
-res://character/Trechus/Trechus.dch
-res://scene/location/The Sacred Gate.tscn
-res://scene/location/Port Of Munichia.tscn
-res://scene/location/Piraeus Suburb.tscn
-res://scene/location/Piraeus Market.tscn
-res://scene/location/Munichia Suburb.tscn
-res://character/Hesperos/Hespero.dtl
 res://scene/location/Hespero's Apothecary.tscn
+res://scene/location/Munichia Market.tscn
